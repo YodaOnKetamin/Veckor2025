@@ -13,6 +13,8 @@ public class Dialogue : MonoBehaviour
 
     private int index;
 
+    public bool textGone;
+
     private void Start()
     {
         textComponent.text = string.Empty;
@@ -62,6 +64,7 @@ public class Dialogue : MonoBehaviour
         else
         {
             gameObject.SetActive(false);
+            textGone = true;
         }
     }
 }
