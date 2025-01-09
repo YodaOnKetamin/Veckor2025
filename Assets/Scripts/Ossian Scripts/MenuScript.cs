@@ -8,8 +8,9 @@ public class MenuScript : MonoBehaviour
 {
     [SerializeField]
     GameObject SettingsPanel;
-    
-   
+    [SerializeField]
+    GameObject MenuPanel;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,5 +25,6 @@ public class MenuScript : MonoBehaviour
     public void onbuttonpress()
     {
         SettingsPanel.SetActive(!SettingsPanel.activeSelf);
+        MenuPanel.SetActive(!MenuPanel.activeSelf);
     }
 }
