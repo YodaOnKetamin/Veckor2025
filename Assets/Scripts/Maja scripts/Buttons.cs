@@ -11,15 +11,11 @@ public class Buttons : MonoBehaviour
     public GameObject patient1Dialogue3;
     public GameObject patient1Dialogue4;
 
-    public Dialogue dialogiescrpt;
+    public Dialogue dialogueScript;
 
     public void Update()
     {
-        if (dialogiescrpt.textGone == true)
-        {
-            Clipboard();
-            Debug.Log("a");
-        }
+        
     }
 
     public void Clipboard()
@@ -37,7 +33,6 @@ public class Buttons : MonoBehaviour
     //frågor
     public void questionOne()
     {
-        //patient 1 dialog box
         patient1Dialogue1.SetActive(true);
         putDownClipboard();
     }
