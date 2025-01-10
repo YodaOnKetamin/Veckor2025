@@ -10,13 +10,7 @@ public class Buttons : MonoBehaviour
     public GameObject patient1Dialogue2;
     public GameObject patient1Dialogue3;
     public GameObject patient1Dialogue4;
-
-    public Dialogue dialogueScript;
-
-    public void Update()
-    {
-        
-    }
+    public GameObject patient1Dialogue5;
 
     public void Clipboard()
     {
@@ -57,6 +51,7 @@ public class Buttons : MonoBehaviour
 
     public void questionFive()
     {
+        patient1Dialogue5.SetActive(true);
         putDownClipboard();
     }
 }

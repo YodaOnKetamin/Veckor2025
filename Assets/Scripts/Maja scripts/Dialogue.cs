@@ -5,15 +5,11 @@ using TMPro;
 
 public class Dialogue : MonoBehaviour
 {
-    //från videon "5 Minute DIALOGUE SYSTEM in UNITY Tutorial" av BMo
-
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
 
     private int index;
-
-    public bool textGone;
 
     private void Start()
     {
@@ -64,7 +60,6 @@ public class Dialogue : MonoBehaviour
         else
         {
             gameObject.SetActive(false);
-            textGone = true;
         }
     }
 }
