@@ -7,27 +7,11 @@ using UnityEngine.UI;
 public class MenuScript : MonoBehaviour
 {
     [SerializeField]
-    GameObject Surequitpanel;
-    [SerializeField]
     GameObject quitPanel;
-    [SerializeField]
-    GameObject SettingsPanel;
     [SerializeField]
     GameObject MenuPanel;
     [SerializeField]
     GameObject pausespanel;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public void onStartbuttonpress()
     {
         //scenemanager skit
@@ -35,8 +19,8 @@ public class MenuScript : MonoBehaviour
     }
     public void onQuitbuttonpress()
     {
-        quitPanel.SetActive(!quitPanel.activeSelf);
-        MenuPanel.SetActive(!MenuPanel.activeSelf);
+        TogglePanel(quitPanel);
+        TogglePanel(MenuPanel);
     }
     public void onsureQuitbuttonpress()
     {
@@ -45,13 +29,13 @@ public class MenuScript : MonoBehaviour
     }
     public void Justkiddingilovethisgame()
     {
-        quitPanel.SetActive(!quitPanel.activeSelf);
-        MenuPanel.SetActive(!MenuPanel.activeSelf);
+    
+        TogglePanel(quitPanel);
+        TogglePanel(MenuPanel);
     }
-    public void settingsbutton()
+    private void TogglePanel(GameObject panel)
     {
-        /* SettingsPanel.SetActive(!SettingsPanel.activeSelf);
-         MenuPanel.SetActive(!MenuPanel.activeSelf);*/
+        panel.SetActive(!panel.activeSelf);
     }
 
 }
