@@ -7,9 +7,15 @@ using UnityEngine.UI;
 public class MenuScript : MonoBehaviour
 {
     [SerializeField]
+    GameObject Surequitpanel;
+    [SerializeField]
+    GameObject quitPanel;
+    [SerializeField]
     GameObject SettingsPanel;
     [SerializeField]
     GameObject MenuPanel;
+    [SerializeField]
+    GameObject pausespanel;
 
     // Start is called before the first frame update
     void Start()
@@ -22,9 +28,30 @@ public class MenuScript : MonoBehaviour
     {
         
     }
-    public void onbuttonpress()
+    public void onStartbuttonpress()
     {
-        SettingsPanel.SetActive(!SettingsPanel.activeSelf);
+        //scenemanager skit
+        print("startar spel");
+    }
+    public void onQuitbuttonpress()
+    {
+        quitPanel.SetActive(!quitPanel.activeSelf);
         MenuPanel.SetActive(!MenuPanel.activeSelf);
     }
+    public void onsureQuitbuttonpress()
+    {
+        print("jag hatar den som klickade här");
+        Application.Quit();
+    }
+    public void Justkiddingilovethisgame()
+    {
+        quitPanel.SetActive(!quitPanel.activeSelf);
+        MenuPanel.SetActive(!MenuPanel.activeSelf);
+    }
+    public void settingsbutton()
+    {
+        /* SettingsPanel.SetActive(!SettingsPanel.activeSelf);
+         MenuPanel.SetActive(!MenuPanel.activeSelf);*/
+    }
+
 }
