@@ -6,11 +6,16 @@ public class Buttons : MonoBehaviour
 {
     public GameObject clipboardUp;
     public GameObject clipboardDown;
+    public GameObject checkedFileDialogue;
+    public GameObject adamTreatmentResponse;
+    public GameObject checkedTreatmentDialogue;
     public GameObject patient1Dialogue1;
     public GameObject patient1Dialogue2;
     public GameObject patient1Dialogue3;
     public GameObject patient1Dialogue4;
     public GameObject patient1Dialogue5;
+
+    public bool checkedTreatment = false;
 
     public void Clipboard()
     {
@@ -22,6 +27,25 @@ public class Buttons : MonoBehaviour
     {
         clipboardUp.SetActive(false);
         clipboardDown.SetActive(true);
+    }
+
+    public void checkedFile()
+    {
+        checkedFileDialogue.SetActive(true);
+    }
+
+    public void checkedTreatmentPage()
+    {
+        checkedTreatment = true;
+    }
+
+    public void done()
+    {
+        if(checkedTreatment == true)
+        {
+            checkedTreatmentDialogue.SetActive(true);
+            putDownClipboard();
+        }
     }
 
     //frågor
@@ -53,5 +77,10 @@ public class Buttons : MonoBehaviour
     {
         patient1Dialogue5.SetActive(true);
         putDownClipboard();
+    }
+
+    public void treatmentResponse()
+    {
+        adamTreatmentResponse.SetActive(true);
     }
 }
