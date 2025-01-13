@@ -12,9 +12,12 @@ public class ControllerForPatienter : MonoBehaviour
     GameObject patient3;
     [SerializeField]
     GameObject patient4;
-    int day;
+    public int day;
+    [SerializeField]
     int numberSpawend;
-    
+
+    public bool startDay;
+
     float randvalue;
     bool hasSpawned1;
     bool hasSpawned2;
@@ -29,26 +32,45 @@ public class ControllerForPatienter : MonoBehaviour
         patientDespawned = true;
         numberSpawend = 0;
         day = 1;
+        startDay = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (day == 1 && patientDespawned == true)
+        if (startDay == true)
         {
-            day1spawns();
-            patientDespawned = false;
+            if (day == 1 && patientDespawned == true)
+            {
+                day1spawns();
+                patientDespawned = false;
+            }
+            else if (day == 2 && patientDespawned == true)
+            {
+                day2spawns();
+                patientDespawned = false;
+            }
+            else if (day == 3 && patientDespawned == true)
+            {
+                day3spawns();
+                patientDespawned = false;
+            }
+            else if (day == 4 && patientDespawned == true)
+            {
+                day4spawns();
+                patientDespawned = false;
+            }
+            else if (day == 5 && patientDespawned == true)
+            {
+                day5spawns();
+                patientDespawned = false;
+            }
         }
+       
 
-        if (newvalue == true)
-        {
-            randvalue = Random.Range(2, 5);
-            StartCoroutine("SpawnNewPatient");
-            newvalue = false;
-        }
     }
 
-    void day1spawns() 
+    void day1spawns()
     {
         if (numberSpawend == 0)
         {
@@ -57,54 +79,105 @@ public class ControllerForPatienter : MonoBehaviour
         }
         else if (numberSpawend == 1)
         {
-            randvalue = Random.Range(2, 5);
-            StartCoroutine("SpawnNewPatient");
+            Instantiate(patient2, gameObject.transform.position, Quaternion.identity);
             numberSpawend++;
         }
         else if (numberSpawend == 2)
         {
-            randvalue = Random.Range(2, 5);
-            StartCoroutine("SpawnNewPatient");
+            Instantiate(patient3, gameObject.transform.position, Quaternion.identity);
             numberSpawend++;
         }
         else if (numberSpawend == 3)
         {
-            randvalue = Random.Range(2, 5);
-            StartCoroutine("SpawnNewPatient");
-            numberSpawend++;
+            Instantiate(patient4, gameObject.transform.position, Quaternion.identity);
+            startDay = false;
+            numberSpawend = 0;
+            day = 2;
         }
+
+        
     }
 
-    IEnumerator SpawnNewPatient()
+    void day2spawns()
     {
-        print("spawnNewPatient");
-        yield return new WaitForSeconds(5);
-        if (randvalue == 2 && hasSpawned1 == false)
+        if (numberSpawend == 0)
         {
             Instantiate(patient2, gameObject.transform.position, Quaternion.identity);
-            hasSpawned1 = true;
+            numberSpawend++;
         }
-        else
-        {
-            newvalue = true;
-        }
-        if (randvalue == 3 && hasSpawned2 == false)
+        else if (numberSpawend == 1)
         {
             Instantiate(patient3, gameObject.transform.position, Quaternion.identity);
-            hasSpawned2 = true;
+            numberSpawend++;
         }
-        else
-        {
-            newvalue = true;
-        }
-        if (randvalue == 4 && hasSpawned3 == false)
+        else if (numberSpawend == 2)
         {
             Instantiate(patient4, gameObject.transform.position, Quaternion.identity);
-            hasSpawned3 = true;
+            startDay = false;
+            numberSpawend = 0;
+            day = 3;
         }
-        else
+      
+    }
+    void day3spawns()
+    {
+        if (numberSpawend == 0)
         {
-            newvalue = true;
+            Instantiate(patient2, gameObject.transform.position, Quaternion.identity);
+            numberSpawend++;
         }
+        else if (numberSpawend == 1)
+        {
+            Instantiate(patient3, gameObject.transform.position, Quaternion.identity);
+            numberSpawend++;
+        }
+        else if (numberSpawend == 2)
+        {
+            Instantiate(patient4, gameObject.transform.position, Quaternion.identity);
+            startDay = false;
+            numberSpawend = 0;
+            day = 4;
+        }
+      
+    }
+    void day4spawns()
+    {
+        if (numberSpawend == 0)
+        {
+            Instantiate(patient2, gameObject.transform.position, Quaternion.identity);
+            numberSpawend++;
+        }
+        else if (numberSpawend == 1)
+        {
+            Instantiate(patient3, gameObject.transform.position, Quaternion.identity);
+            numberSpawend++;
+        }
+        else if (numberSpawend == 2)
+        {
+            Instantiate(patient4, gameObject.transform.position, Quaternion.identity);
+            startDay = false;
+            numberSpawend = 0;
+            day = 5;
+        }
+       
+    }
+    void day5spawns()
+    {
+        if (numberSpawend == 0)
+        {
+            Instantiate(patient2, gameObject.transform.position, Quaternion.identity);
+            numberSpawend++;
+        }
+        else if (numberSpawend == 1)
+        {
+            Instantiate(patient3, gameObject.transform.position, Quaternion.identity);
+            numberSpawend++;
+        }
+        else if (numberSpawend == 2)
+        {
+            Instantiate(patient4, gameObject.transform.position, Quaternion.identity);
+            startDay = false;
+        }
+     
     }
 }
