@@ -9,17 +9,23 @@ public class Ingamemenuscript : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKey(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Settingsyes();
+            SettingsYes();
         }
     }
-    public void Settingsyes()
+    public void SettingsYes()
     {
+        togglePanel(SettingsPanel);
+    }
+    public void Resume()
+    {
+        //måste fixa så att spelet startar igen och allt skit med det! :)
         togglePanel(SettingsPanel);
     }
     private void togglePanel(GameObject panel)
     {
         panel.SetActive(!panel.activeSelf);
     }
+
 }
