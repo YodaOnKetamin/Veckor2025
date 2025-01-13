@@ -13,6 +13,7 @@ public class PatientMovement : MonoBehaviour
     GameObject Controler;
     ControllerForPatienter PC;
 
+    bool dialogueHasStarted;
     bool lobotmised;
     bool correctlyTreated;
 
@@ -23,13 +24,23 @@ public class PatientMovement : MonoBehaviour
     {
         Controler = GameObject.FindWithTag("Controller");
         PC = Controler.GetComponent<ControllerForPatienter>();
-        
+        dialogueHasStarted = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (dialogueHasStarted == false && gameObject.transform.position.x == 0)
+        {
+            if (gameObject.transform.position.x == 0)
+            {
+                print("show dialogue");
+                Dialouge.SetActive(true);
+                dialogueHasStarted = true;
+            }
+            
+        }
+       
 
         if (startMoving == true)
         {
@@ -38,10 +49,12 @@ public class PatientMovement : MonoBehaviour
                 transform.position += new Vector3(vänsterkraft, 0, 0) * Time.deltaTime;
             }
 
-            if (gameObject.transform.position.x == 0)
+            if (PC.klarmedpatient == false && gameObject.transform.position.x > 0)
             {
-                Dialouge.SetActive(true);
+                transform.position = new Vector3(0, transform.position.y, transform.position.z);
             }
+
+          
 
             if (PC.klarmedpatient == true)
             {
