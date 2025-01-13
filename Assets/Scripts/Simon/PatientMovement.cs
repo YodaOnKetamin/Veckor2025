@@ -5,6 +5,8 @@ using UnityEngine;
 public class PatientMovement : MonoBehaviour
 {
     [SerializeField]
+    GameObject Dialouge;
+    [SerializeField]
     int vänsterkraft;
     [SerializeField]
     GameObject Spawn;
@@ -21,6 +23,7 @@ public class PatientMovement : MonoBehaviour
     {
         Controler = GameObject.FindWithTag("Controller");
         PC = Controler.GetComponent<ControllerForPatienter>();
+        
     }
 
     // Update is called once per frame
@@ -33,6 +36,11 @@ public class PatientMovement : MonoBehaviour
             if (gameObject.transform.position.x <= 0)
             {
                 transform.position += new Vector3(vänsterkraft, 0, 0) * Time.deltaTime;
+            }
+
+            if (gameObject.transform.position.x == 0)
+            {
+                Dialouge.SetActive(true);
             }
 
             if (PC.klarmedpatient == true)
