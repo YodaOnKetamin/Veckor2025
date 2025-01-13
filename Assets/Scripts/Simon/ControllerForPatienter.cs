@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ControllerForPatienter : MonoBehaviour
 {
+    PatientMovement PM;
+
     [SerializeField]
     GameObject patient1;
     [SerializeField]
@@ -74,22 +76,27 @@ public class ControllerForPatienter : MonoBehaviour
     {
         if (numberSpawend == 0)
         {
-            Instantiate(patient1, gameObject.transform.position, Quaternion.identity);
+            
+            PM = patient1.GetComponent<PatientMovement>();
+            PM.startMoving = true;
             numberSpawend++;
         }
         else if (numberSpawend == 1)
         {
-            Instantiate(patient2, gameObject.transform.position, Quaternion.identity);
+            PM = patient2.GetComponent<PatientMovement>();
+            PM.startMoving = true;
             numberSpawend++;
         }
         else if (numberSpawend == 2)
         {
-            Instantiate(patient3, gameObject.transform.position, Quaternion.identity);
+            PM = patient3.GetComponent<PatientMovement>();
+            PM.startMoving = true;
             numberSpawend++;
         }
         else if (numberSpawend == 3)
         {
-            Instantiate(patient4, gameObject.transform.position, Quaternion.identity);
+            PM = patient4.GetComponent<PatientMovement>();
+            PM.startMoving = true;
             startDay = false;
             numberSpawend = 0;
             day = 2;
@@ -102,17 +109,20 @@ public class ControllerForPatienter : MonoBehaviour
     {
         if (numberSpawend == 0)
         {
-            Instantiate(patient2, gameObject.transform.position, Quaternion.identity);
+            PM = patient2.GetComponent<PatientMovement>();
+            PM.startMoving = true;
             numberSpawend++;
         }
         else if (numberSpawend == 1)
         {
-            Instantiate(patient3, gameObject.transform.position, Quaternion.identity);
+            PM = patient3.GetComponent<PatientMovement>();
+            PM.startMoving = true;
             numberSpawend++;
         }
         else if (numberSpawend == 2)
         {
-            Instantiate(patient4, gameObject.transform.position, Quaternion.identity);
+            PM = patient4.GetComponent<PatientMovement>();
+            PM.startMoving = true;
             startDay = false;
             numberSpawend = 0;
             day = 3;
@@ -123,17 +133,20 @@ public class ControllerForPatienter : MonoBehaviour
     {
         if (numberSpawend == 0)
         {
-            Instantiate(patient2, gameObject.transform.position, Quaternion.identity);
+            PM = patient2.GetComponent<PatientMovement>();
+            PM.startMoving = true;
             numberSpawend++;
         }
         else if (numberSpawend == 1)
         {
-            Instantiate(patient3, gameObject.transform.position, Quaternion.identity);
+            PM = patient3.GetComponent<PatientMovement>();
+            PM.startMoving = true;
             numberSpawend++;
         }
         else if (numberSpawend == 2)
         {
-            Instantiate(patient4, gameObject.transform.position, Quaternion.identity);
+            PM = patient4.GetComponent<PatientMovement>();
+            PM.startMoving = true;
             startDay = false;
             numberSpawend = 0;
             day = 4;
@@ -144,17 +157,20 @@ public class ControllerForPatienter : MonoBehaviour
     {
         if (numberSpawend == 0)
         {
-            Instantiate(patient2, gameObject.transform.position, Quaternion.identity);
+            PM = patient2.GetComponent<PatientMovement>();
+            PM.startMoving = true;
             numberSpawend++;
         }
         else if (numberSpawend == 1)
         {
-            Instantiate(patient3, gameObject.transform.position, Quaternion.identity);
+            PM = patient3.GetComponent<PatientMovement>();
+            PM.startMoving = true;
             numberSpawend++;
         }
         else if (numberSpawend == 2)
         {
-            Instantiate(patient4, gameObject.transform.position, Quaternion.identity);
+            PM = patient4.GetComponent<PatientMovement>();
+            PM.startMoving = true;
             startDay = false;
             numberSpawend = 0;
             day = 5;
@@ -165,17 +181,20 @@ public class ControllerForPatienter : MonoBehaviour
     {
         if (numberSpawend == 0)
         {
-            Instantiate(patient2, gameObject.transform.position, Quaternion.identity);
+            PM = patient2.GetComponent<PatientMovement>();
+            PM.startMoving = true;
             numberSpawend++;
         }
         else if (numberSpawend == 1)
         {
-            Instantiate(patient3, gameObject.transform.position, Quaternion.identity);
+            PM = patient3.GetComponent<PatientMovement>();
+            PM.startMoving = true;
             numberSpawend++;
         }
         else if (numberSpawend == 2)
         {
-            Instantiate(patient4, gameObject.transform.position, Quaternion.identity);
+            PM = patient4.GetComponent<PatientMovement>();
+            PM.startMoving = true;
             startDay = false;
         }
      
