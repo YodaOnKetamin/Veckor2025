@@ -19,12 +19,7 @@ public class ControllerForPatienter : MonoBehaviour
     int numberSpawend;
 
     public bool startDay;
-
-    float randvalue;
-    bool hasSpawned1;
-    bool hasSpawned2;
-    bool hasSpawned3;
-    bool newvalue;
+    public int activePatient;
 
     public bool patientDespawned;
     public bool klarmedpatient;
@@ -76,25 +71,28 @@ public class ControllerForPatienter : MonoBehaviour
     {
         if (numberSpawend == 0)
         {
-            
+            activePatient = 1;
             PM = patient1.GetComponent<PatientMovement>();
             PM.startMoving = true;
             numberSpawend++;
         }
         else if (numberSpawend == 1)
         {
+            activePatient = 2; 
             PM = patient2.GetComponent<PatientMovement>();
             PM.startMoving = true;
             numberSpawend++;
         }
         else if (numberSpawend == 2)
         {
+            activePatient = 3;
             PM = patient3.GetComponent<PatientMovement>();
             PM.startMoving = true;
             numberSpawend++;
         }
         else if (numberSpawend == 3)
         {
+            activePatient = 4;
             PM = patient4.GetComponent<PatientMovement>();
             PM.startMoving = true;
             startDay = false;
