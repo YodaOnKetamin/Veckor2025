@@ -51,15 +51,15 @@ public class treatments : MonoBehaviour
         {
             PM.correctlyTreated = true;
         }
-       
+        PC.klarmedpatient = true;
     }
     public void OnPressTreatButtonElectro()
     {
-       
+        PC.klarmedpatient = true;
     }
     public void OnPressTreatButtonSoli()
     {
-       
+        PC.klarmedpatient = true;
     }
 
     public void OnPressTreatButtonReEd()
@@ -68,12 +68,12 @@ public class treatments : MonoBehaviour
         {
             PM.correctlyTreated = true;
         }
-       
+        PC.klarmedpatient = true;
     }
 
-    /*public void OnPressTreatButtonRelease()
+    public void OnPressTreatButtonRelease()
     {
         PM.released = true;
-        
-    }*/
+        PC.klarmedpatient = true;
+    }
 }
