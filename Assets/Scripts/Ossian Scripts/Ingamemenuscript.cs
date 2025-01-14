@@ -27,5 +27,5 @@ public class Ingamemenuscript : MonoBehaviour
     {
         panel.SetActive(!panel.activeSelf);
     }
-
+    
 }
