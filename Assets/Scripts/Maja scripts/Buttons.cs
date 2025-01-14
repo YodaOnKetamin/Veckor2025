@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Buttons : MonoBehaviour
 {
@@ -17,6 +18,13 @@ public class Buttons : MonoBehaviour
 
     public bool checkedTreatment = false;
 
+    public Button checkboardDown_;
+
+    private void Start()
+    {
+        checkboardDown_.enabled = false;
+    }
+
     public void Clipboard()
     {
         clipboardUp.SetActive(true);
@@ -32,6 +40,7 @@ public class Buttons : MonoBehaviour
     public void checkedFile()
     {
         checkedFileDialogue.SetActive(true);
+        checkboardDown_.enabled = true;
     }
 
     public void checkedTreatmentPage()
