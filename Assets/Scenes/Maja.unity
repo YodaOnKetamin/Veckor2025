@@ -137,7 +137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 735774498106410268, guid: bb7b0c4e7a359854b97ab80f840b5760, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2400625289119058914, guid: bb7b0c4e7a359854b97ab80f840b5760, type: 3}
       propertyPath: m_LocalPosition.z
@@ -646,7 +646,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &471557760
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1301,11 +1301,39 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1369038091}
   m_CullTransparentMesh: 1
+--- !u!114 &1388867975 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7576160693509551688, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+  m_PrefabInstance: {fileID: 1580710503614190181}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1424544511 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4589671636089144154, guid: 9760aa04b371a6943856f8307a546401, type: 3}
   m_PrefabInstance: {fileID: 1580710503614190181}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1424544512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424544511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee38c7b61de2b994a9ecf70bb72f4199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1388867975}
+  lines:
+  - You're ready.
+  - "Call me if you need anything\u2026"
+  textSpeed: 0.05
 --- !u!1 &1638254568
 GameObject:
   m_ObjectHideFlags: 0
@@ -1946,7 +1974,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8205244476250227172, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8875731359148867487, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_Pivot.x
@@ -2036,13 +2064,17 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 363521088}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6254385245760971718, guid: 9760aa04b371a6943856f8307a546401, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8875731359148867487, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       insertIndex: -1
       addedObject: {fileID: 471557760}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4589671636089144154, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1424544512}
   m_SourcePrefab: {fileID: 100100000, guid: 9760aa04b371a6943856f8307a546401, type: 3}
 --- !u!1 &1580710503614190182 stripped
 GameObject:
