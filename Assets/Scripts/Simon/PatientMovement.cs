@@ -14,9 +14,9 @@ public class PatientMovement : MonoBehaviour
     ControllerForPatienter PC;
 
     bool dialogueHasStarted;
-    bool lobotmised;
-    bool correctlyTreated;
-    bool released;
+   public bool lobotmised;
+   public bool correctlyTreated;
+   public bool released;
 
     public bool startMoving;
   

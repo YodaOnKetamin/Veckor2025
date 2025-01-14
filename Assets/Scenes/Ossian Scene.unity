@@ -247,17 +247,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1380716659386437526, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
   m_PrefabInstance: {fileID: 6481946043098803131}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1211526344 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7878472225324607869, guid: 3db0142b2fd0a224e8e1663e8592ea3e, type: 3}
-  m_PrefabInstance: {fileID: 6362451943264126287}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1211526345 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5780679951577630834, guid: 3db0142b2fd0a224e8e1663e8592ea3e, type: 3}
   m_PrefabInstance: {fileID: 6362451943264126287}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211526344}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fe248bf5b3d60040915b5c404f85e4f, type: 3}
@@ -675,7 +670,19 @@ PrefabInstance:
     - target: {fileID: 7152625458896457764, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1211526344}
+      objectReference: {fileID: 422737960}
+    - target: {fileID: 7152625458896457764, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GameOver
+      objectReference: {fileID: 0}
+    - target: {fileID: 7152625458896457764, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MenuScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7152625458896457764, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7689892477556066693, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

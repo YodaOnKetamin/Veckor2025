@@ -17,7 +17,7 @@ public class MenuScript : MonoBehaviour
     {
         //scenemanager skit
         print("startar spel");
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("Maja");
     }
     public void onQuitbuttonpress()//togglar mellan meny och quit
     {
@@ -42,8 +42,8 @@ public class MenuScript : MonoBehaviour
     public void GameOver()
     {
         //startar om spel ska byta sen
-        print("jag vete fan");
-        SceneManager.LoadScene("");
+        print("jag vete fan"); //ligger på ingame menu ska fixa något sen
+        SceneManager.LoadScene("Ossian Scene");
     }
 
 }
