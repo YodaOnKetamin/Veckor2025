@@ -16,6 +16,7 @@ public class PatientMovement : MonoBehaviour
     bool dialogueHasStarted;
     bool lobotmised;
     bool correctlyTreated;
+    bool released;
 
     public bool startMoving;
   
