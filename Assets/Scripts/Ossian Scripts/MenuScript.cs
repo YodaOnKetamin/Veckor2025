@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MenuScript : MonoBehaviour
 {
@@ -16,19 +17,20 @@ public class MenuScript : MonoBehaviour
     {
         //scenemanager skit
         print("startar spel");
+        SceneManager.LoadScene("");
     }
-    public void onQuitbuttonpress()
+    public void onQuitbuttonpress()//togglar mellan meny och quit
     {
         TogglePanel(quitPanel);
         TogglePanel(MenuPanel);
     }
-    public void onsureQuitbuttonpress()
+    public void onsureQuitbuttonpress()//avslutar spelet
     {
         print("jag hatar den som klickade här");
         Application.Quit();
     }
     public void Justkiddingilovethisgame()
-    {
+    {//går tillbaks till quitmenyn
     
         TogglePanel(quitPanel);
         TogglePanel(MenuPanel);
@@ -36,6 +38,12 @@ public class MenuScript : MonoBehaviour
     private void TogglePanel(GameObject panel)
     {
         panel.SetActive(!panel.activeSelf);
+    }
+    public void GameOver()
+    {
+        //startar om spel ska byta sen
+        print("jag vete fan");
+        SceneManager.LoadScene("");
     }
 
 }
