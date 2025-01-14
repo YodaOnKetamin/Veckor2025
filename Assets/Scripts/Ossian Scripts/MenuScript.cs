@@ -42,8 +42,8 @@ public class MenuScript : MonoBehaviour
     public void GameOver()
     {
         //startar om spel ska byta sen
-        print("jag vete fan");
-        SceneManager.LoadScene("Maja");
+        print("jag vete fan"); //ligger på ingame menu ska fixa något sen
+        SceneManager.LoadScene("Ossian Scene");
     }
 
 }
