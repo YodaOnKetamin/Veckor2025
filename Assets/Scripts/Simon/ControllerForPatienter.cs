@@ -230,8 +230,10 @@ public class ControllerForPatienter : MonoBehaviour
                 PM.startMoving = true;
                 numberSpawend++;
             }
-           
-           
+            else
+            {
+                
+            }
         }
         else if (numberSpawend == 1)
         {
