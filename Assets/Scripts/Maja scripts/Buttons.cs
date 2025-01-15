@@ -7,6 +7,7 @@ public class Buttons : MonoBehaviour
 {
     public GameObject clipboardUp;
     public GameObject clipboardDown;
+    public GameObject questionPage;
     
     //Adam
     [Header("Adam Dialog")]
@@ -30,6 +31,16 @@ public class Buttons : MonoBehaviour
     public GameObject patient2Dialogue5;
     public GameObject safeResponseFish;
     public GameObject unsafeResponseFish;
+
+    //Sea Air
+    [Header("Sea Air Dialog")]
+    public GameObject patient3Dialogue1;
+    public GameObject patient3Dialogue2;
+    public GameObject patient3Dialogue3;
+    public GameObject patient3Dialogue4;
+    public GameObject patient3Dialogue5;
+    public GameObject safeResponseSeaAir;
+    public GameObject unsafeResponseSeaAir;
 
     public bool checkedTreatment = false;
 
@@ -62,7 +73,6 @@ public class Buttons : MonoBehaviour
         clipboardUp.SetActive(false);
         clipboardDown.SetActive(true);
     }
-
     public void checkedFile()
     {
         checkedFileDialogue.SetActive(true);
@@ -84,6 +94,8 @@ public class Buttons : MonoBehaviour
             clipbordXButton.SetActive(false);
             clipbordXButton2.SetActive(true);
             nextPageTreat.SetActive(false);
+            treatmenatPage.SetActive(false);
+            questionPage.SetActive(true);
         }
     }
 
@@ -101,6 +113,11 @@ public class Buttons : MonoBehaviour
         {
             patient2Dialogue1.SetActive(true);
         }
+
+        if(simonScript.activePatient == 3)
+        {
+            patient3Dialogue1.SetActive(true);
+        }
     }
 
     public void questionTwo()
@@ -115,6 +132,11 @@ public class Buttons : MonoBehaviour
         if (simonScript.activePatient == 2)
         {
             patient2Dialogue2.SetActive(true);
+        }
+
+        if(simonScript.activePatient == 3)
+        {
+            patient3Dialogue2.SetActive(true);
         }
     }
 
@@ -131,6 +153,11 @@ public class Buttons : MonoBehaviour
         {
             patient2Dialogue3.SetActive(true);
         }
+        
+        if (simonScript.activePatient == 3)
+        {
+            patient3Dialogue3.SetActive(true);
+        }
     }
 
     public void questionFour()
@@ -145,6 +172,11 @@ public class Buttons : MonoBehaviour
         if (simonScript.activePatient == 2)
         {
             patient2Dialogue4.SetActive(true);
+        }
+
+        if (simonScript.activePatient == 3)
+        {
+            patient3Dialogue4.SetActive(true);
         }
     }
 
@@ -161,6 +193,11 @@ public class Buttons : MonoBehaviour
         {
             patient2Dialogue5.SetActive(true);
         }
+
+        if (simonScript.activePatient == 3)
+        {
+            patient3Dialogue5.SetActive(true);
+        }
     }
 
     public void safeRespond()
@@ -173,6 +210,11 @@ public class Buttons : MonoBehaviour
         if(simonScript.activePatient == 2)
         {
             safeResponseFish.SetActive(true);
+        }
+
+        if (simonScript.activePatient == 3)
+        {
+            safeResponseSeaAir.SetActive(true);
         }
     }
 
@@ -195,7 +237,11 @@ public class Buttons : MonoBehaviour
         {
             unsafeResponseFish.SetActive(true);
         }
-        if(simonScript.activePatient >= 2)
+        if (simonScript.activePatient == 3)
+        {
+            unsafeResponseSeaAir.SetActive(true);
+        }
+        if (simonScript.activePatient >= 2)
         {
             nextPageTreat.SetActive(false);
             treatmenatPage.SetActive(false);
