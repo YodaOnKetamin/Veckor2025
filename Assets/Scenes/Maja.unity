@@ -369,26 +369,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb7b0c4e7a359854b97ab80f840b5760, type: 3}
---- !u!1 &37675332 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6967548518316754335, guid: bb7b0c4e7a359854b97ab80f840b5760, type: 3}
-  m_PrefabInstance: {fileID: 37675331}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &37675333 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1384815141133457502, guid: bb7b0c4e7a359854b97ab80f840b5760, type: 3}
-  m_PrefabInstance: {fileID: 37675331}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &37675334 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4587656600685329154, guid: bb7b0c4e7a359854b97ab80f840b5760, type: 3}
-  m_PrefabInstance: {fileID: 37675331}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &37675335 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7888247319696242704, guid: bb7b0c4e7a359854b97ab80f840b5760, type: 3}
-  m_PrefabInstance: {fileID: 37675331}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &63766299 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8767773990625861721, guid: 81efc6a69987c51489d58f3c4e010fc1, type: 3}
@@ -6234,6 +6214,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 363521088}
+        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
+        m_MethodName: xButtonTwo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1062775709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9488,10 +9480,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ec01d77925e3e84a84b086cbe079768, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patient1: {fileID: 37675335}
-  patient2: {fileID: 37675334}
-  patient3: {fileID: 37675333}
-  patient4: {fileID: 37675332}
+  adam1: {fileID: 0}
+  fishMan2: {fileID: 0}
+  seaAir3: {fileID: 0}
+  govermentAgent4: {fileID: 0}
+  years5: {fileID: 0}
+  workingWoman6: {fileID: 0}
 --- !u!4 &1577036764
 Transform:
   m_ObjectHideFlags: 0

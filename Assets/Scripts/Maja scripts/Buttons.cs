@@ -82,7 +82,13 @@ public class Buttons : MonoBehaviour
             checkedTreatmentDialogue.SetActive(true);
             clipbordXButton.SetActive(false);
             clipbordXButton2.SetActive(true);
+            nextPageTreat.SetActive(false);
         }
+    }
+
+    public void xButtonTwo()
+    {
+        nextPageTreat.SetActive(false);
     }
 
     //frågor
