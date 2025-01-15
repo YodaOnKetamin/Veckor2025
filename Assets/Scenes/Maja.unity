@@ -3830,9 +3830,9 @@ GameObject:
   - component: {fileID: 632417426}
   - component: {fileID: 632417429}
   - component: {fileID: 632417428}
-  - component: {fileID: 632417427}
+  - component: {fileID: 632417430}
   m_Layer: 5
-  m_Name: responseUNSAFEp3
+  m_Name: responseTreatmentp3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3858,22 +3858,6 @@ RectTransform:
   m_AnchoredPosition: {x: -80.75745, y: -317.67584}
   m_SizeDelta: {x: 1720, y: 330}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &632417427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 632417425}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a18c775a22d03849a8358e70b31575f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textComponent: {fileID: 1911988226}
-  lines:
-  - "Okay\u2026 What happens now?"
-  textSpeed: 0.05
 --- !u!114 &632417428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3912,6 +3896,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 632417425}
   m_CullTransparentMesh: 1
+--- !u!114 &632417430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632417425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee38c7b61de2b994a9ecf70bb72f4199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1911988226}
+  lines:
+  - "Okay\u2026 What happens now?"
+  textSpeed: 0.05
 --- !u!1 &664996953
 GameObject:
   m_ObjectHideFlags: 0
@@ -4249,7 +4249,7 @@ MonoBehaviour:
   lines:
   - I knew it!
   - "I\u2019ll tell my parents about you. I\u2019ll tell them you were nice."
-  textSpeed: 0
+  textSpeed: 0.05
 --- !u!1 &723888271 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7516540291080580141, guid: 9760aa04b371a6943856f8307a546401, type: 3}
@@ -7405,8 +7405,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 428170039}
     m_Modifications:
     - target: {fileID: 771280508957576482, guid: 9dbb633c980e26c4abd1422113082de8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 307.1462
+      objectReference: {fileID: 0}
+    - target: {fileID: 771280508957576482, guid: 9dbb633c980e26c4abd1422113082de8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.3
+      value: 0.8859
       objectReference: {fileID: 0}
     - target: {fileID: 771280508957576482, guid: 9dbb633c980e26c4abd1422113082de8, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -9178,7 +9182,7 @@ GameObject:
   - component: {fileID: 1471302550}
   - component: {fileID: 1471302553}
   - component: {fileID: 1471302552}
-  - component: {fileID: 1471302551}
+  - component: {fileID: 1471302554}
   m_Layer: 5
   m_Name: responseUNSAFEp4
   m_TagString: Untagged
@@ -9206,23 +9210,6 @@ RectTransform:
   m_AnchoredPosition: {x: -80.75745, y: -317.67584}
   m_SizeDelta: {x: 1720, y: 330}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1471302551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1471302549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a18c775a22d03849a8358e70b31575f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textComponent: {fileID: 1515410656}
-  lines:
-  - What?
-  - "\u2026you\u2019ll regret that."
-  textSpeed: 0.05
 --- !u!114 &1471302552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9261,6 +9248,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1471302549}
   m_CullTransparentMesh: 1
+--- !u!114 &1471302554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471302549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee38c7b61de2b994a9ecf70bb72f4199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1515410656}
+  lines:
+  - What?
+  - "\u2026you\u2019ll regret that."
+  textSpeed: 0.05
 --- !u!1 &1515410654
 GameObject:
   m_ObjectHideFlags: 0
@@ -9411,7 +9415,7 @@ GameObject:
   - component: {fileID: 1531880036}
   - component: {fileID: 1531880039}
   - component: {fileID: 1531880038}
-  - component: {fileID: 1531880037}
+  - component: {fileID: 1531880040}
   m_Layer: 5
   m_Name: responseSAFEp4
   m_TagString: Untagged
@@ -9439,23 +9443,6 @@ RectTransform:
   m_AnchoredPosition: {x: -80.75745, y: -317.67584}
   m_SizeDelta: {x: 1720, y: 330}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1531880037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1531880035}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a18c775a22d03849a8358e70b31575f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textComponent: {fileID: 1319440548}
-  lines:
-  - Right.
-  - This was an utter waste of my time.
-  textSpeed: 0.05
 --- !u!114 &1531880038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9494,6 +9481,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1531880035}
   m_CullTransparentMesh: 1
+--- !u!114 &1531880040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531880035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee38c7b61de2b994a9ecf70bb72f4199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1319440548}
+  lines:
+  - Right.
+  - This was an utter waste of my time.
+  textSpeed: 0.05
 --- !u!1001 &1534138615
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11093,7 +11097,7 @@ MonoBehaviour:
   - Okay!
   - "I don\u2019t know what that means exactly, but I guess it\u2019s what\u2019s
     going to happen anyway, right?"
-  textSpeed: 0
+  textSpeed: 0.05
 --- !u!1 &1690941503
 GameObject:
   m_ObjectHideFlags: 0
@@ -12016,7 +12020,7 @@ GameObject:
   - component: {fileID: 1928596759}
   - component: {fileID: 1928596762}
   - component: {fileID: 1928596761}
-  - component: {fileID: 1928596760}
+  - component: {fileID: 1928596763}
   m_Layer: 5
   m_Name: responseSAFEp3
   m_TagString: Untagged
@@ -12044,23 +12048,6 @@ RectTransform:
   m_AnchoredPosition: {x: -80.75745, y: -317.67584}
   m_SizeDelta: {x: 1720, y: 330}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1928596760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1928596758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a18c775a22d03849a8358e70b31575f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textComponent: {fileID: 1982165532}
-  lines:
-  - "But\u2026 I needed to\u2026"
-  - Thank you, doctor. I will leave.
-  textSpeed: 0.05
 --- !u!114 &1928596761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12099,6 +12086,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1928596758}
   m_CullTransparentMesh: 1
+--- !u!114 &1928596763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1928596758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee38c7b61de2b994a9ecf70bb72f4199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1982165532}
+  lines:
+  - "But\u2026 I needed to\u2026"
+  - Thank you, doctor. I will leave.
+  textSpeed: 0.05
 --- !u!1 &1933312233
 GameObject:
   m_ObjectHideFlags: 0
@@ -13451,7 +13455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 404063300120157821, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 404063300120157821, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -13464,7 +13468,7 @@ PrefabInstance:
     - target: {fileID: 404063300120157821, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 2096025738}
+      objectReference: {fileID: 363521088}
     - target: {fileID: 404063300120157821, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
@@ -13479,7 +13483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 404063300120157821, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: SetActive
+      value: adamTreatment
       objectReference: {fileID: 0}
     - target: {fileID: 404063300120157821, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -13491,7 +13495,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 404063300120157821, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: Buttons, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 404063300120157821, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -13511,7 +13515,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 715611102962969542, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 715611102962969542, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -13524,7 +13528,7 @@ PrefabInstance:
     - target: {fileID: 715611102962969542, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 2096025738}
+      objectReference: {fileID: 363521088}
     - target: {fileID: 715611102962969542, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
@@ -13539,7 +13543,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 715611102962969542, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: SetActive
+      value: adamTreatment
       objectReference: {fileID: 0}
     - target: {fileID: 715611102962969542, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -13551,7 +13555,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 715611102962969542, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: Buttons, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 715611102962969542, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -13575,7 +13579,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1608497848288459715, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1608497848288459715, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -13588,7 +13592,7 @@ PrefabInstance:
     - target: {fileID: 1608497848288459715, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 2096025738}
+      objectReference: {fileID: 363521088}
     - target: {fileID: 1608497848288459715, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
@@ -13603,7 +13607,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1608497848288459715, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: SetActive
+      value: adamTreatment
       objectReference: {fileID: 0}
     - target: {fileID: 1608497848288459715, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -13615,7 +13619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1608497848288459715, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: Buttons, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1608497848288459715, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -13675,7 +13679,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3539893281113602753, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3539893281113602753, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -13688,7 +13692,7 @@ PrefabInstance:
     - target: {fileID: 3539893281113602753, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 2096025738}
+      objectReference: {fileID: 363521088}
     - target: {fileID: 3539893281113602753, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
@@ -13703,7 +13707,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3539893281113602753, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: SetActive
+      value: adamTreatment
       objectReference: {fileID: 0}
     - target: {fileID: 3539893281113602753, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -13715,7 +13719,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3539893281113602753, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: Buttons, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3539893281113602753, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -14205,6 +14209,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 723888271}
     - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: safeResponseGov
+      value: 
+      objectReference: {fileID: 1531880035}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
       propertyPath: clipbordXButton2
       value: 
       objectReference: {fileID: 1062775706}
@@ -14280,6 +14288,30 @@ PrefabInstance:
       propertyPath: patient3Dialogue5
       value: 
       objectReference: {fileID: 1699353586}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient4Dialogue1
+      value: 
+      objectReference: {fileID: 77137090}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient4Dialogue2
+      value: 
+      objectReference: {fileID: 1305592054}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient4Dialogue3
+      value: 
+      objectReference: {fileID: 1276476659}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient4Dialogue4
+      value: 
+      objectReference: {fileID: 1921908281}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient4Dialogue5
+      value: 
+      objectReference: {fileID: 392367566}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: unsafeResponseGov
+      value: 
+      objectReference: {fileID: 1471302549}
     - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
       propertyPath: safeResponseSeaAir
       value: 

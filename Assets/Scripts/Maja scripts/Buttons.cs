@@ -42,6 +42,17 @@ public class Buttons : MonoBehaviour
     public GameObject safeResponseSeaAir;
     public GameObject unsafeResponseSeaAir;
 
+    //Goverment Agent
+    [Header("Goverment Agent Dialog")]
+    public GameObject patient4Dialogue1;
+    public GameObject patient4Dialogue2;
+    public GameObject patient4Dialogue3;
+    public GameObject patient4Dialogue4;
+    public GameObject patient4Dialogue5;
+    public GameObject safeResponseGov;
+    public GameObject unsafeResponseGov;
+
+    [Header("extra")]
     public bool checkedTreatment = false;
 
     public ControllerForPatienter simonScript;
@@ -99,6 +110,14 @@ public class Buttons : MonoBehaviour
         }
     }
 
+    public void adamTreatment()
+    {
+        if(simonScript.activePatient != 1)
+        {
+            putDownClipboard();
+        }
+    }
+
     //frågor
     public void questionOne()
     {
@@ -117,6 +136,11 @@ public class Buttons : MonoBehaviour
         if(simonScript.activePatient == 3)
         {
             patient3Dialogue1.SetActive(true);
+        }
+
+        if(simonScript.activePatient == 4)
+        {
+            patient4Dialogue1.SetActive(true);
         }
     }
 
@@ -138,6 +162,11 @@ public class Buttons : MonoBehaviour
         {
             patient3Dialogue2.SetActive(true);
         }
+
+        if (simonScript.activePatient == 4)
+        {
+            patient4Dialogue2.SetActive(true);
+        }
     }
 
     public void questionThree()
@@ -157,6 +186,11 @@ public class Buttons : MonoBehaviour
         if (simonScript.activePatient == 3)
         {
             patient3Dialogue3.SetActive(true);
+        }
+
+        if (simonScript.activePatient == 4)
+        {
+            patient4Dialogue3.SetActive(true);
         }
     }
 
@@ -178,6 +212,11 @@ public class Buttons : MonoBehaviour
         {
             patient3Dialogue4.SetActive(true);
         }
+
+        if (simonScript.activePatient == 4)
+        {
+            patient4Dialogue4.SetActive(true);
+        }
     }
 
     public void questionFive()
@@ -198,6 +237,11 @@ public class Buttons : MonoBehaviour
         {
             patient3Dialogue5.SetActive(true);
         }
+
+        if (simonScript.activePatient == 4)
+        {
+            patient4Dialogue5.SetActive(true);
+        }
     }
 
     public void safeRespond()
@@ -211,10 +255,13 @@ public class Buttons : MonoBehaviour
         {
             safeResponseFish.SetActive(true);
         }
-
         if (simonScript.activePatient == 3)
         {
             safeResponseSeaAir.SetActive(true);
+        }
+        if (simonScript.activePatient == 4)
+        {
+            safeResponseGov.SetActive(true);
         }
     }
 
@@ -233,7 +280,14 @@ public class Buttons : MonoBehaviour
 
     public void treatmentRespond()
     {
-        if(simonScript.activePatient == 2)
+        if (simonScript.activePatient >= 2)
+        {
+            nextPageTreat.SetActive(false);
+            treatmenatPage.SetActive(false);
+            questionPage.SetActive(true);
+        }
+
+        if (simonScript.activePatient == 2)
         {
             unsafeResponseFish.SetActive(true);
         }
@@ -241,10 +295,9 @@ public class Buttons : MonoBehaviour
         {
             unsafeResponseSeaAir.SetActive(true);
         }
-        if (simonScript.activePatient >= 2)
+        if (simonScript.activePatient == 4)
         {
-            nextPageTreat.SetActive(false);
-            treatmenatPage.SetActive(false);
+            unsafeResponseGov.SetActive(true);
         }
     }
 }
