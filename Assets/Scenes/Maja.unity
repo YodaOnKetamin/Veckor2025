@@ -9470,6 +9470,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 815309717}
     - target: {fileID: 6163061715089443108, guid: b729a3fcae4dd2243b6ef319eb92d3aa, type: 3}
+      propertyPath: Dialouge
+      value: 
+      objectReference: {fileID: 84934876}
+    - target: {fileID: 6163061715089443108, guid: b729a3fcae4dd2243b6ef319eb92d3aa, type: 3}
       propertyPath: "v\xE4nsterkraft"
       value: 3
       objectReference: {fileID: 0}
@@ -11903,6 +11907,10 @@ PrefabInstance:
       propertyPath: Spawn
       value: 
       objectReference: {fileID: 815309717}
+    - target: {fileID: 2922206573656948963, guid: 22f72eca82948384090a3a2fd85ce7f9, type: 3}
+      propertyPath: Dialouge
+      value: 
+      objectReference: {fileID: 2007747653}
     - target: {fileID: 2922206573656948963, guid: 22f72eca82948384090a3a2fd85ce7f9, type: 3}
       propertyPath: "v\xE4nsterkraft"
       value: 3
