@@ -9,21 +9,21 @@ public class ControllerForPatienter : MonoBehaviour
     [SerializeField]
     GameObject adam1;
     [SerializeField]
-    GameObject fishMan2;
+    GameObject fishMan2;//5
     [SerializeField]
-    GameObject seaAir3;
+    GameObject seaAir3;//4
     [SerializeField]
     GameObject govermentAgent4;
     [SerializeField]
-    GameObject years5;
+    GameObject years5;//4
     [SerializeField]
-    GameObject workingWoman6;
+    GameObject workingWoman6;//4
     [SerializeField]
-    GameObject priest7;
+    GameObject priest7;//3
     [SerializeField]
-    GameObject artist8;
+    GameObject artist8;//4
     [SerializeField]
-    GameObject where9;
+    GameObject where9;//5
     public int day;
     [SerializeField]
     int numberSpawend;
@@ -259,19 +259,30 @@ public class ControllerForPatienter : MonoBehaviour
                 }
                 else
                 {
-                    activePatient = 5;
-                    PM = years5.GetComponent<PatientMovement>();
-                    PM.startMoving = true;
-                    numberSpawend++;
+                    PM = fishMan2.GetComponent<PatientMovement>();
+                    if (PM.released == false)
+                    {
+                        activePatient = 2;
+                        PM.startMoving = true;
+                        numberSpawend++;
+                    }
+                    else
+                    {
+                        numberSpawend++;
+                    }
                 }
-                
             }
            
         }
         else if (numberSpawend == 2)
         {
-            PM = govermentAgent4.GetComponent<PatientMovement>();
-            PM.startMoving = true;
+            PM = years5.GetComponent<PatientMovement>();
+            if (PM.released == false)
+            {
+                activePatient = 5;
+                PM.startMoving = true;
+            }
+      
             startDay = false;
             numberSpawend = 0;
             day = 5;
@@ -282,22 +293,53 @@ public class ControllerForPatienter : MonoBehaviour
     {
         if (numberSpawend == 0)
         {
-            PM = years5.GetComponent<PatientMovement>();
-            PM.startMoving = true;
-            numberSpawend++;
+            PM = artist8.GetComponent<PatientMovement>();
+            if (PM.released == false)
+            {
+                activePatient = 8;
+                PM.startMoving = true;
+                numberSpawend++;
+            }
+            else
+            {
+                PM = seaAir3.GetComponent<PatientMovement>();
+                if (PM.released == false)
+                {
+                    activePatient = 3;
+                    PM.startMoving = true;
+                    numberSpawend++;
+                }
+                else
+                {
+                    numberSpawend++;
+                }
+            }
         }
         else if (numberSpawend == 1)
         {
-            PM = seaAir3.GetComponent<PatientMovement>();
-            PM.startMoving = true;
-            numberSpawend++;
+            PM = where9.GetComponent<PatientMovement>();
+            if (PM.released == false)
+            {
+                activePatient = 9;
+                PM.startMoving = true;
+                startDay = false;
+            }
+            else
+            {
+                PM = priest7.GetComponent<PatientMovement>();
+                if (PM.released == false)
+                {
+                    activePatient = 7;
+                    PM.startMoving = true;
+                    startDay = false;
+                }
+                else
+                {
+                    startDay = false;
+                }
+            }
+           
         }
-        else if (numberSpawend == 2)
-        {
-            PM = govermentAgent4.GetComponent<PatientMovement>();
-            PM.startMoving = true;
-            startDay = false;
-        }
-     
+       
     }
 }
