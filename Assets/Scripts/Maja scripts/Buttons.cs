@@ -43,6 +43,8 @@ public class Buttons : MonoBehaviour
     public GameObject clipbordXButton;
     public GameObject clipbordXButton2;
 
+    public GameObject nextPageTreat;
+
     private void Start()
     {
         checkboardDown_.enabled = false;
@@ -164,6 +166,7 @@ public class Buttons : MonoBehaviour
         if(simonScript.activePatient == 1)
         {
             safeResponseAdam.SetActive(true);
+            nextPageTreat.SetActive(true);
         }
         if(simonScript.activePatient == 2)
         {
@@ -176,15 +179,19 @@ public class Buttons : MonoBehaviour
         if (simonScript.activePatient == 1)
         {
             unsafeResponseAdam.SetActive(true);
+            putDownClipboard();
         }
-        if (simonScript.activePatient == 2)
+        if(simonScript.activePatient >= 2)
         {
-            unsafeResponseFish.SetActive(true);
+            nextPageTreat.SetActive(true);
         }
     }
 
-    public void treatmentResponse()
+    public void treatmentRespond()
     {
-        
+        if(simonScript.activePatient == 2)
+        {
+            unsafeResponseFish.SetActive(true);
+        }
     }
 }
