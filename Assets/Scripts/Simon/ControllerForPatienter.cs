@@ -232,14 +232,41 @@ public class ControllerForPatienter : MonoBehaviour
             }
             else
             {
-                
+                activePatient = 8;
+                PM = artist8.GetComponent<PatientMovement>();
+                PM.startMoving = true;
+                numberSpawend++;
             }
         }
         else if (numberSpawend == 1)
         {
-            PM = seaAir3.GetComponent<PatientMovement>();
-            PM.startMoving = true;
-            numberSpawend++;
+            PM = workingWoman6.GetComponent<PatientMovement>();
+            if (PM.released == false)
+            {
+                activePatient = 6;
+                PM.startMoving = true;
+                numberSpawend++;
+            }
+            else
+            {
+                PM = priest7.GetComponent<PatientMovement>();
+                if (PM.released == false)
+                {
+                    activePatient = 7;
+
+                    PM.startMoving = true;
+                    numberSpawend++;
+                }
+                else
+                {
+                    activePatient = 5;
+                    PM = years5.GetComponent<PatientMovement>();
+                    PM.startMoving = true;
+                    numberSpawend++;
+                }
+                
+            }
+           
         }
         else if (numberSpawend == 2)
         {
@@ -255,7 +282,7 @@ public class ControllerForPatienter : MonoBehaviour
     {
         if (numberSpawend == 0)
         {
-            PM = fishMan2.GetComponent<PatientMovement>();
+            PM = years5.GetComponent<PatientMovement>();
             PM.startMoving = true;
             numberSpawend++;
         }
