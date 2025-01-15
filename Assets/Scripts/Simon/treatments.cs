@@ -9,13 +9,17 @@ public class treatments : MonoBehaviour
     GameObject Controler;
 
     [SerializeField]
-    GameObject patient1;
+    GameObject adam1;
     [SerializeField]
-    GameObject patient2;
+    GameObject fishMan2;
     [SerializeField]
-    GameObject patient3;
+    GameObject seaAir3;
     [SerializeField]
-    GameObject patient4;
+    GameObject govermentAgent4;
+    [SerializeField]
+    GameObject years5;
+    [SerializeField]
+    GameObject workingWoman6;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,19 +32,19 @@ public class treatments : MonoBehaviour
     {
         if (PC.activePatient == 1)
         {
-            PM = patient1.GetComponent<PatientMovement>();
+            PM = adam1.GetComponent<PatientMovement>();
         }
         else if (PC.activePatient == 2)
         {
-            PM = patient2.GetComponent<PatientMovement>();
+            PM = fishMan2.GetComponent<PatientMovement>();
         }
         else if (PC.activePatient == 3)
         {
-            PM = patient3.GetComponent<PatientMovement>();
+            PM = seaAir3.GetComponent<PatientMovement>();
         }
         else if (PC.activePatient == 4)
         {
-            PM = patient4.GetComponent<PatientMovement>();
+            PM = govermentAgent4.GetComponent<PatientMovement>();
         }
     }
 
