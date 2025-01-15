@@ -44,6 +44,7 @@ public class Buttons : MonoBehaviour
     public GameObject clipbordXButton2;
 
     public GameObject nextPageTreat;
+    public GameObject treatmenatPage;
 
     private void Start()
     {
@@ -84,11 +85,6 @@ public class Buttons : MonoBehaviour
             clipbordXButton2.SetActive(true);
             nextPageTreat.SetActive(false);
         }
-    }
-
-    public void xButtonTwo()
-    {
-        nextPageTreat.SetActive(false);
     }
 
     //frågor
@@ -198,6 +194,11 @@ public class Buttons : MonoBehaviour
         if(simonScript.activePatient == 2)
         {
             unsafeResponseFish.SetActive(true);
+        }
+        if(simonScript.activePatient >= 2)
+        {
+            nextPageTreat.SetActive(false);
+            treatmenatPage.SetActive(false);
         }
     }
 }
