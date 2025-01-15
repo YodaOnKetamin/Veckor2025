@@ -32,36 +32,64 @@ public class files : MonoBehaviour
         {
             seaAirFilesYAY.SetActive(true);
             fishFilesYAY.SetActive(false);
+            adamFilesYAY.SetActive(false);
         }
         if(simonScriptYAY.activePatient == 4)
         {
             govAgentFilesYAY.SetActive(true);
             seaAirFilesYAY.SetActive(false);
+            fishFilesYAY.SetActive(false);
+            adamFilesYAY.SetActive(false);
         }
         if(simonScriptYAY.activePatient == 5)
         {
             TRETTIyrsFilesYAY.SetActive(true);
             govAgentFilesYAY.SetActive(false);
+            seaAirFilesYAY.SetActive(false);
+            fishFilesYAY.SetActive(false);
+            adamFilesYAY.SetActive(false);
         }
         if(simonScriptYAY.activePatient == 6)
         {
             workWomanFilesYAY.SetActive(true);
             TRETTIyrsFilesYAY.SetActive(false);
+            govAgentFilesYAY.SetActive(false);
+            seaAirFilesYAY.SetActive(false);
+            fishFilesYAY.SetActive(false);
+            adamFilesYAY.SetActive(false);
         }
         if(simonScriptYAY.activePatient == 7)
         {
             priestFilesYAY.SetActive(true);
             workWomanFilesYAY.SetActive(false);
+            TRETTIyrsFilesYAY.SetActive(false);
+            govAgentFilesYAY.SetActive(false);
+            seaAirFilesYAY.SetActive(false);
+            fishFilesYAY.SetActive(false);
+            adamFilesYAY.SetActive(false);
         }
         if(simonScriptYAY.activePatient == 8)
         {
             artistFilesYAY.SetActive(true);
             priestFilesYAY.SetActive(false);
+            workWomanFilesYAY.SetActive(false);
+            TRETTIyrsFilesYAY.SetActive(false);
+            govAgentFilesYAY.SetActive(false);
+            seaAirFilesYAY.SetActive(false);
+            fishFilesYAY.SetActive(false);
+            adamFilesYAY.SetActive(false);
         }
         if(simonScriptYAY.activePatient == 9)
         {
             whereAmIFilesYAY.SetActive(true);
             artistFilesYAY.SetActive(false);
+            priestFilesYAY.SetActive(false);
+            workWomanFilesYAY.SetActive(false);
+            TRETTIyrsFilesYAY.SetActive(false);
+            govAgentFilesYAY.SetActive(false);
+            seaAirFilesYAY.SetActive(false);
+            fishFilesYAY.SetActive(false);
+            adamFilesYAY.SetActive(false);
         }
     }
 }
