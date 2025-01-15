@@ -571,36 +571,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 247396180}
     m_Modifications:
-    - target: {fileID: 194761771068004269, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
-      propertyPath: m_text
-      value: "Quit \n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 194761771068004269, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
-      propertyPath: m_fontSize
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 194761771068004269, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 1380716659386437526, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2547927890716159524, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3016370002782696191, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
-      propertyPath: m_text
-      value: 'Are you sure you want to quit
-
-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 3732260550591461632, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
-      propertyPath: m_RaycastTarget
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3737716636493614484, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -613,18 +583,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1211526345}
-    - target: {fileID: 4902189815566224073, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 4902189815566224073, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 4902189815566224073, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 100
-      objectReference: {fileID: 0}
     - target: {fileID: 5262508005510065999, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -705,14 +663,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6398705391857617133, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 80.136
-      objectReference: {fileID: 0}
-    - target: {fileID: 6398705391857617133, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 162.57
-      objectReference: {fileID: 0}
     - target: {fileID: 6600261654181091124, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -721,42 +671,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 422737960}
-    - target: {fileID: 7152625458896457764, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: GameOver
-      objectReference: {fileID: 0}
-    - target: {fileID: 7152625458896457764, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: MenuScript, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7152625458896457764, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 7240158707275778276, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
-      propertyPath: m_text
-      value: Nevermind
-      objectReference: {fileID: 0}
-    - target: {fileID: 7240158707275778276, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
-      propertyPath: m_fontSize
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 7240158707275778276, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 7574278111260965977, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 7574278111260965977, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 7574278111260965977, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 50
-      objectReference: {fileID: 0}
     - target: {fileID: 7689892477556066693, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
