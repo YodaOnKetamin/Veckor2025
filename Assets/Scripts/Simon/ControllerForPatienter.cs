@@ -73,8 +73,6 @@ public class ControllerForPatienter : MonoBehaviour
                 patientDespawned = false;
             }
         }
-       
-
     }
 
     void day1spawns()
@@ -109,8 +107,6 @@ public class ControllerForPatienter : MonoBehaviour
             numberSpawend = 0;
             day = 2;
         }
-
-        
     }
 
     void day2spawns()
@@ -131,7 +127,6 @@ public class ControllerForPatienter : MonoBehaviour
                 PM.startMoving = true;
                 numberSpawend++;
             }
-          
         }
         else if (numberSpawend == 1)
         {
@@ -148,7 +143,6 @@ public class ControllerForPatienter : MonoBehaviour
             numberSpawend = 0;
             day = 3;
         }
-      
     }
     void day3spawns()
     {
@@ -178,9 +172,7 @@ public class ControllerForPatienter : MonoBehaviour
                     numberSpawend++;
                 }
                 
-            }
-            
-            
+            } 
         }
         else if (numberSpawend == 1)
         {
@@ -198,8 +190,6 @@ public class ControllerForPatienter : MonoBehaviour
                 PM.startMoving = true;
                 numberSpawend++;
             }
-           
-            
         }
         else if (numberSpawend == 2)
         {
@@ -212,16 +202,17 @@ public class ControllerForPatienter : MonoBehaviour
             else
             {
                 PM = where9.GetComponent<PatientMovement>();
-                if (true)
+                if (PM.released == false)
                 {
                     activePatient = 9;
                     PM.startMoving = true;
                 }
                 else
                 {
+                    activePatient = 5;
                     PM = years5.GetComponent<PatientMovement>();
+                    PM.startMoving = true;
                 }
-               
             }
             startDay = false;
             numberSpawend = 0;
@@ -239,10 +230,7 @@ public class ControllerForPatienter : MonoBehaviour
                 PM.startMoving = true;
                 numberSpawend++;
             }
-            else
-            {
-
-            }
+           
            
         }
         else if (numberSpawend == 1)
