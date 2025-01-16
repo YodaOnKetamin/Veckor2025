@@ -14844,6 +14844,10 @@ PrefabInstance:
       propertyPath: Dialouge
       value: 
       objectReference: {fileID: 1169490571}
+    - target: {fileID: 8812777033763096162, guid: 0d3dc300dca38f84d98605c6438fd0d8, type: 3}
+      propertyPath: "v\xE4nsterkraft"
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
