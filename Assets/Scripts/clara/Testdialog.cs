@@ -63,8 +63,8 @@ public class Testdialog : MonoBehaviour
         //Type each character 1 by 1
         foreach (char c in lines[index].ToCharArray())
         {
-            playDialogueSound(textComponent.maxVisibleCharacters);
             textComponent.text += c;
+            playDialogueSound(c);
             /* 
              * ha bara kvar ifall vi inte ska använda playDialogue sound 
              * //stoppar ljudet så att det inte spelar över varandra (glöm ej checka boxen)  om klick ljud kommer ta bort denna del av kod 
@@ -72,7 +72,7 @@ public class Testdialog : MonoBehaviour
              {
                  audioSource.Stop();
              }*/
-           
+
             //spelar ljud så fort en till bokstav lägs till (lägg till ljudklipp som ska användas i dialogue typing sound clip i variablen)
             //audioSource.PlayOneShot(dialogueTypingSoundClips);
             yield return new WaitForSeconds(textSpeed);
