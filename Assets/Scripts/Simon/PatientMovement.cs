@@ -64,6 +64,7 @@ public class PatientMovement : MonoBehaviour
 
             if (gameObject.transform.position.x >= 7)
             {
+               
                 PC.patientDespawned = true;
                 PC.klarmedpatient = false;
                 startMoving = false;
