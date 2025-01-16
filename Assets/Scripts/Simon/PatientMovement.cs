@@ -7,6 +7,8 @@ public class PatientMovement : MonoBehaviour
     [SerializeField]
     GameObject Dialouge;
     [SerializeField]
+    GameObject LoboDialouge;
+    [SerializeField]
     int vänsterkraft;
     [SerializeField]
     GameObject Spawn;
@@ -33,10 +35,15 @@ public class PatientMovement : MonoBehaviour
     {
         if (dialogueHasStarted == false && gameObject.transform.position.x == 0)
         {
-            if (gameObject.transform.position.x == 0)
+            if (gameObject.transform.position.x == 0 && lobotmised == false)
             {
                 print("show dialogue");
                 Dialouge.SetActive(true);
+                dialogueHasStarted = true;
+            }
+            else if (lobotmised == true)
+            {
+                LoboDialouge.SetActive(true);
                 dialogueHasStarted = true;
             }
             

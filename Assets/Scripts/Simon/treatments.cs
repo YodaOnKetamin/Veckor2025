@@ -68,7 +68,14 @@ public class treatments : MonoBehaviour
     }
     public void OnPressTreatButtonSoli()
     {
-       
+        if (PC.activePatient == 2)
+        {
+            EM.lightTreatemnts++;
+        }
+        if (PC.activePatient == 3)
+        {
+            EM.Sanity++;
+        }
     }
 
     public void OnPressTreatButtonReEd()
@@ -77,7 +84,12 @@ public class treatments : MonoBehaviour
         {
             PM.correctlyTreated = true;
         }
-       
+
+        if (PC.activePatient == 2)
+        {
+            EM.lightTreatemnts++;
+        }
+
     }
 
     /*public void OnPressTreatButtonRelease()

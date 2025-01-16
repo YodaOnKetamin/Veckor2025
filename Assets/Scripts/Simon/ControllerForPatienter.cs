@@ -143,7 +143,7 @@ public class ControllerForPatienter : MonoBehaviour
         }
         else if (numberSpawend == 1)
         {
-            PM = priest7.GetComponent<PatientMovement>();
+                PM = priest7.GetComponent<PatientMovement>();
                 activePatient = 3;
                 PM.startMoving = true;
                 numberSpawend++;
@@ -364,7 +364,7 @@ public class ControllerForPatienter : MonoBehaviour
         BlackScreen.SetActive(false);
         day++;
         startDay = true;
-
+        //öka sanity med 
 
     }
    
