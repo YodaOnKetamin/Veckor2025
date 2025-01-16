@@ -48,6 +48,10 @@ public class treatments : MonoBehaviour
         {
             PM = govermentAgent4.GetComponent<PatientMovement>();
         }
+        else if (PC.activePatient == 5)
+        {
+            PM = years5.GetComponent<PatientMovement>();
+        }
     }
 
     public void OnPressTreatButtonLobo() 
@@ -57,13 +61,21 @@ public class treatments : MonoBehaviour
         {
             PM.correctlyTreated = true;
         }
-       
+        if (PC.activePatient == 3)
+        {
+            EM.Sanity++;
+        }
+
     }
     public void OnPressTreatButtonElectro()
     {
         if (PC.activePatient == 2)
         {
             EM.lightTreatemnts++;
+        }
+        if (PC.activePatient == 3)
+        {
+            EM.Sanity++;
         }
     }
     public void OnPressTreatButtonSoli()
