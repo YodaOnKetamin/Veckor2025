@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3936002871572634347}
   m_Layer: 0
   m_Name: Patient3
-  m_TagString: Untagged
+  m_TagString: Patient3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,5 +97,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2de66cb780e71f34ea571d69ed6d6371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Dialouge: {fileID: 0}
   "v\xE4nsterkraft": 3
-  Controler: {fileID: 0}
+  Spawn: {fileID: 0}
+  lobotmised: 0
+  correctlyTreated: 0
+  released: 0
+  startMoving: 0

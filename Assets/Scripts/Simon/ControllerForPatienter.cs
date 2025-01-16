@@ -33,6 +33,8 @@ public class ControllerForPatienter : MonoBehaviour
 
     public bool patientDespawned;
     public bool klarmedpatient;
+
+    GameObject test;
     // Start is called before the first frame update
     void Start()
     {
@@ -282,7 +284,6 @@ public class ControllerForPatienter : MonoBehaviour
                 activePatient = 5;
                 PM.startMoving = true;
             }
-      
             startDay = false;
             numberSpawend = 0;
             day = 5;
@@ -340,6 +341,10 @@ public class ControllerForPatienter : MonoBehaviour
             }
            
         }
+
        
     }
+
+
+   
 }
