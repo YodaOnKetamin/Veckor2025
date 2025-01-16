@@ -6,7 +6,9 @@ using UnityEngine.UI;
 public class Buttons : MonoBehaviour
 {
     public GameObject clipboardUp;
+    public GameObject clipboardUpGrafik;
     public GameObject clipboardDown;
+    public GameObject clipboardDownGrafik;
     public GameObject questionPage;
     
     [Header("Adam Dialog")]
@@ -164,13 +166,17 @@ public class Buttons : MonoBehaviour
     public void Clipboard()
     {
         clipboardUp.SetActive(true);
+        clipboardUpGrafik.SetActive(true);
         clipboardDown.SetActive(false);
+        clipboardDownGrafik.SetActive(false);
     }
 
     public void putDownClipboard()
     {
         clipboardUp.SetActive(false);
+        clipboardUpGrafik.SetActive(false);
         clipboardDown.SetActive(true);
+        clipboardDownGrafik.SetActive(true);
     }
     public void checkedFile()
     {
