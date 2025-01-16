@@ -113,7 +113,7 @@ public class ControllerForPatienter : MonoBehaviour
             PM.startMoving = true;
             startDay = false;
             numberSpawend = 0;
-            StartCoroutine(startNextDay());
+            StartCoroutine("startNextDay");
         }
     }
 
@@ -354,9 +354,9 @@ public class ControllerForPatienter : MonoBehaviour
     IEnumerator startNextDay() 
     {
         textComponent.text = string.Empty;
-        line[1] = "End Of day " + day;
+        line[0] = "End Of day " + day.ToString();
         BlackScreen.SetActive(true);
-        foreach (char c in line[1].ToCharArray())
+        foreach (char c in line[0].ToCharArray())
         {
             textComponent.text += c;
             yield return new WaitForSeconds(0.1f);
