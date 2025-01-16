@@ -41,7 +41,7 @@ public class PatientMovement : MonoBehaviour
                 Dialouge.SetActive(true);
                 dialogueHasStarted = true;
             }
-            else if (lobotmised == true)//funkar inte :(
+            else if (lobotmised == true)//funkar inte :(f
             {
                 print("Show Lobotomy >:)");
                 LoboDialouge.SetActive(true);

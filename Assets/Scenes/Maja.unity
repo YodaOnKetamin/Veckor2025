@@ -597,6 +597,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3789251075618769902, guid: bb7b0c4e7a359854b97ab80f840b5760, type: 3}
+      propertyPath: PM
+      value: 
+      objectReference: {fileID: 37675344}
+    - target: {fileID: 3789251075618769902, guid: bb7b0c4e7a359854b97ab80f840b5760, type: 3}
       propertyPath: adam1
       value: 
       objectReference: {fileID: 37675335}
@@ -740,6 +744,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7888247319696242704, guid: bb7b0c4e7a359854b97ab80f840b5760, type: 3}
   m_PrefabInstance: {fileID: 37675331}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &37675344 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2589350375800147081, guid: bb7b0c4e7a359854b97ab80f840b5760, type: 3}
+  m_PrefabInstance: {fileID: 37675331}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37675335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2de66cb780e71f34ea571d69ed6d6371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &47633666
 GameObject:
   m_ObjectHideFlags: 0
@@ -15652,6 +15667,10 @@ PrefabInstance:
       propertyPath: Dialouge
       value: 
       objectReference: {fileID: 1169490571}
+    - target: {fileID: 8812777033763096162, guid: 0d3dc300dca38f84d98605c6438fd0d8, type: 3}
+      propertyPath: startMoving
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8812777033763096162, guid: 0d3dc300dca38f84d98605c6438fd0d8, type: 3}
       propertyPath: LoboDialouge
       value: 

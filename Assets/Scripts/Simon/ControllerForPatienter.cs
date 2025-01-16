@@ -143,8 +143,9 @@ public class ControllerForPatienter : MonoBehaviour
         }
         else if (numberSpawend == 1)
         {
+            print("FUCK YOU, inte till dig simon");
+            activePatient = 7;
                 PM = priest7.GetComponent<PatientMovement>();
-                activePatient = 3;
                 PM.startMoving = true;
                 numberSpawend++;
         }
