@@ -353,14 +353,8 @@ public class ControllerForPatienter : MonoBehaviour
 
     IEnumerator startNextDay() 
     {
-        textComponent.text = string.Empty;
-        line[0] = "End Of day " + day.ToString();
+        textComponent.text = "End Of Day " + day.ToString();
         BlackScreen.SetActive(true);
-        foreach (char c in line[0].ToCharArray())
-        {
-            textComponent.text += c;
-            yield return new WaitForSeconds(0.1f);
-        }
         yield return new WaitForSeconds(3);
         BlackScreen.SetActive(false);
         day++;
