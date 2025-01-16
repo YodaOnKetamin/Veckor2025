@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class ControllerForPatienter : MonoBehaviour
 {
@@ -35,6 +36,12 @@ public class ControllerForPatienter : MonoBehaviour
     public bool klarmedpatient;
 
     GameObject test;
+
+    [SerializeField]
+    GameObject BlackScreen;
+    public TextMeshProUGUI textComponent;
+    string[] line;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -107,7 +114,7 @@ public class ControllerForPatienter : MonoBehaviour
             PM.startMoving = true;
             startDay = false;
             numberSpawend = 0;
-            day = 2;
+            StartCoroutine(startNextDay());
         }
     }
 
@@ -143,7 +150,7 @@ public class ControllerForPatienter : MonoBehaviour
             PM.startMoving = true;
             startDay = false;
             numberSpawend = 0;
-            day = 3;
+            StartCoroutine(startNextDay());
         }
     }
     void day3spawns()
@@ -218,7 +225,7 @@ public class ControllerForPatienter : MonoBehaviour
             }
             startDay = false;
             numberSpawend = 0;
-            day = 4;
+            StartCoroutine(startNextDay());
         }
       
     }
@@ -286,7 +293,7 @@ public class ControllerForPatienter : MonoBehaviour
             }
             startDay = false;
             numberSpawend = 0;
-            day = 5;
+            StartCoroutine(startNextDay());
         }
        
     }
@@ -345,6 +352,22 @@ public class ControllerForPatienter : MonoBehaviour
        
     }
 
+    IEnumerator startNextDay() 
+    {
+        textComponent.text = string.Empty;
+        line[1] = "End Of day " + day;
+        BlackScreen.SetActive(true);
+        foreach (char c in line[1].ToCharArray())
+        {
+            textComponent.text += c;
+            yield return new WaitForSeconds(0.1f);
+        }
+        yield return new WaitForSeconds(3);
+        BlackScreen.SetActive(false);
+        day++;
+        startDay = true;
 
+
+    }
    
 }
