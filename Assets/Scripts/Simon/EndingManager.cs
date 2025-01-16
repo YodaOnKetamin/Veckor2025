@@ -5,7 +5,7 @@ using UnityEngine;
 public class EndingManager : MonoBehaviour
 {
     int Warnings;
-    int lightTreatemnts;
+    public int lightTreatemnts;
    public int Sanity;//5 - 0
 
     bool endGame;
