@@ -5,23 +5,23 @@ using UnityEngine;
 public class Ingamemenuscript : MonoBehaviour
 {
     [SerializeField]
-    GameObject SettingsPanel;
+    GameObject pausemenu;
     
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            SettingsYes();
+            Pausemenu();
         }
     }
-    public void SettingsYes()
+    public void Pausemenu()
     {
-        togglePanel(SettingsPanel);
+        togglePanel(pausemenu);
     }
     public void Resume()
     {
         //måste fixa så att spelet startar igen och allt skit med det! :)
-        togglePanel(SettingsPanel);
+        togglePanel(pausemenu);
     }
     private void togglePanel(GameObject panel)
     {

@@ -46,4 +46,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quitPanel: {fileID: 0}
   MenuPanel: {fileID: 0}
-  pausespanel: {fileID: 0}

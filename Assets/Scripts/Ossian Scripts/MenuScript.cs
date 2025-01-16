@@ -11,8 +11,7 @@ public class MenuScript : MonoBehaviour
     GameObject quitPanel;
     [SerializeField]
     GameObject MenuPanel;
-    [SerializeField]
-    GameObject pausespanel;
+
     public void onStartbuttonpress()
     {
         //scenemanager skit
