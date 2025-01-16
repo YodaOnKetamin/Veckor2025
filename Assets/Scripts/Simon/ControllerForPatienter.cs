@@ -35,7 +35,6 @@ public class ControllerForPatienter : MonoBehaviour
     public bool patientDespawned;
     public bool klarmedpatient;
 
-    GameObject test;
 
     [SerializeField]
     GameObject BlackScreen;
@@ -202,18 +201,18 @@ public class ControllerForPatienter : MonoBehaviour
         }
         else if (numberSpawend == 2)
         {
-            PM = priest7.GetComponent<PatientMovement>();
+            PM = where9.GetComponent<PatientMovement>();
             if (PM.released == false)
             {
-                activePatient = 7;
+                activePatient = 9;
                 PM.startMoving = true;
             }
             else
             {
-                PM = where9.GetComponent<PatientMovement>();
+                PM = seaAir3.GetComponent<PatientMovement>();
                 if (PM.released == false)
                 {
-                    activePatient = 9;
+                    activePatient = 3;
                     PM.startMoving = true;
                 }
                 else
@@ -258,10 +257,10 @@ public class ControllerForPatienter : MonoBehaviour
             }
             else
             {
-                PM = priest7.GetComponent<PatientMovement>();
+                PM = seaAir3.GetComponent<PatientMovement>();
                 if (PM.released == false)
                 {
-                    activePatient = 7;
+                    activePatient = 3;
 
                     PM.startMoving = true;
                     numberSpawend++;
