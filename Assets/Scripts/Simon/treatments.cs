@@ -6,6 +6,7 @@ public class treatments : MonoBehaviour
 {
     PatientMovement PM;
     ControllerForPatienter PC;
+    EndingManager EM;
     GameObject Controler;
 
     [SerializeField]
@@ -25,6 +26,7 @@ public class treatments : MonoBehaviour
     {
         Controler = GameObject.FindWithTag("Controller");
         PC = Controler.GetComponent<ControllerForPatienter>();
+        gameObject.GetComponent<EndingManager>();
     }
 
     // Update is called once per frame
@@ -59,7 +61,10 @@ public class treatments : MonoBehaviour
     }
     public void OnPressTreatButtonElectro()
     {
-       
+        if (PC.activePatient == 2)
+        {
+            EM.lightTreatemnts++;
+        }
     }
     public void OnPressTreatButtonSoli()
     {

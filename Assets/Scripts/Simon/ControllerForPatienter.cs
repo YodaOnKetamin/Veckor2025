@@ -81,6 +81,11 @@ public class ControllerForPatienter : MonoBehaviour
                 patientDespawned = false;
             }
         }
+
+        if (startDay == false && patientDespawned == true)
+        {
+            StartCoroutine("startNextDay");
+        }
     }
 
     void day1spawns()
@@ -113,7 +118,7 @@ public class ControllerForPatienter : MonoBehaviour
             PM.startMoving = true;
             startDay = false;
             numberSpawend = 0;
-            StartCoroutine("startNextDay");
+            
         }
     }
 
@@ -149,7 +154,7 @@ public class ControllerForPatienter : MonoBehaviour
             PM.startMoving = true;
             startDay = false;
             numberSpawend = 0;
-            StartCoroutine(startNextDay());
+           
         }
     }
     void day3spawns()
@@ -224,7 +229,7 @@ public class ControllerForPatienter : MonoBehaviour
             }
             startDay = false;
             numberSpawend = 0;
-            StartCoroutine(startNextDay());
+            
         }
       
     }
@@ -292,7 +297,7 @@ public class ControllerForPatienter : MonoBehaviour
             }
             startDay = false;
             numberSpawend = 0;
-            StartCoroutine(startNextDay());
+           
         }
        
     }
