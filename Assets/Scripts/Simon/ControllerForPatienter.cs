@@ -39,7 +39,6 @@ public class ControllerForPatienter : MonoBehaviour
     [SerializeField]
     GameObject BlackScreen;
     public TextMeshProUGUI textComponent;
-    string[] line;
 
     // Start is called before the first frame update
     void Start()
@@ -85,6 +84,8 @@ public class ControllerForPatienter : MonoBehaviour
         if (startDay == false && patientDespawned == true)
         {
             StartCoroutine("startNextDay");
+            day++;
+            startDay = true;
         }
     }
 
@@ -143,14 +144,14 @@ public class ControllerForPatienter : MonoBehaviour
         }
         else if (numberSpawend == 1)
         {
-            print("FUCK YOU, inte till dig simon");
-            activePatient = 7;
+                activePatient = 7;
                 PM = priest7.GetComponent<PatientMovement>();
                 PM.startMoving = true;
                 numberSpawend++;
         }
         else if (numberSpawend == 2)
         {
+            activePatient = 5;
             PM = years5.GetComponent<PatientMovement>();
             PM.startMoving = true;
             startDay = false;
@@ -363,8 +364,6 @@ public class ControllerForPatienter : MonoBehaviour
         BlackScreen.SetActive(true);
         yield return new WaitForSeconds(3);
         BlackScreen.SetActive(false);
-        day++;
-        startDay = true;
         //öka sanity med 
 
     }
