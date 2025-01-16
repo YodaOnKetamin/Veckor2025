@@ -29,7 +29,13 @@ public class EndingManager : MonoBehaviour
         {
             //loss
         }
-        
+
+        if (lightTreatemnts == 2)
+        {
+            Warnings++;
+            lightTreatemnts = 0;
+        }
+
         if (endGame == true)
         {
             if (Sanity + Warnings <= 3)

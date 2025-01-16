@@ -21,6 +21,12 @@ public class treatments : MonoBehaviour
     GameObject years5;
     [SerializeField]
     GameObject workingWoman6;
+    [SerializeField]
+    GameObject priest7;//3
+    [SerializeField]
+    GameObject artist8;//4
+    [SerializeField]
+    GameObject where9;//5
     // Start is called before the first frame update
     void Start()
     {
@@ -48,6 +54,18 @@ public class treatments : MonoBehaviour
         {
             PM = govermentAgent4.GetComponent<PatientMovement>();
         }
+        else if (PC.activePatient == 5)
+        {
+            PM = years5.GetComponent<PatientMovement>();
+        }
+        else if (PC.activePatient == 6)
+        {
+            PM = workingWoman6.GetComponent<PatientMovement>();
+        }
+        else if (PC.activePatient == 7)
+        {
+            PM = priest7.GetComponent<PatientMovement>();
+        }
     }
 
     public void OnPressTreatButtonLobo() 
@@ -57,13 +75,21 @@ public class treatments : MonoBehaviour
         {
             PM.correctlyTreated = true;
         }
-       
+        if (PC.activePatient == 3)
+        {
+            EM.Sanity++;
+        }
+
     }
     public void OnPressTreatButtonElectro()
     {
         if (PC.activePatient == 2)
         {
             EM.lightTreatemnts++;
+        }
+        if (PC.activePatient == 3)
+        {
+            EM.Sanity++;
         }
     }
     public void OnPressTreatButtonSoli()

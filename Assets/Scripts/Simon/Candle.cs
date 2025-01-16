@@ -30,31 +30,31 @@ public class Candle : MonoBehaviour
     // Update is called once per frame 
     void Update()
     {
-        if (EM.Sanity == 5)
+        if (EM.Sanity == 0)
         {
             CandleFull.SetActive(true);
         }
-        else if (EM.Sanity == 4)
+        else if (EM.Sanity == 1)
         {
             CandleFull.SetActive(false);
             Candle45.SetActive(true);
         }
-        else if (EM.Sanity == 3)
+        else if (EM.Sanity == 2)
         {
             Candle45.SetActive(false);
             Candle35.SetActive(true);
         }
-        else if (EM.Sanity == 2)
+        else if (EM.Sanity == 3)
         {
             Candle35.SetActive(false);
             Candle25.SetActive(true);
         }
-        else if (EM.Sanity == 1)
+        else if (EM.Sanity == 4)
         {
             Candle25.SetActive(false);
             Candle15.SetActive(true);
         }
-        else
+        else if (EM.Sanity == 5)
         {
             CandleFull.SetActive(false);
             Candle45.SetActive(false);
@@ -62,5 +62,6 @@ public class Candle : MonoBehaviour
             Candle25.SetActive(false);
             Candle15.SetActive(false);
         }
+       
     }
 }
