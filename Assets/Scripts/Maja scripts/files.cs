@@ -27,6 +27,7 @@ public class files : MonoBehaviour
         {
             fishFilesYAY.SetActive(true);
             adamFilesYAY.SetActive(false);
+            govAgentFilesYAY.SetActive(false);
         }
         if(simonScriptYAY.activePatient == 3)
         {

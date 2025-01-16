@@ -10,6 +10,7 @@ TagManager:
   - Patient3
   - Patient5
   - Patient6
+  - Patient9
   layers:
   - Default
   - TransparentFX

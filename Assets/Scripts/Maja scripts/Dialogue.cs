@@ -60,6 +60,7 @@ public class Dialogue : MonoBehaviour
         else
         {
             gameObject.SetActive(false);
+            StartDialogue();
         }
     }
 }
