@@ -120,6 +120,15 @@ public class Buttons : MonoBehaviour
     public GameObject safeResponseWomanElec;
     public GameObject unsafeResponseWomanElec;
 
+    [Header("Where Am I Electro")]
+    public GameObject whereElectroD1;
+    public GameObject whereElectroD2;
+    public GameObject whereElectroD3;
+    public GameObject whereElectroD4;
+    public GameObject whereElectroD5;
+    public GameObject safeResponseWhereElec;
+    public GameObject unsafeResponseWhereElec;
+
     [Header("Lobotomy")]
     public GameObject lobotomyD1;
     public GameObject lobotomyD2;
@@ -255,6 +264,12 @@ public class Buttons : MonoBehaviour
         if(simonScript.activePatient == 9)
         {
             patient9Dialogue1.SetActive(true);
+            patient = GameObject.FindWithTag("Patient9");
+            simonScript2 = patient.GetComponent<PatientMovement>();
+            if (simonScript2.correctlyTreated == true)
+            {
+                whereElectroD1.SetActive(true);
+            }
         }
     }
 
@@ -315,6 +330,12 @@ public class Buttons : MonoBehaviour
         if (simonScript.activePatient == 9)
         {
             patient9Dialogue2.SetActive(true);
+            patient = GameObject.FindWithTag("Patient9");
+            simonScript2 = patient.GetComponent<PatientMovement>();
+            if (simonScript2.correctlyTreated == true)
+            {
+                whereElectroD2.SetActive(true);
+            }
         }
     }
 
@@ -375,6 +396,12 @@ public class Buttons : MonoBehaviour
         if (simonScript.activePatient == 9)
         {
             patient9Dialogue3.SetActive(true);
+            patient = GameObject.FindWithTag("Patient9");
+            simonScript2 = patient.GetComponent<PatientMovement>();
+            if (simonScript2.correctlyTreated == true)
+            {
+                whereElectroD3.SetActive(true);
+            }
         }
     }
 
@@ -435,6 +462,12 @@ public class Buttons : MonoBehaviour
         if (simonScript.activePatient == 9)
         {
             patient9Dialogue4.SetActive(true);
+            patient = GameObject.FindWithTag("Patient9");
+            simonScript2 = patient.GetComponent<PatientMovement>();
+            if (simonScript2.correctlyTreated == true)
+            {
+                whereElectroD4.SetActive(true);
+            }
         }
     }
 
@@ -495,6 +528,12 @@ public class Buttons : MonoBehaviour
         if (simonScript.activePatient == 9)
         {
             patient9Dialogue5.SetActive(true);
+            patient = GameObject.FindWithTag("Patient9");
+            simonScript2 = patient.GetComponent<PatientMovement>();
+            if (simonScript2.correctlyTreated == true)
+            {
+                whereElectroD5.SetActive(true);
+            }
         }
     }
 
@@ -554,6 +593,12 @@ public class Buttons : MonoBehaviour
         if (simonScript.activePatient == 9)
         {
             safeResponseWhere.SetActive(true);
+            patient = GameObject.FindWithTag("Patient9");
+            simonScript2 = patient.GetComponent<PatientMovement>();
+            if (simonScript2.correctlyTreated == true)
+            {
+                safeResponseWhereElec.SetActive(true);
+            }
         }
     }
 
@@ -628,6 +673,12 @@ public class Buttons : MonoBehaviour
         if (simonScript.activePatient == 9)
         {
             unsafeResponseWhere.SetActive(true);
+            patient = GameObject.FindWithTag("Patient9");
+            simonScript2 = patient.GetComponent<PatientMovement>();
+            if (simonScript2.correctlyTreated == true)
+            {
+                safeResponseWhereElec.SetActive(true);
+            }
         }
     }
 }
