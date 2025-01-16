@@ -52,6 +52,51 @@ public class Buttons : MonoBehaviour
     public GameObject safeResponseGov;
     public GameObject unsafeResponseGov;
 
+    [Header("30 Years Dialog")]
+    public GameObject patient5Dialogue1;
+    public GameObject patient5Dialogue2;
+    public GameObject patient5Dialogue3;
+    public GameObject patient5Dialogue4;
+    public GameObject patient5Dialogue5;
+    public GameObject safeResponse30;
+    public GameObject unsafeResponse30;
+
+    [Header("Working Class Woman Dialog")]
+    public GameObject patient6Dialogue1;
+    public GameObject patient6Dialogue2;
+    public GameObject patient6Dialogue3;
+    public GameObject patient6Dialogue4;
+    public GameObject patient6Dialogue5;
+    public GameObject safeResponseWoman;
+    public GameObject unsafeResponseWoman;
+
+    [Header("Priest Dialog")]
+    public GameObject patient7Dialogue1;
+    public GameObject patient7Dialogue2;
+    public GameObject patient7Dialogue3;
+    public GameObject patient7Dialogue4;
+    public GameObject patient7Dialogue5;
+    public GameObject safeResponsePriest;
+    public GameObject unsafeResponsePriest;
+
+    [Header("Artist dialog")]
+    public GameObject patient8Dialogue1;
+    public GameObject patient8Dialogue2;
+    public GameObject patient8Dialogue3;
+    public GameObject patient8Dialogue4;
+    public GameObject patient8Dialogue5;
+    public GameObject safeResponseArtist;
+    public GameObject unsafeResponseArtist;
+
+    [Header("Where Am I Dialog")]
+    public GameObject patient9Dialogue1;
+    public GameObject patient9Dialogue2;
+    public GameObject patient9Dialogue3;
+    public GameObject patient9Dialogue4;
+    public GameObject patient9Dialogue5;
+    public GameObject safeResponseWhere;
+    public GameObject unsafeResponseWhere;
+
     [Header("extra")]
     public bool checkedTreatment = false;
 
@@ -126,21 +171,38 @@ public class Buttons : MonoBehaviour
         if (simonScript.activePatient == 1)
         {
             patient1Dialogue1.SetActive(true);
-        }
-        
+        }     
         if(simonScript.activePatient == 2)
         {
             patient2Dialogue1.SetActive(true);
         }
-
         if(simonScript.activePatient == 3)
         {
             patient3Dialogue1.SetActive(true);
         }
-
         if(simonScript.activePatient == 4)
         {
             patient4Dialogue1.SetActive(true);
+        }
+        if(simonScript.activePatient == 5)
+        {
+            patient5Dialogue1.SetActive(true);
+        }
+        if(simonScript.activePatient == 6)
+        {
+            patient6Dialogue1.SetActive(true);
+        }
+        if(simonScript.activePatient == 7)
+        {
+            patient7Dialogue1.SetActive(true);
+        }
+        if(simonScript.activePatient == 8)
+        {
+            patient8Dialogue1.SetActive(true);
+        }
+        if(simonScript.activePatient == 9)
+        {
+            patient9Dialogue1.SetActive(true);
         }
     }
 
@@ -152,20 +214,37 @@ public class Buttons : MonoBehaviour
         {
             patient1Dialogue2.SetActive(true);
         }
-
         if (simonScript.activePatient == 2)
         {
             patient2Dialogue2.SetActive(true);
         }
-
         if(simonScript.activePatient == 3)
         {
             patient3Dialogue2.SetActive(true);
         }
-
         if (simonScript.activePatient == 4)
         {
             patient4Dialogue2.SetActive(true);
+        }
+        if (simonScript.activePatient == 5)
+        {
+            patient5Dialogue2.SetActive(true);
+        }
+        if (simonScript.activePatient == 6)
+        {
+            patient6Dialogue2.SetActive(true);
+        }
+        if (simonScript.activePatient == 7)
+        {
+            patient7Dialogue2.SetActive(true);
+        }
+        if (simonScript.activePatient == 8)
+        {
+            patient8Dialogue2.SetActive(true);
+        }
+        if (simonScript.activePatient == 9)
+        {
+            patient9Dialogue2.SetActive(true);
         }
     }
 
@@ -177,20 +256,37 @@ public class Buttons : MonoBehaviour
         {
             patient1Dialogue3.SetActive(true);
         }
-
         if (simonScript.activePatient == 2)
         {
             patient2Dialogue3.SetActive(true);
-        }
-        
+        }    
         if (simonScript.activePatient == 3)
         {
             patient3Dialogue3.SetActive(true);
         }
-
         if (simonScript.activePatient == 4)
         {
             patient4Dialogue3.SetActive(true);
+        }
+        if (simonScript.activePatient == 5)
+        {
+            patient5Dialogue3.SetActive(true);
+        }
+        if (simonScript.activePatient == 6)
+        {
+            patient6Dialogue3.SetActive(true);
+        }
+        if (simonScript.activePatient == 7)
+        {
+            patient7Dialogue3.SetActive(true);
+        }
+        if (simonScript.activePatient == 8)
+        {
+            patient8Dialogue3.SetActive(true);
+        }
+        if (simonScript.activePatient == 9)
+        {
+            patient9Dialogue3.SetActive(true);
         }
     }
 
@@ -202,20 +298,37 @@ public class Buttons : MonoBehaviour
         {
             patient1Dialogue4.SetActive(true);
         }
-
         if (simonScript.activePatient == 2)
         {
             patient2Dialogue4.SetActive(true);
         }
-
         if (simonScript.activePatient == 3)
         {
             patient3Dialogue4.SetActive(true);
         }
-
         if (simonScript.activePatient == 4)
         {
             patient4Dialogue4.SetActive(true);
+        }
+        if (simonScript.activePatient == 5)
+        {
+            patient5Dialogue4.SetActive(true);
+        }
+        if (simonScript.activePatient == 6)
+        {
+            patient6Dialogue4.SetActive(true);
+        }
+        if (simonScript.activePatient == 7)
+        {
+            patient7Dialogue4.SetActive(true);
+        }
+        if (simonScript.activePatient == 8)
+        {
+            patient8Dialogue4.SetActive(true);
+        }
+        if (simonScript.activePatient == 9)
+        {
+            patient9Dialogue4.SetActive(true);
         }
     }
 
@@ -227,20 +340,37 @@ public class Buttons : MonoBehaviour
         {
             patient1Dialogue5.SetActive(true);
         }
-
         if (simonScript.activePatient == 2)
         {
             patient2Dialogue5.SetActive(true);
         }
-
         if (simonScript.activePatient == 3)
         {
             patient3Dialogue5.SetActive(true);
         }
-
         if (simonScript.activePatient == 4)
         {
             patient4Dialogue5.SetActive(true);
+        }
+        if (simonScript.activePatient == 5)
+        {
+            patient5Dialogue5.SetActive(true);
+        }
+        if (simonScript.activePatient == 6)
+        {
+            patient6Dialogue5.SetActive(true);
+        }
+        if (simonScript.activePatient == 7)
+        {
+            patient7Dialogue5.SetActive(true);
+        }       
+        if (simonScript.activePatient == 8)
+        {
+            patient8Dialogue5.SetActive(true);
+        }
+        if (simonScript.activePatient == 9)
+        {
+            patient9Dialogue5.SetActive(true);
         }
     }
 
@@ -262,6 +392,26 @@ public class Buttons : MonoBehaviour
         if (simonScript.activePatient == 4)
         {
             safeResponseGov.SetActive(true);
+        }
+        if (simonScript.activePatient == 5)
+        {
+            safeResponse30.SetActive(true);
+        }
+        if (simonScript.activePatient == 6)
+        {
+            safeResponseWoman.SetActive(true);
+        }
+        if (simonScript.activePatient == 7)
+        {
+            safeResponsePriest.SetActive(true);
+        }
+        if (simonScript.activePatient == 8)
+        {
+            safeResponseArtist.SetActive(true);
+        }
+        if (simonScript.activePatient == 9)
+        {
+            safeResponseWhere.SetActive(true);
         }
     }
 
@@ -298,6 +448,26 @@ public class Buttons : MonoBehaviour
         if (simonScript.activePatient == 4)
         {
             unsafeResponseGov.SetActive(true);
+        }
+        if (simonScript.activePatient == 5)
+        {
+            unsafeResponse30.SetActive(true);
+        }
+        if (simonScript.activePatient == 6)
+        {
+            unsafeResponseWoman.SetActive(true);
+        }
+        if (simonScript.activePatient == 7)
+        {
+            unsafeResponsePriest.SetActive(true);
+        }
+        if (simonScript.activePatient == 8)
+        {
+            unsafeResponseArtist.SetActive(true);
+        }
+        if (simonScript.activePatient == 9)
+        {
+            unsafeResponseWhere.SetActive(true);
         }
     }
 }

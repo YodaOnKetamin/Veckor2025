@@ -3133,7 +3133,7 @@ GameObject:
   - component: {fileID: 342897359}
   - component: {fileID: 342897358}
   m_Layer: 5
-  m_Name: startDialogArtist
+  m_Name: startDialogWhere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4490,7 +4490,7 @@ GameObject:
   - component: {fileID: 396414335}
   - component: {fileID: 396414334}
   m_Layer: 5
-  m_Name: responseUNSAFEp8
+  m_Name: responseUNSAFEp9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4530,8 +4530,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1256292086}
   lines:
-  - "\u2026alright."
-  - "I suppose there\u2019s got to be a reason. Any reason\u2026"
+  - ...
   textSpeed: 0.05
 --- !u!114 &396414335
 MonoBehaviour:
@@ -5810,7 +5809,7 @@ GameObject:
   - component: {fileID: 519705228}
   - component: {fileID: 519705227}
   m_Layer: 5
-  m_Name: p8d2
+  m_Name: p9d2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5850,9 +5849,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 529373254}
   lines:
-  - "I wouldn\u2019t know. I was simply asked to show up."
-  - "I don\u2019t believe I\u2019ve done anything too drastic. Unless I was too rude
-    to that police officer I met the other day..?"
+  - "I didn\u2019t. I would never do something like that!"
+  - I would remember if I did something like that, right?
   textSpeed: 0.05
 --- !u!114 &519705228
 MonoBehaviour:
@@ -6745,7 +6743,7 @@ GameObject:
   - component: {fileID: 613660066}
   - component: {fileID: 613660065}
   m_Layer: 5
-  m_Name: p8d3
+  m_Name: p9d3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6785,9 +6783,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 2103343119}
   lines:
-  - Not at all.
-  - "I am an artist. I get commissions from some of this country\u2019s largest firms!
-    Even the State, sometimes."
+  - "Why is everyone accusing me of doing something I didn\u2019t do?"
+  - "Could you explain? Could you explain what\u2019s going on?"
   textSpeed: 0.05
 --- !u!114 &613660066
 MonoBehaviour:
@@ -8129,7 +8126,7 @@ GameObject:
   - component: {fileID: 695009159}
   - component: {fileID: 695009158}
   m_Layer: 5
-  m_Name: p8d1
+  m_Name: p9d1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8169,8 +8166,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 283807565}
   lines:
-  - To tell you the truth, sir, I have no idea.
-  - "If I was brought all the way over here, though, it\u2019s got to be important."
+  - "\u2026what?"
+  - "No, I don\u2019t understand\u2026 I didn\u2019t do that."
   textSpeed: 0.05
 --- !u!114 &695009159
 MonoBehaviour:
@@ -9473,6 +9470,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 815309717}
     - target: {fileID: 6163061715089443108, guid: b729a3fcae4dd2243b6ef319eb92d3aa, type: 3}
+      propertyPath: Dialouge
+      value: 
+      objectReference: {fileID: 84934876}
+    - target: {fileID: 6163061715089443108, guid: b729a3fcae4dd2243b6ef319eb92d3aa, type: 3}
       propertyPath: "v\xE4nsterkraft"
       value: 3
       objectReference: {fileID: 0}
@@ -9509,7 +9510,7 @@ GameObject:
   - component: {fileID: 820647985}
   - component: {fileID: 820647984}
   m_Layer: 5
-  m_Name: responseSAFEp8
+  m_Name: responseSAFEp9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9549,8 +9550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1512510644}
   lines:
-  - "I can\u2019t say I understood what this whole affair was about\u2026"
-  - Even so, thank you, doctor!
+  - ...
   textSpeed: 0.05
 --- !u!114 &820647985
 MonoBehaviour:
@@ -11907,6 +11907,10 @@ PrefabInstance:
       propertyPath: Spawn
       value: 
       objectReference: {fileID: 815309717}
+    - target: {fileID: 2922206573656948963, guid: 22f72eca82948384090a3a2fd85ce7f9, type: 3}
+      propertyPath: Dialouge
+      value: 
+      objectReference: {fileID: 2007747653}
     - target: {fileID: 2922206573656948963, guid: 22f72eca82948384090a3a2fd85ce7f9, type: 3}
       propertyPath: "v\xE4nsterkraft"
       value: 3
@@ -19577,7 +19581,7 @@ GameObject:
   - component: {fileID: 1625763442}
   - component: {fileID: 1625763441}
   m_Layer: 5
-  m_Name: p8d5
+  m_Name: p9d5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19617,8 +19621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1899873819}
   lines:
-  - Why of course!
-  - The State has done nothing wrong in my eyes.
+  - ...
   textSpeed: 0.05
 --- !u!114 &1625763442
 MonoBehaviour:
@@ -20320,7 +20323,7 @@ GameObject:
   - component: {fileID: 1657562950}
   - component: {fileID: 1657562949}
   m_Layer: 5
-  m_Name: p8d4
+  m_Name: p9d4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20360,8 +20363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 34022471}
   lines:
-  - "I like to think that an artist is always in communication with their creations\u2026"
-  - But other than that, no! Of course not.
+  - ...
   textSpeed: 0.05
 --- !u!114 &1657562950
 MonoBehaviour:
@@ -27300,6 +27302,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1528538157}
     - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: safeResponse30
+      value: 
+      objectReference: {fileID: 468587248}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
       propertyPath: treatmenatPage
       value: 
       objectReference: {fileID: 227648778}
@@ -27331,6 +27337,10 @@ PrefabInstance:
       propertyPath: safeResponseFish
       value: 
       objectReference: {fileID: 700590789}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: unsafeResponse30
+      value: 
+      objectReference: {fileID: 1203557991}
     - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
       propertyPath: patient1Dialogue1
       value: 
@@ -27412,9 +27422,125 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 392367566}
     - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient5Dialogue1
+      value: 
+      objectReference: {fileID: 1703849776}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient5Dialogue2
+      value: 
+      objectReference: {fileID: 1526632865}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient5Dialogue3
+      value: 
+      objectReference: {fileID: 642817945}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient5Dialogue4
+      value: 
+      objectReference: {fileID: 1891495618}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient5Dialogue5
+      value: 
+      objectReference: {fileID: 945646207}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient6Dialogue1
+      value: 
+      objectReference: {fileID: 1798382147}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient6Dialogue2
+      value: 
+      objectReference: {fileID: 1946727697}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient6Dialogue3
+      value: 
+      objectReference: {fileID: 1495764387}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient6Dialogue4
+      value: 
+      objectReference: {fileID: 1425520288}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient6Dialogue5
+      value: 
+      objectReference: {fileID: 1723087848}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient7Dialogue1
+      value: 
+      objectReference: {fileID: 1572788183}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient7Dialogue2
+      value: 
+      objectReference: {fileID: 1014414060}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient7Dialogue3
+      value: 
+      objectReference: {fileID: 2058610264}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient7Dialogue4
+      value: 
+      objectReference: {fileID: 439353571}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient7Dialogue5
+      value: 
+      objectReference: {fileID: 1716186683}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient8Dialogue1
+      value: 
+      objectReference: {fileID: 634619809}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient8Dialogue2
+      value: 
+      objectReference: {fileID: 298996780}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient8Dialogue3
+      value: 
+      objectReference: {fileID: 1555314226}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient8Dialogue4
+      value: 
+      objectReference: {fileID: 1482545897}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient8Dialogue5
+      value: 
+      objectReference: {fileID: 1960284680}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient9Dialogue1
+      value: 
+      objectReference: {fileID: 695009156}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient9Dialogue2
+      value: 
+      objectReference: {fileID: 519705225}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient9Dialogue3
+      value: 
+      objectReference: {fileID: 613660063}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient9Dialogue4
+      value: 
+      objectReference: {fileID: 1657562947}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: patient9Dialogue5
+      value: 
+      objectReference: {fileID: 1625763439}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: safeResponseWhere
+      value: 
+      objectReference: {fileID: 820647982}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: safeResponseWoman
+      value: 
+      objectReference: {fileID: 47633666}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
       propertyPath: unsafeResponseGov
       value: 
       objectReference: {fileID: 1471302549}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: safeResponseArtist
+      value: 
+      objectReference: {fileID: 1316893680}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: safeResponsePriest
+      value: 
+      objectReference: {fileID: 1128569063}
     - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
       propertyPath: safeResponseSeaAir
       value: 
@@ -27431,6 +27557,22 @@ PrefabInstance:
       propertyPath: checkedFileDialogue
       value: 
       objectReference: {fileID: 967487453}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: unsafeResponseWhere
+      value: 
+      objectReference: {fileID: 396414332}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: unsafeResponseWoman
+      value: 
+      objectReference: {fileID: 777524642}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: unsafeResponseArtist
+      value: 
+      objectReference: {fileID: 786053449}
+    - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
+      propertyPath: unsafeResponsePriest
+      value: 
+      objectReference: {fileID: 559093305}
     - target: {fileID: 6189540527540721096, guid: 6e9ce34a855eb5b46ba28f457054a23a, type: 3}
       propertyPath: unsafeResponseSeaAir
       value: 
