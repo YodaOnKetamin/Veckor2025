@@ -26,15 +26,17 @@ public class PatientMovement1 : MonoBehaviour
 
     public bool treatRight;
 
- 
-   
+        public EndingManager EM;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
         Controler = GameObject.FindWithTag("Controller");
         PC = Controler.GetComponent<ControllerForPatienter>();
         dialogueHasStarted = false;
-    }
+    }  
 
     // Update is called once per frame
     void Update()
@@ -88,8 +90,14 @@ public class PatientMovement1 : MonoBehaviour
                 PC.patientDespawned = true;
                 PC.klarmedpatient = false;
                 startMoving = false;
-                gameObject.transform.position = Spawn.transform.position;
+                if (PC.ending == true)
+                {
+                    EM.endGame = true;
+                }
                 treatRight = false;
+                gameObject.transform.position = Spawn.transform.position;
+                
+               
             }
         }
        

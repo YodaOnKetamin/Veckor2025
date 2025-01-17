@@ -78,6 +78,11 @@ public class treatments : MonoBehaviour
         {
             PM1 = where9.GetComponent<PatientMovement1>();
         }
+
+        if (PC.activePatient == 5 || PC.activePatient == 6 || PC.activePatient == 9)
+        {
+            PM = null;
+        }
     }
 
     public void OnPressTreatButtonLobo() 
@@ -223,10 +228,7 @@ public class treatments : MonoBehaviour
 
     public void OnPressTreatButtonRelease()
     {
-        if (PC.activePatient == 5 || PC.activePatient == 6 || PC.activePatient == 9)
-        {
-            PM = null;
-        }
+        
 
         if (PM == null)
         {

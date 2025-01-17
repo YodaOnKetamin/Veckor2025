@@ -338,11 +338,11 @@ public class ControllerForPatienter : MonoBehaviour
         }
         else if (numberSpawend == 1)
         {
-            PM = where9.GetComponent<PatientMovement>();
-            if (PM.released == false)
+            PM1 = where9.GetComponent<PatientMovement1>();
+            if (PM1.released == false)
             {
                 activePatient = 9;
-                PM.startMoving = true;
+                PM1.startMoving = true;
                 startDay = false;
                 
                 ending = true;

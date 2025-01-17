@@ -793,6 +793,10 @@ PrefabInstance:
       propertyPath: LoboDialouge
       value: 
       objectReference: {fileID: 1900234393}
+    - target: {fileID: 2589350375800147081, guid: bb7b0c4e7a359854b97ab80f840b5760, type: 3}
+      propertyPath: Endingmanager
+      value: 
+      objectReference: {fileID: 1577036762}
     - target: {fileID: 2766000421317654732, guid: bb7b0c4e7a359854b97ab80f840b5760, type: 3}
       propertyPath: Dialouge
       value: 
@@ -805,6 +809,10 @@ PrefabInstance:
       propertyPath: LoboDialouge
       value: 
       objectReference: {fileID: 1900234393}
+    - target: {fileID: 2766000421317654732, guid: bb7b0c4e7a359854b97ab80f840b5760, type: 3}
+      propertyPath: Endingmanager
+      value: 
+      objectReference: {fileID: 1577036762}
     - target: {fileID: 2905228903927930766, guid: bb7b0c4e7a359854b97ab80f840b5760, type: 3}
       propertyPath: Dialouge
       value: 
@@ -813,6 +821,10 @@ PrefabInstance:
       propertyPath: LoboDialouge
       value: 
       objectReference: {fileID: 1900234393}
+    - target: {fileID: 2905228903927930766, guid: bb7b0c4e7a359854b97ab80f840b5760, type: 3}
+      propertyPath: Endingmanager
+      value: 
+      objectReference: {fileID: 1577036762}
     - target: {fileID: 3406250851659080772, guid: bb7b0c4e7a359854b97ab80f840b5760, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -933,6 +945,10 @@ PrefabInstance:
       propertyPath: LoboDialouge
       value: 
       objectReference: {fileID: 1900234393}
+    - target: {fileID: 4614993888982122367, guid: bb7b0c4e7a359854b97ab80f840b5760, type: 3}
+      propertyPath: Endingmanager
+      value: 
+      objectReference: {fileID: 1577036762}
     - target: {fileID: 4993098205485549863, guid: bb7b0c4e7a359854b97ab80f840b5760, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -1766,6 +1782,10 @@ PrefabInstance:
       propertyPath: LoboDialouge
       value: 
       objectReference: {fileID: 1900234393}
+    - target: {fileID: 4320919646372810385, guid: 6cae08ed8a39e9d489de9da4e5be4cc6, type: 3}
+      propertyPath: Endingmanager
+      value: 
+      objectReference: {fileID: 1577036762}
     - target: {fileID: 5865854654096018371, guid: 6cae08ed8a39e9d489de9da4e5be4cc6, type: 3}
       propertyPath: m_SortingOrder
       value: 2
@@ -1792,15 +1812,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7189054626274131557, guid: 6cae08ed8a39e9d489de9da4e5be4cc6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7189054626274131557, guid: 6cae08ed8a39e9d489de9da4e5be4cc6, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7189054626274131557, guid: 6cae08ed8a39e9d489de9da4e5be4cc6, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7189054626274131557, guid: 6cae08ed8a39e9d489de9da4e5be4cc6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1854,6 +1874,7 @@ MonoBehaviour:
   released: 0
   startMoving: 0
   treatRight: 0
+  Endingmanager: {fileID: 0}
 --- !u!1 &147473717
 GameObject:
   m_ObjectHideFlags: 0
@@ -11412,6 +11433,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1900234393}
     - target: {fileID: 6163061715089443108, guid: b729a3fcae4dd2243b6ef319eb92d3aa, type: 3}
+      propertyPath: Endingmanager
+      value: 
+      objectReference: {fileID: 1577036762}
+    - target: {fileID: 6163061715089443108, guid: b729a3fcae4dd2243b6ef319eb92d3aa, type: 3}
       propertyPath: "v\xE4nsterkraft"
       value: 3
       objectReference: {fileID: 0}
@@ -11459,6 +11484,7 @@ MonoBehaviour:
   released: 0
   startMoving: 0
   treatRight: 0
+  Endingmanager: {fileID: 0}
 --- !u!1 &815309717 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3203453931125213675, guid: bb7b0c4e7a359854b97ab80f840b5760, type: 3}
@@ -14245,6 +14271,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1900234393}
     - target: {fileID: 2922206573656948963, guid: 22f72eca82948384090a3a2fd85ce7f9, type: 3}
+      propertyPath: Endingmanager
+      value: 
+      objectReference: {fileID: 1577036762}
+    - target: {fileID: 2922206573656948963, guid: 22f72eca82948384090a3a2fd85ce7f9, type: 3}
       propertyPath: "v\xE4nsterkraft"
       value: 3
       objectReference: {fileID: 0}
@@ -14336,6 +14366,7 @@ MonoBehaviour:
   released: 0
   startMoving: 0
   treatRight: 0
+  Endingmanager: {fileID: 0}
 --- !u!1 &1030298440
 GameObject:
   m_ObjectHideFlags: 0
@@ -17525,6 +17556,10 @@ PrefabInstance:
       propertyPath: LoboDialouge
       value: 
       objectReference: {fileID: 1900234393}
+    - target: {fileID: 8812777033763096162, guid: 0d3dc300dca38f84d98605c6438fd0d8, type: 3}
+      propertyPath: Endingmanager
+      value: 
+      objectReference: {fileID: 1577036762}
     - target: {fileID: 8812777033763096162, guid: 0d3dc300dca38f84d98605c6438fd0d8, type: 3}
       propertyPath: "v\xE4nsterkraft"
       value: 3
@@ -29832,6 +29867,10 @@ PrefabInstance:
       propertyPath: LoboDialouge
       value: 
       objectReference: {fileID: 1900234393}
+    - target: {fileID: 4701766680506325664, guid: 2b171831577e1214e8da2b0d926ed49d, type: 3}
+      propertyPath: Endingmanager
+      value: 
+      objectReference: {fileID: 1577036762}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
