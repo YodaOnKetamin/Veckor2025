@@ -2720,7 +2720,7 @@ GameObject:
   - component: {fileID: 222586097}
   - component: {fileID: 222586096}
   m_Layer: 5
-  m_Name: p5d1
+  m_Name: bruh1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5514,7 +5514,7 @@ GameObject:
   - component: {fileID: 408676831}
   - component: {fileID: 408676830}
   m_Layer: 5
-  m_Name: p5d3
+  m_Name: bruh3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10224,7 +10224,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -12454,7 +12454,7 @@ GameObject:
   - component: {fileID: 942862293}
   - component: {fileID: 942862292}
   m_Layer: 5
-  m_Name: p5d4
+  m_Name: bruh4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13591,7 +13591,7 @@ GameObject:
   - component: {fileID: 996313953}
   - component: {fileID: 996313952}
   m_Layer: 5
-  m_Name: startDialog30yrs
+  m_Name: bruhStart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14852,7 +14852,7 @@ GameObject:
   - component: {fileID: 1105153265}
   - component: {fileID: 1105153264}
   m_Layer: 5
-  m_Name: p5d2
+  m_Name: bruh2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16398,7 +16398,7 @@ GameObject:
   - component: {fileID: 1224259083}
   - component: {fileID: 1224259082}
   m_Layer: 5
-  m_Name: responseUNSAFEp5
+  m_Name: UNSAFEbruh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23325,7 +23325,7 @@ GameObject:
   - component: {fileID: 1625986672}
   - component: {fileID: 1625986671}
   m_Layer: 5
-  m_Name: responseSAFEp5
+  m_Name: SAFEbruh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29342,7 +29342,7 @@ GameObject:
   - component: {fileID: 1984208577}
   - component: {fileID: 1984208576}
   m_Layer: 5
-  m_Name: p5d5
+  m_Name: bruh5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

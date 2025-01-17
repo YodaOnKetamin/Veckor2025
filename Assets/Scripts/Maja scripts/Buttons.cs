@@ -248,7 +248,7 @@ public class Buttons : MonoBehaviour
             
             patient = GameObject.FindWithTag("Patient5");
             simonScript3 = patient.GetComponent<PatientMovement1>();
-            if (simonScript3.correctlyTreated == true)
+            if (simonScript3.correctlyTreated == false)
             {
                 patient5Dialogue1.SetActive(true);
             }
@@ -727,16 +727,13 @@ public class Buttons : MonoBehaviour
         }
         if (simonScript.activePatient == 5)
         {
+            unsafeResponse30.SetActive(true);
             patient = GameObject.FindWithTag("Patient5");
             simonScript3 = patient.GetComponent<PatientMovement1>();
-            if (simonScript3.correctlyTreated == false)
-            {
-                unsafeResponse30.SetActive(true);
-            }
-            else if (simonScript3.correctlyTreated == true)
-            {
-                unsafeResponseYearsCon.SetActive(true);
-            }
+        }
+        else if (simonScript3.correctlyTreated == true)
+        {
+            unsafeResponseYearsCon.SetActive(true);
         }
         if (simonScript.activePatient == 6)
         {
