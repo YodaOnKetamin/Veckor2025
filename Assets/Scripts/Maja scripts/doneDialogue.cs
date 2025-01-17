@@ -64,6 +64,7 @@ public class doneDialogue : MonoBehaviour
         }
         else
         {
+            print("Klar med patient");
             PC.klarmedpatient = true;
             gameObject.SetActive(false);
         }
