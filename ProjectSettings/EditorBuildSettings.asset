@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/gameOver.unity
     guid: d3f6850a9d2f7c54d8afa9f4d2771df0
+  - enabled: 1
+    path: Assets/Scenes/BlackScreenScene.unity
+    guid: d9af73a13741f5a4b895c552df3adfba
   m_configObjects: {}

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Ingamemenuscript : MonoBehaviour
@@ -27,8 +28,9 @@ public class Ingamemenuscript : MonoBehaviour
     }
     public void GameOver()
     {
-        togglePanel(GameOverMenu);
+        SceneManager.LoadScene("gameOver");
     }
+    
     private void togglePanel(GameObject panel)
     {
         panel.SetActive(!panel.activeSelf);
