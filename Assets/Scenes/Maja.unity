@@ -28980,6 +28980,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 55396245}
     m_Modifications:
     - target: {fileID: 274711496678798794, guid: 2b171831577e1214e8da2b0d926ed49d, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 274711496678798794, guid: 2b171831577e1214e8da2b0d926ed49d, type: 3}
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
