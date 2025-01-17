@@ -6,6 +6,7 @@ using TMPro;
 public class ControllerForPatienter : MonoBehaviour
 {
     PatientMovement PM;
+    PatientMovement1 PM1;
     EndingManager EM;
     [SerializeField]
     GameObject EndingManager;
@@ -141,8 +142,8 @@ public class ControllerForPatienter : MonoBehaviour
             else
             {
                 activePatient = 6;
-                PM = workingWoman6.GetComponent<PatientMovement>();
-                PM.startMoving = true;
+                PM1 = workingWoman6.GetComponent<PatientMovement1>();
+                PM1.startMoving = true;
                 numberSpawend++;
             }
         }
@@ -156,8 +157,8 @@ public class ControllerForPatienter : MonoBehaviour
         else if (numberSpawend == 2)
         {
             activePatient = 5;
-            PM = years5.GetComponent<PatientMovement>();
-            PM.startMoving = true;
+            PM1 = years5.GetComponent<PatientMovement1>();
+            PM1.startMoving = true;
             startDay = false;
             numberSpawend = 0;
            
@@ -167,11 +168,11 @@ public class ControllerForPatienter : MonoBehaviour
     {
         if (numberSpawend == 0)
         {
-            PM = workingWoman6.GetComponent<PatientMovement>();
-            if (PM.released == false)
+            PM1 = workingWoman6.GetComponent<PatientMovement1>();
+            if (PM1.released == false)
             {
                 activePatient = 6;
-                PM.startMoving = true;
+                PM1.startMoving = true;
                 numberSpawend++;
             }
             else
@@ -186,8 +187,8 @@ public class ControllerForPatienter : MonoBehaviour
                 else
                 {
                     activePatient = 9;
-                    PM = where9.GetComponent<PatientMovement>();
-                    PM.startMoving = true;
+                    PM1 = where9.GetComponent<PatientMovement1>();
+                    PM1.startMoving = true;
                     numberSpawend++;
                 }
                 
@@ -212,11 +213,11 @@ public class ControllerForPatienter : MonoBehaviour
         }
         else if (numberSpawend == 2)
         {
-            PM = where9.GetComponent<PatientMovement>();
-            if (PM.released == false)
+            PM1 = where9.GetComponent<PatientMovement1>();
+            if (PM1.released == false)
             {
                 activePatient = 9;
-                PM.startMoving = true;
+                PM1.startMoving = true;
             }
             else
             {
@@ -229,8 +230,8 @@ public class ControllerForPatienter : MonoBehaviour
                 else
                 {
                     activePatient = 5;
-                    PM = years5.GetComponent<PatientMovement>();
-                    PM.startMoving = true;
+                    PM1 = years5.GetComponent<PatientMovement1>();
+                    PM1.startMoving = true;
                 }
             }
             startDay = false;
@@ -243,10 +244,10 @@ public class ControllerForPatienter : MonoBehaviour
     {
         if (numberSpawend == 0)
         {
-            PM = where9.GetComponent<PatientMovement>();
-            if (PM.released == false)
+            PM1 = where9.GetComponent<PatientMovement1>();
+            if (PM1.released == false)
             {
-                PM.startMoving = true;
+                PM1.startMoving = true;
                 numberSpawend++;
             }
             else
@@ -259,11 +260,11 @@ public class ControllerForPatienter : MonoBehaviour
         }
         else if (numberSpawend == 1)
         {
-            PM = workingWoman6.GetComponent<PatientMovement>();
-            if (PM.released == false)
+            PM1 = workingWoman6.GetComponent<PatientMovement1>();
+            if (PM1.released == false)
             {
                 activePatient = 6;
-                PM.startMoving = true;
+                PM1.startMoving = true;
                 numberSpawend++;
             }
             else
