@@ -556,6 +556,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 247396180}
     m_Modifications:
+    - target: {fileID: 2899567273289086228, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 615371a2ac8eec54ea341fc70d0375de, type: 2}
+    - target: {fileID: 2899567273289086228, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 5100766739888993546, guid: 615371a2ac8eec54ea341fc70d0375de, type: 2}
+    - target: {fileID: 2899567273289086228, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3737716636493614484, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -563,6 +575,18 @@ PrefabInstance:
     - target: {fileID: 4433468683510806027, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
       propertyPath: m_Name
       value: AlltiMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 4877854926821082203, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 615371a2ac8eec54ea341fc70d0375de, type: 2}
+    - target: {fileID: 4877854926821082203, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 5100766739888993546, guid: 615371a2ac8eec54ea341fc70d0375de, type: 2}
+    - target: {fileID: 4877854926821082203, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5262508005510065999, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
       propertyPath: m_Pivot.x
@@ -652,6 +676,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 422737960}
+    - target: {fileID: 7796760368499348681, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 615371a2ac8eec54ea341fc70d0375de, type: 2}
+    - target: {fileID: 7796760368499348681, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 5100766739888993546, guid: 615371a2ac8eec54ea341fc70d0375de, type: 2}
+    - target: {fileID: 7796760368499348681, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8047613729849607946, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

@@ -425,6 +425,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 980141186001326242, guid: 9776f263909bed645bc9ecd42a086f41, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 615371a2ac8eec54ea341fc70d0375de, type: 2}
+    - target: {fileID: 980141186001326242, guid: 9776f263909bed645bc9ecd42a086f41, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 5100766739888993546, guid: 615371a2ac8eec54ea341fc70d0375de, type: 2}
+    - target: {fileID: 980141186001326242, guid: 9776f263909bed645bc9ecd42a086f41, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 984172005164604406, guid: 9776f263909bed645bc9ecd42a086f41, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -460,6 +472,58 @@ PrefabInstance:
     - target: {fileID: 3413206947868778733, guid: 9776f263909bed645bc9ecd42a086f41, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: GameOverScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690265859790259733, guid: 9776f263909bed645bc9ecd42a086f41, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690265859790259733, guid: 9776f263909bed645bc9ecd42a086f41, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824181535459528422, guid: 9776f263909bed645bc9ecd42a086f41, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824181535459528422, guid: 9776f263909bed645bc9ecd42a086f41, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3824181535459528422, guid: 9776f263909bed645bc9ecd42a086f41, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -150
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458104735517885531, guid: 9776f263909bed645bc9ecd42a086f41, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458104735517885531, guid: 9776f263909bed645bc9ecd42a086f41, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8440340281159312167, guid: 9776f263909bed645bc9ecd42a086f41, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 615371a2ac8eec54ea341fc70d0375de, type: 2}
+    - target: {fileID: 8440340281159312167, guid: 9776f263909bed645bc9ecd42a086f41, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 5100766739888993546, guid: 615371a2ac8eec54ea341fc70d0375de, type: 2}
+    - target: {fileID: 8440340281159312167, guid: 9776f263909bed645bc9ecd42a086f41, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9016237089297482414, guid: 9776f263909bed645bc9ecd42a086f41, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 615371a2ac8eec54ea341fc70d0375de, type: 2}
+    - target: {fileID: 9016237089297482414, guid: 9776f263909bed645bc9ecd42a086f41, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 5100766739888993546, guid: 615371a2ac8eec54ea341fc70d0375de, type: 2}
+    - target: {fileID: 9016237089297482414, guid: 9776f263909bed645bc9ecd42a086f41, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
