@@ -275,7 +275,8 @@ public class ControllerForPatienter : MonoBehaviour
                     activePatient = 3;
 
                     PM.startMoving = true;
-                    numberSpawend++;
+                    startDay = false;
+                    numberSpawend = 0;
                 }
                 else
                 {
@@ -284,7 +285,8 @@ public class ControllerForPatienter : MonoBehaviour
                     {
                         activePatient = 2;
                         PM.startMoving = true;
-                        numberSpawend++;
+                        startDay = false;
+                        numberSpawend = 0;
                     }
                     else
                     {
