@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 3087143030015108857}
   - component: {fileID: 2754730647484141270}
   - component: {fileID: 2922206573656948963}
+  - component: {fileID: 7229889750508897130}
+  - component: {fileID: 6573027309987205384}
   m_Layer: 0
   m_Name: patient5
   m_TagString: Patient5
@@ -98,9 +100,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialouge: {fileID: 0}
+  LoboDialouge: {fileID: 0}
   "v\xE4nsterkraft": 0
   Spawn: {fileID: 0}
   lobotmised: 0
   correctlyTreated: 0
   released: 0
   startMoving: 0
+--- !u!95 &7229889750508897130
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4961581695305656637}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4db1fc2d1b900974da7dfdc583216d86, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!111 &6573027309987205384
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4961581695305656637}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
