@@ -1088,6 +1088,12 @@ MonoBehaviour:
   - "\u2026really?"
   - "\u2026thanks, doc. Really."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 41c3f4c6821766642b032b8ad3625d9a, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &47633669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1203,6 +1209,13 @@ MonoBehaviour:
   - I was submitted for no reason! I have every right to defend myself should someone
     break into my house unannounced!
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: f55505302856fe249b73e53114ca6df3, type: 3}
+  - {fileID: 8300000, guid: f55505302856fe249b73e53114ca6df3, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &77137093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1898,6 +1911,12 @@ MonoBehaviour:
   - "Every day I wake up under the sun and I\u2019m so thankful\u2026"
   - "I\u2019m so, so thankful."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 62ed34b83dee24642a70a61135ce9ff4, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &147473720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2271,6 +2290,13 @@ MonoBehaviour:
   - "I\u2019m afraid to say I think I\u2019ve lost motivation."
   - "That\u2019s why I\u2019ve been so eager to see you, doctor."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 41c3f4c6821766642b032b8ad3625d9a, type: 3}
+  - {fileID: 8300000, guid: bb5e516baa203624ea2d25b1ebc816c6, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &163906923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2677,6 +2703,12 @@ MonoBehaviour:
   - It has... It has.
   - "But it should be fine now. I can go back to work. I won\u2019t complain, I won\u2019t\u2026"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 41c3f4c6821766642b032b8ad3625d9a, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &219534078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2771,6 +2803,12 @@ MonoBehaviour:
   - That incident is almost 30 years old.
   - "But it affected me in ways I didn\u2019t understand at the time."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: f55505302856fe249b73e53114ca6df3, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &222586097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3003,6 +3041,12 @@ MonoBehaviour:
   lines:
   - "\u2026"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &267734061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3769,6 +3813,12 @@ MonoBehaviour:
   - "I don\u2019t believe I\u2019ve done anything too drastic. Unless I was too rude
     to that police officer I met the other day..?"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &298996783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4002,6 +4052,12 @@ MonoBehaviour:
   - "\u2026"
   - Where am I?
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 62ed34b83dee24642a70a61135ce9ff4, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &342897359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4267,6 +4323,13 @@ MonoBehaviour:
   - "I\u2019m sorry, doctor. I\u2019ve just been feeling very hopeless lately. I
     was hoping you could help me."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 41c3f4c6821766642b032b8ad3625d9a, type: 3}
+  - {fileID: 8300000, guid: bb5e516baa203624ea2d25b1ebc816c6, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &351494740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4725,6 +4788,12 @@ MonoBehaviour:
   - "No\u2026 No, please don\u2019t\u2026"
   - "\u2026It\u2019ll work next time, surely\u2026"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 62ed34b83dee24642a70a61135ce9ff4, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &374143941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5378,6 +5447,13 @@ MonoBehaviour:
   lines:
   - I am the fucking state.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: dca07774498c28041a554d90b9fded2e, type: 3}
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &392367569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5471,6 +5547,12 @@ MonoBehaviour:
   lines:
   - "\u2026I don\u2019t get it."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 62ed34b83dee24642a70a61135ce9ff4, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &396414335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5564,6 +5646,12 @@ MonoBehaviour:
   lines:
   - "Course not. I was given my job back only a few years after\u2026 All of that."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: dca07774498c28041a554d90b9fded2e, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &408676831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6233,6 +6321,12 @@ MonoBehaviour:
   lines:
   - Order him to be lobotomised immediately.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: dca07774498c28041a554d90b9fded2e, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &439353574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6695,6 +6789,12 @@ MonoBehaviour:
   - Oh.
   - Thank you kindly, doc.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &468587251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6937,6 +7037,13 @@ MonoBehaviour:
   - Yes. I felt as though it was impossible to do anything.
   - "I didn\u2019t want to do anything."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: bb5e516baa203624ea2d25b1ebc816c6, type: 3}
+  - {fileID: 8300000, guid: 41c3f4c6821766642b032b8ad3625d9a, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &498114191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7068,6 +7175,13 @@ MonoBehaviour:
   lines:
   - Thank you, doctor. I will leave.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 68905417a643f2f41aacc609bf6d8da9, type: 3}
+  - {fileID: 8300000, guid: 62ed34b83dee24642a70a61135ce9ff4, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!1 &519705225
 GameObject:
   m_ObjectHideFlags: 0
@@ -7124,6 +7238,12 @@ MonoBehaviour:
   - "I didn\u2019t. I would never do something like that!"
   - I would remember if I did something like that, right?
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 62ed34b83dee24642a70a61135ce9ff4, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &519705228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7354,6 +7474,13 @@ MonoBehaviour:
   - Little do they know, their son is getting interviewed! With a clipboard and everything,
     heheh.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: dd1915b53ddba704dad2be967209e477, type: 3}
+  - {fileID: 8300000, guid: aaea13a1de6a4484497995827533be6f, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &529165706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7870,6 +7997,13 @@ MonoBehaviour:
   - I was deep in despair, I think.
   - I was straying from rationality.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: a19560c574bd47d4f9100a291075bc35, type: 3}
+  - {fileID: 8300000, guid: 41c3f4c6821766642b032b8ad3625d9a, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &550930942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7964,6 +8098,12 @@ MonoBehaviour:
   - I will take my leave. Your assistant will erase my visit from the system. Good
     luck, doctor.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &559093308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8058,6 +8198,12 @@ MonoBehaviour:
   - "Why is everyone accusing me of doing something I didn\u2019t do?"
   - "Could you explain? Could you explain what\u2019s going on?"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 41c3f4c6821766642b032b8ad3625d9a, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &613660066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8152,6 +8298,12 @@ MonoBehaviour:
   - "I shouldn\u2019t have yelled. I\u2019m\u2026"
   - "I\u2019m sorry for yelling\u2026"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 62ed34b83dee24642a70a61135ce9ff4, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &617851434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8331,6 +8483,13 @@ MonoBehaviour:
   - "It\u2019s rude to ask people that, mister!"
   - "You shouldn\u2019t say it so loud\u2026"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 11c382d45fe4725459862454a7786a7b, type: 3}
+  - {fileID: 8300000, guid: aaea13a1de6a4484497995827533be6f, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &621162354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8462,6 +8621,13 @@ MonoBehaviour:
   lines:
   - "Okay\u2026 What happens now?"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 41c3f4c6821766642b032b8ad3625d9a, type: 3}
+  - {fileID: 8300000, guid: bb5e516baa203624ea2d25b1ebc816c6, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!1 &634619809
 GameObject:
   m_ObjectHideFlags: 0
@@ -8518,6 +8684,12 @@ MonoBehaviour:
   - To tell you the truth, sir, I have no idea.
   - "If I was brought all the way over here, though, it\u2019s got to be important."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: f55505302856fe249b73e53114ca6df3, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &634619812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8611,6 +8783,12 @@ MonoBehaviour:
   lines:
   - "Course not. I was given my job back only a few years after\u2026 All of that."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &642817948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9659,6 +9837,12 @@ MonoBehaviour:
   - "\u2026what?"
   - "No, I don\u2019t understand\u2026 I didn\u2019t do that."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 62ed34b83dee24642a70a61135ce9ff4, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &695009159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9753,6 +9937,12 @@ MonoBehaviour:
   - Okay.
   - "I\u2019ll go back to my room."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 8d35465b68bb53c44917c6ab65bf576b, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &697559438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9885,6 +10075,13 @@ MonoBehaviour:
   - I knew it!
   - "I\u2019ll tell my parents about you. I\u2019ll tell them you were nice."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 11c382d45fe4725459862454a7786a7b, type: 3}
+  - {fileID: 8300000, guid: aaea13a1de6a4484497995827533be6f, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!1 &723888271 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7516540291080580141, guid: 9760aa04b371a6943856f8307a546401, type: 3}
@@ -10566,6 +10763,12 @@ MonoBehaviour:
   lines:
   - "There was nothing I could\u2019ve done to avoid that, was there?"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 41c3f4c6821766642b032b8ad3625d9a, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &777524645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10659,6 +10862,12 @@ MonoBehaviour:
   lines:
   - Good morning, fellow citizen.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &783882124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10753,6 +10962,12 @@ MonoBehaviour:
   - "\u2026alright."
   - "I suppose there\u2019s got to be a reason. Any reason\u2026"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: f55505302856fe249b73e53114ca6df3, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &786053452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10847,6 +11062,12 @@ MonoBehaviour:
   - "I think I\u2019m confused."
   - "I think I\u2019m ready to go back home now."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 8d35465b68bb53c44917c6ab65bf576b, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &791018711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11074,6 +11295,12 @@ MonoBehaviour:
   lines:
   - "\u2026doctor."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 62ed34b83dee24642a70a61135ce9ff4, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &814715177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11293,6 +11520,12 @@ MonoBehaviour:
   - Okay.
   - "I\u2019ll go home now..."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 62ed34b83dee24642a70a61135ce9ff4, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &820647985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11520,6 +11753,12 @@ MonoBehaviour:
   lines:
   - "The man in the mask says that\u2019s what happened."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 41c3f4c6821766642b032b8ad3625d9a, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &830154341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12034,6 +12273,13 @@ MonoBehaviour:
   - "I don\u2019t think I\u2019ve done that before\u2026 Can we talk about something
     else?"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: dd1915b53ddba704dad2be967209e477, type: 3}
+  - {fileID: 8300000, guid: 11c382d45fe4725459862454a7786a7b, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &874202491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12130,6 +12376,13 @@ MonoBehaviour:
     Escaping."
   - One way or another.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 68905417a643f2f41aacc609bf6d8da9, type: 3}
+  - {fileID: 8300000, guid: 41c3f4c6821766642b032b8ad3625d9a, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &876638541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12224,6 +12477,13 @@ MonoBehaviour:
   - This is ridiculous!
   - I demand to be released right now!
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: f55505302856fe249b73e53114ca6df3, type: 3}
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &880941851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12318,6 +12578,12 @@ MonoBehaviour:
   - "\u2026I displayed excessive aggression."
   - "I shouldn\u2019t have done that."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 62ed34b83dee24642a70a61135ce9ff4, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &920213574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12412,6 +12678,12 @@ MonoBehaviour:
   - Okay.
   - "I\u2019ll go back home now."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 6ab3d416ab4845d4d94bffbde95924c1, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &929717116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12507,6 +12779,12 @@ MonoBehaviour:
   - But I think I should stop, now.
   - In this world, there is no such thing as a benevolent god.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: f55505302856fe249b73e53114ca6df3, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &942862293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12735,6 +13013,12 @@ MonoBehaviour:
   - What? Oh.
   - I love the State. Of course I do.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: f55505302856fe249b73e53114ca6df3, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &945646210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12937,6 +13221,12 @@ MonoBehaviour:
   - Thank you. Thank you so much.
   - "I\u2019ll never do it again."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 62ed34b83dee24642a70a61135ce9ff4, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &962432745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13642,6 +13932,12 @@ MonoBehaviour:
   lines:
   - Morning, doctor.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: f55505302856fe249b73e53114ca6df3, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &996313953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13741,6 +14037,12 @@ MonoBehaviour:
   - Later today a man will arrive who has seemingly done nothing wrong. An artist.
   - No matter what he says, this is not the case.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1014414063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14089,6 +14391,12 @@ MonoBehaviour:
   lines:
   - No. I want to go back to work.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 8d35465b68bb53c44917c6ab65bf576b, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1030298443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14990,6 +15298,12 @@ MonoBehaviour:
   - "My brother must\u2019ve reported me. We\u2019ve been arguing, you see."
   - In hindsight, I think he was right to report me.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1105153265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15404,6 +15718,12 @@ MonoBehaviour:
   - I will take my leave. Your assistant will erase my visit from the system. Good
     luck, doctor.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: dca07774498c28041a554d90b9fded2e, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1128569066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15572,6 +15892,13 @@ MonoBehaviour:
   lines:
   - "\u2026no. Nothing, no."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 62ed34b83dee24642a70a61135ce9ff4, type: 3}
+  - {fileID: 8300000, guid: 41c3f4c6821766642b032b8ad3625d9a, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1133957646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15666,6 +15993,12 @@ MonoBehaviour:
   - ...
   - "The state is good. It\u2019s good."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 62ed34b83dee24642a70a61135ce9ff4, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1151916122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16072,6 +16405,12 @@ MonoBehaviour:
   lines:
   - "\u2026already?"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: bb5e516baa203624ea2d25b1ebc816c6, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1188376154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16300,6 +16639,12 @@ MonoBehaviour:
   - Oh.
   - "I\u2019ll\u2026 I\u2019ll just\u2026"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1203557994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16528,6 +16873,12 @@ MonoBehaviour:
   - Oh.
   - "I\u2019ll\u2026 I\u2019ll just\u2026"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1224259083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17252,6 +17603,12 @@ MonoBehaviour:
   lines:
   - No. Nothing.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 6ab3d416ab4845d4d94bffbde95924c1, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1258536536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17667,6 +18024,13 @@ MonoBehaviour:
   - 'Listen to me. I work for the government. '
   - The man who submitted me has no right to pull me away from my duties.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  - {fileID: 8300000, guid: f55505302856fe249b73e53114ca6df3, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1276476662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18031,6 +18395,13 @@ MonoBehaviour:
   - Nothing! Nothing caused anything!
   - Why am I even here?!
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: f55505302856fe249b73e53114ca6df3, type: 3}
+  - {fileID: 8300000, guid: dca07774498c28041a554d90b9fded2e, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1305592057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18259,6 +18630,12 @@ MonoBehaviour:
   - "I can\u2019t say I understood what this whole affair was about\u2026"
   - Even so, thank you, doctor!
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1316893683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19075,6 +19452,13 @@ MonoBehaviour:
   - No roads. No stupid cars, either. Just the air.
   - "Wouldn\u2019t that be nice?"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: aaea13a1de6a4484497995827533be6f, type: 3}
+  - {fileID: 8300000, guid: 11c382d45fe4725459862454a7786a7b, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1369038094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19496,6 +19880,13 @@ MonoBehaviour:
     own worries or regrets.
   - I will do anything to become useful to them again.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 62ed34b83dee24642a70a61135ce9ff4, type: 3}
+  - {fileID: 8300000, guid: 68905417a643f2f41aacc609bf6d8da9, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1404647935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19709,6 +20100,13 @@ MonoBehaviour:
   - You're ready.
   - "Call me if you need anything\u2026"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 6ab3d416ab4845d4d94bffbde95924c1, type: 3}
+  - {fileID: 8300000, guid: 8d35465b68bb53c44917c6ab65bf576b, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!1 &1425520288
 GameObject:
   m_ObjectHideFlags: 0
@@ -19765,6 +20163,12 @@ MonoBehaviour:
   - None.
   - I never bothered with wishful thinking.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: bb5e516baa203624ea2d25b1ebc816c6, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1425520291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20335,6 +20739,13 @@ MonoBehaviour:
   - What?
   - "\u2026you\u2019ll regret that."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: dca07774498c28041a554d90b9fded2e, type: 3}
+  - {fileID: 8300000, guid: f55505302856fe249b73e53114ca6df3, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!1 &1477997479
 GameObject:
   m_ObjectHideFlags: 0
@@ -20525,6 +20936,12 @@ MonoBehaviour:
   - "I like to think that an artist is always in communication with their creations\u2026"
   - But other than that, no! Of course not.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1482545900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20887,6 +21304,12 @@ MonoBehaviour:
   - "\u2026I suppose you\u2019d think it has, wouldn\u2019t you?"
   - "But it isn\u2019t my fault. Not really."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: a19560c574bd47d4f9100a291075bc35, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1495764390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20981,6 +21404,12 @@ MonoBehaviour:
   - He says I have to come back here soon to do the same thing again.
   - Over and over. And then I can work.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 41c3f4c6821766642b032b8ad3625d9a, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1500260009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21613,6 +22042,12 @@ MonoBehaviour:
   - "My brother must\u2019ve reported me. We\u2019ve been arguing, you see\u2026"
   - "I don\u2019t understand why he won\u2019t trust me\u2026"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: f55505302856fe249b73e53114ca6df3, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1526632868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21884,6 +22319,13 @@ MonoBehaviour:
   - Right.
   - This was an utter waste of my time.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: f55505302856fe249b73e53114ca6df3, type: 3}
+  - {fileID: 8300000, guid: f55505302856fe249b73e53114ca6df3, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!1001 &1534138615
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22096,6 +22538,12 @@ MonoBehaviour:
   lines:
   - Doctor.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 68905417a643f2f41aacc609bf6d8da9, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1534696956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22191,6 +22639,12 @@ MonoBehaviour:
   - "I am an artist. I get commissions from some of this country\u2019s largest firms!
     Even the State, sometimes."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: f55505302856fe249b73e53114ca6df3, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1555314229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22285,6 +22739,12 @@ MonoBehaviour:
   - Listen to me.
   - "I\u2019m from upstairs. Far upstairs."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: f55505302856fe249b73e53114ca6df3, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1572788186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22644,6 +23104,13 @@ MonoBehaviour:
     Escaping."
   - One way or another.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 68905417a643f2f41aacc609bf6d8da9, type: 3}
+  - {fileID: 8300000, guid: 41c3f4c6821766642b032b8ad3625d9a, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1597724863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22754,6 +23221,12 @@ MonoBehaviour:
   - I think I was sick for a while. It was my fault.
   - "I\u2019m better now."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 053ca76bbe8d97b46b71e53752925a70, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1601217713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23019,6 +23492,13 @@ MonoBehaviour:
   lines:
   - "Okay\u2026 Is there something wrong?"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 68905417a643f2f41aacc609bf6d8da9, type: 3}
+  - {fileID: 8300000, guid: 62ed34b83dee24642a70a61135ce9ff4, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!1 &1611543039
 GameObject:
   m_ObjectHideFlags: 0
@@ -23362,6 +23842,12 @@ MonoBehaviour:
   lines:
   - ...
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 41c3f4c6821766642b032b8ad3625d9a, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1625763442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23456,6 +23942,12 @@ MonoBehaviour:
   - Thank you kindly, doc.
   - "I\u2019ll be leaving."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1625986672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24303,6 +24795,12 @@ MonoBehaviour:
   - "I didn\u2019t\u2026"
   - "I don\u2019t know. I don\u2019t remember\u2026"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 41c3f4c6821766642b032b8ad3625d9a, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1657562950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24607,6 +25105,13 @@ MonoBehaviour:
   - "I don\u2019t know what that means exactly, but I guess it\u2019s what\u2019s
     going to happen anyway, right?"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 11c382d45fe4725459862454a7786a7b, type: 3}
+  - {fileID: 8300000, guid: aaea13a1de6a4484497995827533be6f, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!1 &1678430588
 GameObject:
   m_ObjectHideFlags: 0
@@ -24867,6 +25372,13 @@ MonoBehaviour:
   - "I don\u2019t know\u2026"
   - "I just want someone to talk to. I don\u2019t know."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 68905417a643f2f41aacc609bf6d8da9, type: 3}
+  - {fileID: 8300000, guid: 62ed34b83dee24642a70a61135ce9ff4, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1699353589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25096,6 +25608,12 @@ MonoBehaviour:
   - "Doctor\u2026 That incident is almost 30 years old."
   - For some reason they refuse to take it off my file.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: f55505302856fe249b73e53114ca6df3, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1703849779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25194,6 +25712,12 @@ MonoBehaviour:
   lines:
   - Do this and you will receive a favour from us.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: f55505302856fe249b73e53114ca6df3, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1716186686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25287,6 +25811,12 @@ MonoBehaviour:
   lines:
   - "\u2026you bastards."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 62ed34b83dee24642a70a61135ce9ff4, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1723087851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25382,6 +25912,13 @@ MonoBehaviour:
   - I was simply listening too closely to my own selfish desires.
   - I misunderstood that as listening to the devil.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: e135abb5c62267a4ea2c99a887e5f70c, type: 3}
+  - {fileID: 8300000, guid: 68905417a643f2f41aacc609bf6d8da9, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1723424352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25477,6 +26014,14 @@ MonoBehaviour:
   - Much funnier than that other one.
   - What was his name?
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: aaea13a1de6a4484497995827533be6f, type: 3}
+  - {fileID: 8300000, guid: 11c382d45fe4725459862454a7786a7b, type: 3}
+  - {fileID: 8300000, guid: dd1915b53ddba704dad2be967209e477, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1728822362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25571,6 +26116,12 @@ MonoBehaviour:
   - None.
   - "Still none\u2026"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 41c3f4c6821766642b032b8ad3625d9a, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1730974196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25883,6 +26434,13 @@ MonoBehaviour:
   - 'Morning, doctor. '
   - Tell me, why am I here?
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1742088169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26481,6 +27039,12 @@ MonoBehaviour:
   - If my boss treats me unfairly, am I not allowed to argue?
   - "I didn\u2019t break a hair on his head. Isn\u2019t that enough?"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: bb5e516baa203624ea2d25b1ebc816c6, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1798382150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26575,6 +27139,12 @@ MonoBehaviour:
   - 'The State helped me get better. '
   - "I shouldn\u2019t think about anything anymore."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 6ab3d416ab4845d4d94bffbde95924c1, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1803564672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27319,6 +27889,12 @@ MonoBehaviour:
   - "I thought, after those demons attacked my family\u2026 Isn\u2019t it worth it?"
   - "I\u2019m sure he\u2019s the real deal! No demons involved, this time."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1891495621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27853,6 +28429,13 @@ MonoBehaviour:
   lines:
   - "They\u2019ll fire you for this."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  - {fileID: 8300000, guid: dca07774498c28041a554d90b9fded2e, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1921908284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28142,6 +28725,13 @@ MonoBehaviour:
   - "But\u2026 I needed to\u2026"
   - Thank you, doctor. I will leave.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 41c3f4c6821766642b032b8ad3625d9a, type: 3}
+  - {fileID: 8300000, guid: 62ed34b83dee24642a70a61135ce9ff4, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!1 &1931548927
 GameObject:
   m_ObjectHideFlags: 0
@@ -28415,6 +29005,12 @@ MonoBehaviour:
   lines:
   - Oh! You must be the doctor!
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1935505719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28642,6 +29238,12 @@ MonoBehaviour:
   lines:
   - "He says it\u2019s because I\u2019m sick in the head."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 41c3f4c6821766642b032b8ad3625d9a, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1943761623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28870,6 +29472,12 @@ MonoBehaviour:
   - "He\u2019s threatening to lower our wages again."
   - "It\u2019s tyrannical. That\u2019s what it is."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: a19560c574bd47d4f9100a291075bc35, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1946727700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28969,6 +29577,12 @@ MonoBehaviour:
   - Why of course!
   - The State has done nothing wrong in my eyes.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1960284683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29556,6 +30170,12 @@ MonoBehaviour:
   - What? Oh.
   - I love the State. Of course I do.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1984208577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30010,6 +30630,12 @@ MonoBehaviour:
   lines:
   - "Even if I did... He says I wouldn\u2019t remember it."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: bb5e516baa203624ea2d25b1ebc816c6, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &2007994949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30105,6 +30731,13 @@ MonoBehaviour:
   - "People love to tell me what they think caused it. I never understand what they\u2019re
     so worried about in the first place!"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 11c382d45fe4725459862454a7786a7b, type: 3}
+  - {fileID: 8300000, guid: dd1915b53ddba704dad2be967209e477, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &2021949670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30203,6 +30836,12 @@ MonoBehaviour:
   lines:
   - "\u2026"
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 8d35465b68bb53c44917c6ab65bf576b, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &2028785485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30564,6 +31203,12 @@ MonoBehaviour:
   lines:
   - He is an enemy of the State. A dangerous one.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: f55505302856fe249b73e53114ca6df3, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &2058610267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30926,6 +31571,14 @@ MonoBehaviour:
   - Good morning, doctor.
   - "I\u2019m happy you could meet with me today."
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 41c3f4c6821766642b032b8ad3625d9a, type: 3}
+  - {fileID: 8300000, guid: 62ed34b83dee24642a70a61135ce9ff4, type: 3}
+  - {fileID: 8300000, guid: e135abb5c62267a4ea2c99a887e5f70c, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &2073496942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31700,6 +32353,12 @@ MonoBehaviour:
   - Okay.
   - I'll go now.
   textSpeed: 0.05
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: 62ed34b83dee24642a70a61135ce9ff4, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &2132480424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32200,6 +32859,18 @@ PrefabInstance:
       propertyPath: lines.Array.data[2]
       value: You'll do this to every patient.
       objectReference: {fileID: 0}
+    - target: {fileID: 602526264414915982, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 602526264414915982, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8d35465b68bb53c44917c6ab65bf576b, type: 3}
+    - target: {fileID: 602526264414915982, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8d35465b68bb53c44917c6ab65bf576b, type: 3}
     - target: {fileID: 631686776837113796, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_fontColor.b
       value: 1
@@ -32280,6 +32951,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 844741128354542968, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 844741128354542968, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8d35465b68bb53c44917c6ab65bf576b, type: 3}
+    - target: {fileID: 844741128354542968, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 053ca76bbe8d97b46b71e53752925a70, type: 3}
     - target: {fileID: 895695074108420753, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -32768,6 +33451,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3383664028293719556, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3383664028293719556, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8d35465b68bb53c44917c6ab65bf576b, type: 3}
+    - target: {fileID: 3383664028293719556, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6ab3d416ab4845d4d94bffbde95924c1, type: 3}
     - target: {fileID: 3420405124620648653, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_Transition
       value: 1
@@ -32879,15 +33574,15 @@ PrefabInstance:
     - target: {fileID: 3730294856461434402, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: dialogueTypingSoundClips.Array.data[0]
       value: 
-      objectReference: {fileID: 8300000, guid: dca07774498c28041a554d90b9fded2e, type: 3}
+      objectReference: {fileID: 8300000, guid: 8d35465b68bb53c44917c6ab65bf576b, type: 3}
     - target: {fileID: 3730294856461434402, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: dialogueTypingSoundClips.Array.data[1]
       value: 
-      objectReference: {fileID: 8300000, guid: dca07774498c28041a554d90b9fded2e, type: 3}
+      objectReference: {fileID: 8300000, guid: 6ab3d416ab4845d4d94bffbde95924c1, type: 3}
     - target: {fileID: 3730294856461434402, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: dialogueTypingSoundClips.Array.data[2]
       value: 
-      objectReference: {fileID: 8300000, guid: dca07774498c28041a554d90b9fded2e, type: 3}
+      objectReference: {fileID: 8300000, guid: 053ca76bbe8d97b46b71e53752925a70, type: 3}
     - target: {fileID: 3791180716667611311, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -33164,6 +33859,22 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5815391574517393547, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815391574517393547, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8d35465b68bb53c44917c6ab65bf576b, type: 3}
+    - target: {fileID: 5815391574517393547, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6ab3d416ab4845d4d94bffbde95924c1, type: 3}
+    - target: {fileID: 5815391574517393547, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 053ca76bbe8d97b46b71e53752925a70, type: 3}
     - target: {fileID: 5883078772239904187, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -33220,10 +33931,42 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -405
       objectReference: {fileID: 0}
+    - target: {fileID: 6291669882163215187, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291669882163215187, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8d35465b68bb53c44917c6ab65bf576b, type: 3}
+    - target: {fileID: 6291669882163215187, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 053ca76bbe8d97b46b71e53752925a70, type: 3}
+    - target: {fileID: 6291669882163215187, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6ab3d416ab4845d4d94bffbde95924c1, type: 3}
     - target: {fileID: 6346496946883055064, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6497392604524366559, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497392604524366559, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8d35465b68bb53c44917c6ab65bf576b, type: 3}
+    - target: {fileID: 6497392604524366559, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6ab3d416ab4845d4d94bffbde95924c1, type: 3}
+    - target: {fileID: 6497392604524366559, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 053ca76bbe8d97b46b71e53752925a70, type: 3}
     - target: {fileID: 6577109378868324907, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -33492,6 +34235,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7766847168432461241, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766847168432461241, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 053ca76bbe8d97b46b71e53752925a70, type: 3}
+    - target: {fileID: 7766847168432461241, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6ab3d416ab4845d4d94bffbde95924c1, type: 3}
     - target: {fileID: 7848552330958503707, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_fontColor.b
       value: 1
@@ -33640,6 +34395,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: backPageButton
       objectReference: {fileID: 0}
+    - target: {fileID: 8276405941547532638, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8276405941547532638, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6ab3d416ab4845d4d94bffbde95924c1, type: 3}
+    - target: {fileID: 8276405941547532638, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8d35465b68bb53c44917c6ab65bf576b, type: 3}
     - target: {fileID: 8334969447314427403, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -33768,6 +34535,18 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8572993374893201303, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8572993374893201303, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 053ca76bbe8d97b46b71e53752925a70, type: 3}
+    - target: {fileID: 8572993374893201303, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: dialogueTypingSoundClips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6ab3d416ab4845d4d94bffbde95924c1, type: 3}
     - target: {fileID: 8621223439985452313, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: m_Color.a
       value: 1
