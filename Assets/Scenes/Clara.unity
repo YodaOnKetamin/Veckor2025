@@ -1437,6 +1437,7 @@ GameObject:
   - component: {fileID: 1265809012}
   - component: {fileID: 1265809011}
   - component: {fileID: 1265809010}
+  - component: {fileID: 1265809013}
   m_Layer: 0
   m_Name: Artist
   m_TagString: Untagged
@@ -1532,6 +1533,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1265809013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265809009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecb739c269d8d4b479db6ea7211b3176, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 0}
+  lines: []
+  textSpeed: 0
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!1 &1283037534
 GameObject:
   m_ObjectHideFlags: 0
