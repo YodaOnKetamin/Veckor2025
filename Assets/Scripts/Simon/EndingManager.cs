@@ -45,7 +45,7 @@ public class EndingManager : MonoBehaviour
             }
             else
             {
-                SceneManager.LoadScene("");
+                SceneManager.LoadScene("AdamWithEnding");
             }
         }
         
