@@ -1739,6 +1739,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1352951774}
     - target: {fileID: 4320919646372810385, guid: 6cae08ed8a39e9d489de9da4e5be4cc6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4320919646372810385, guid: 6cae08ed8a39e9d489de9da4e5be4cc6, type: 3}
       propertyPath: LoboDialouge
       value: 
       objectReference: {fileID: 1900234393}
@@ -1793,7 +1797,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3018458837177924119, guid: 6cae08ed8a39e9d489de9da4e5be4cc6, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 141815164}
   m_SourcePrefab: {fileID: 100100000, guid: 6cae08ed8a39e9d489de9da4e5be4cc6, type: 3}
 --- !u!1 &141815162 stripped
 GameObject:
@@ -1805,6 +1812,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7189054626274131557, guid: 6cae08ed8a39e9d489de9da4e5be4cc6, type: 3}
   m_PrefabInstance: {fileID: 141815161}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &141815164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141815162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8470bd27d07601f41aac32d303eb96a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialouge: {fileID: 1352951774}
+  LoboDialouge: {fileID: 1900234393}
+  CorrectTreatDialouge: {fileID: 1441984597}
+  "v\xE4nsterkraft": 3
+  Spawn: {fileID: 815309717}
+  lobotmised: 0
+  correctlyTreated: 0
+  released: 0
+  startMoving: 0
 --- !u!1 &147473717
 GameObject:
   m_ObjectHideFlags: 0
@@ -4019,7 +4047,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &345269180
 Transform:
   m_ObjectHideFlags: 0
@@ -6950,7 +6978,7 @@ GameObject:
   - component: {fileID: 517341013}
   - component: {fileID: 517341016}
   - component: {fileID: 517341015}
-  - component: {fileID: 517341014}
+  - component: {fileID: 517341017}
   m_Layer: 5
   m_Name: safeArghhh
   m_TagString: Untagged
@@ -6978,22 +7006,6 @@ RectTransform:
   m_AnchoredPosition: {x: -80.75745, y: -380}
   m_SizeDelta: {x: 1720, y: 330}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &517341014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 517341012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a18c775a22d03849a8358e70b31575f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textComponent: {fileID: 1039609270}
-  lines:
-  - Thank you, doctor. I will leave.
-  textSpeed: 0.05
 --- !u!114 &517341015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7032,6 +7044,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 517341012}
   m_CullTransparentMesh: 1
+--- !u!114 &517341017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517341012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee38c7b61de2b994a9ecf70bb72f4199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1039609270}
+  lines:
+  - Thank you, doctor. I will leave.
+  textSpeed: 0.05
 --- !u!1 &519705225
 GameObject:
   m_ObjectHideFlags: 0
@@ -11141,6 +11169,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 84934876}
     - target: {fileID: 6163061715089443108, guid: b729a3fcae4dd2243b6ef319eb92d3aa, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163061715089443108, guid: b729a3fcae4dd2243b6ef319eb92d3aa, type: 3}
       propertyPath: LoboDialouge
       value: 
       objectReference: {fileID: 1900234393}
@@ -11155,7 +11187,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 188867856090694584, guid: b729a3fcae4dd2243b6ef319eb92d3aa, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 815058624}
   m_SourcePrefab: {fileID: 100100000, guid: b729a3fcae4dd2243b6ef319eb92d3aa, type: 3}
 --- !u!1 &815058622 stripped
 GameObject:
@@ -11167,6 +11202,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2237002357209520463, guid: b729a3fcae4dd2243b6ef319eb92d3aa, type: 3}
   m_PrefabInstance: {fileID: 815058621}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &815058624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815058622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8470bd27d07601f41aac32d303eb96a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialouge: {fileID: 84934876}
+  LoboDialouge: {fileID: 1900234393}
+  CorrectTreatDialouge: {fileID: 1664374144}
+  "v\xE4nsterkraft": 3
+  Spawn: {fileID: 815309717}
+  lobotmised: 0
+  correctlyTreated: 0
+  released: 0
+  startMoving: 0
 --- !u!1 &815309717 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3203453931125213675, guid: bb7b0c4e7a359854b97ab80f840b5760, type: 3}
@@ -13870,6 +13926,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2007747653}
     - target: {fileID: 2922206573656948963, guid: 22f72eca82948384090a3a2fd85ce7f9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922206573656948963, guid: 22f72eca82948384090a3a2fd85ce7f9, type: 3}
       propertyPath: LoboDialouge
       value: 
       objectReference: {fileID: 1900234393}
@@ -13928,7 +13988,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4961581695305656637, guid: 22f72eca82948384090a3a2fd85ce7f9, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 1026699401}
   m_SourcePrefab: {fileID: 100100000, guid: 22f72eca82948384090a3a2fd85ce7f9, type: 3}
 --- !u!4 &1026699399 stripped
 Transform:
@@ -13940,6 +14003,27 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4961581695305656637, guid: 22f72eca82948384090a3a2fd85ce7f9, type: 3}
   m_PrefabInstance: {fileID: 1026699398}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1026699401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026699400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8470bd27d07601f41aac32d303eb96a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialouge: {fileID: 2007747653}
+  LoboDialouge: {fileID: 1900234393}
+  CorrectTreatDialouge: {fileID: 1107736818}
+  "v\xE4nsterkraft": 3
+  Spawn: {fileID: 815309717}
+  lobotmised: 0
+  correctlyTreated: 0
+  released: 0
+  startMoving: 0
 --- !u!1 &1030298440
 GameObject:
   m_ObjectHideFlags: 0
@@ -15109,7 +15193,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -22765,9 +22849,9 @@ GameObject:
   - component: {fileID: 1605379394}
   - component: {fileID: 1605379397}
   - component: {fileID: 1605379396}
-  - component: {fileID: 1605379395}
+  - component: {fileID: 1605379398}
   m_Layer: 5
-  m_Name: unsafeArghhh1
+  m_Name: unsafeArghhh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22793,22 +22877,6 @@ RectTransform:
   m_AnchoredPosition: {x: -80.75745, y: -380}
   m_SizeDelta: {x: 1720, y: 330}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1605379395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1605379393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a18c775a22d03849a8358e70b31575f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textComponent: {fileID: 1933312235}
-  lines:
-  - "Okay\u2026 Is there something wrong?"
-  textSpeed: 0.05
 --- !u!114 &1605379396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22847,6 +22915,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1605379393}
   m_CullTransparentMesh: 1
+--- !u!114 &1605379398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605379393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee38c7b61de2b994a9ecf70bb72f4199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1933312235}
+  lines:
+  - "Okay\u2026 Is there something wrong?"
+  textSpeed: 0.05
 --- !u!1 &1611543039
 GameObject:
   m_ObjectHideFlags: 0
