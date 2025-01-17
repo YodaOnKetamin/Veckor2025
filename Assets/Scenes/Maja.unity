@@ -5785,7 +5785,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &426464928
 Transform:
   m_ObjectHideFlags: 0
@@ -6101,7 +6101,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &448554345
 Transform:
   m_ObjectHideFlags: 0
@@ -6563,7 +6563,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &469227550
 Transform:
   m_ObjectHideFlags: 0
@@ -7640,7 +7640,7 @@ GameObject:
   - component: {fileID: 550930942}
   - component: {fileID: 550930941}
   m_Layer: 5
-  m_Name: p3d1
+  m_Name: arghhh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
