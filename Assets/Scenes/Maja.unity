@@ -1833,6 +1833,7 @@ MonoBehaviour:
   correctlyTreated: 0
   released: 0
   startMoving: 0
+  treatRight: 0
 --- !u!1 &147473717
 GameObject:
   m_ObjectHideFlags: 0
@@ -11223,6 +11224,7 @@ MonoBehaviour:
   correctlyTreated: 0
   released: 0
   startMoving: 0
+  treatRight: 0
 --- !u!1 &815309717 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3203453931125213675, guid: bb7b0c4e7a359854b97ab80f840b5760, type: 3}
@@ -14024,6 +14026,7 @@ MonoBehaviour:
   correctlyTreated: 0
   released: 0
   startMoving: 0
+  treatRight: 0
 --- !u!1 &1030298440
 GameObject:
   m_ObjectHideFlags: 0
@@ -22284,6 +22287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ec01d77925e3e84a84b086cbe079768, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EM: {fileID: 1577036766}
   adam1: {fileID: 37675335}
   fishMan2: {fileID: 37675334}
   seaAir3: {fileID: 37675333}

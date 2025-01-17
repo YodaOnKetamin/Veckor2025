@@ -7,7 +7,7 @@ public class treatments : MonoBehaviour
     PatientMovement PM;
     PatientMovement1 PM1;
     ControllerForPatienter PC;
-    EndingManager EM;
+    public EndingManager EM;
     GameObject Controler;
 
     [SerializeField]
@@ -28,6 +28,7 @@ public class treatments : MonoBehaviour
     GameObject artist8;//4
     [SerializeField]
     GameObject where9;//5
+
 
     
     // Start is called before the first frame update
@@ -137,7 +138,6 @@ public class treatments : MonoBehaviour
         if (PC.activePatient == 6)
         {
             PM1.treatRight = true;
-
         }
 
         if (PC.activePatient == 8)
