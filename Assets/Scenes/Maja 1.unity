@@ -1088,6 +1088,11 @@ MonoBehaviour:
   - "\u2026really?"
   - "\u2026thanks, doc. Really."
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &47633669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1294,6 +1299,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &107989577 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7848552330958503707, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+  m_PrefabInstance: {fileID: 1580710503614190181}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &131866962
 GameObject:
   m_ObjectHideFlags: 0
@@ -2585,6 +2601,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 215964122}
   m_CullTransparentMesh: 1
+--- !u!1 &219480867 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7412574179735635840, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+  m_PrefabInstance: {fileID: 1580710503614190181}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &219480872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219480867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee38c7b61de2b994a9ecf70bb72f4199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 107989577}
+  lines:
+  - test
+  - test2
+  textSpeed: 0.1
+  dialogueTypingSoundClips:
+  - {fileID: 8300000, guid: f55505302856fe249b73e53114ca6df3, type: 3}
+  - {fileID: 8300000, guid: d36688529cfa30f41a74d74242998f39, type: 3}
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!1 &219534075
 GameObject:
   m_ObjectHideFlags: 0
@@ -4689,6 +4734,11 @@ MonoBehaviour:
   - "No\u2026 No, please don\u2019t\u2026"
   - "\u2026It\u2019ll work next time, surely\u2026"
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &374143941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5435,6 +5485,11 @@ MonoBehaviour:
   lines:
   - "\u2026I don\u2019t get it."
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &396414335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6659,6 +6714,11 @@ MonoBehaviour:
   - Oh.
   - Thank you kindly, doc.
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &468587251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7928,6 +7988,11 @@ MonoBehaviour:
   - I will take my leave. Your assistant will erase my visit from the system. Good
     luck, doctor.
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &559093308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8426,6 +8491,11 @@ MonoBehaviour:
   lines:
   - "Okay\u2026 What happens now?"
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!1 &634619809
 GameObject:
   m_ObjectHideFlags: 0
@@ -9849,6 +9919,11 @@ MonoBehaviour:
   - I knew it!
   - "I\u2019ll tell my parents about you. I\u2019ll tell them you were nice."
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!1 &723888271 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7516540291080580141, guid: 9760aa04b371a6943856f8307a546401, type: 3}
@@ -10530,6 +10605,11 @@ MonoBehaviour:
   lines:
   - "There was nothing I could\u2019ve done to avoid that, was there?"
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &777524645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10717,6 +10797,11 @@ MonoBehaviour:
   - "\u2026alright."
   - "I suppose there\u2019s got to be a reason. Any reason\u2026"
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &786053452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11228,6 +11313,11 @@ MonoBehaviour:
   - Okay.
   - "I\u2019ll go home now..."
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &820647985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12872,6 +12962,11 @@ MonoBehaviour:
   - Thank you. Thank you so much.
   - "I\u2019ll never do it again."
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &962432745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15226,6 +15321,11 @@ MonoBehaviour:
   - I will take my leave. Your assistant will erase my visit from the system. Good
     luck, doctor.
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1128569066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15894,6 +15994,11 @@ MonoBehaviour:
   lines:
   - "\u2026already?"
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1188376154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16122,6 +16227,11 @@ MonoBehaviour:
   - Oh.
   - "I\u2019ll\u2026 I\u2019ll just\u2026"
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1203557994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16350,6 +16460,11 @@ MonoBehaviour:
   - Oh.
   - "I\u2019ll\u2026 I\u2019ll just\u2026"
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1224259083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18081,6 +18196,11 @@ MonoBehaviour:
   - "I can\u2019t say I understood what this whole affair was about\u2026"
   - Even so, thank you, doctor!
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1316893683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19562,6 +19682,11 @@ MonoBehaviour:
   - You're ready.
   - "Call me if you need anything\u2026"
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!1 &1425520288
 GameObject:
   m_ObjectHideFlags: 0
@@ -20195,6 +20320,11 @@ MonoBehaviour:
   - What?
   - "\u2026you\u2019ll regret that."
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!1 &1477997479
 GameObject:
   m_ObjectHideFlags: 0
@@ -21744,6 +21874,11 @@ MonoBehaviour:
   - Right.
   - This was an utter waste of my time.
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!1001 &1534138615
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23315,6 +23450,11 @@ MonoBehaviour:
   - Thank you kindly, doc.
   - "I\u2019ll be leaving."
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &1625986672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24389,6 +24529,11 @@ MonoBehaviour:
   - "I don\u2019t know what that means exactly, but I guess it\u2019s what\u2019s
     going to happen anyway, right?"
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!1 &1678430588
 GameObject:
   m_ObjectHideFlags: 0
@@ -27923,6 +28068,11 @@ MonoBehaviour:
   - "But\u2026 I needed to\u2026"
   - Thank you, doctor. I will leave.
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!1 &1931548927
 GameObject:
   m_ObjectHideFlags: 0
@@ -31470,6 +31620,11 @@ MonoBehaviour:
   - Okay.
   - I'll go now.
   textSpeed: 0.05
+  dialogueTypingSoundClips: []
+  frequencyLevel: 2
+  minPitch: 0.5
+  maxPitch: 3
+  stopAudioSource: 0
 --- !u!114 &2132480424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32619,6 +32774,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3730294856461434402, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3730294856461434402, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       propertyPath: dialogueTypingSoundClips.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -33746,6 +33905,9 @@ PrefabInstance:
       insertIndex: 1
       addedObject: {fileID: 63766299}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7412574179735635840, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 219480872}
     - targetCorrespondingSourceObject: {fileID: 4589671636089144154, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1424544512}
