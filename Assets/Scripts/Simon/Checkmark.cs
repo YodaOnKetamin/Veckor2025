@@ -45,17 +45,17 @@ public class Checkmark : MonoBehaviour
     {
         if (PC.klarmedpatient == true)
         {
-            Q1No.enabled = false;
-            Q1Yes.enabled = false;
-            Q2Self.enabled = false;
-            Q2Out.enabled = false;
-            Q2Other.enabled = false;
-            Q3Yes.enabled = false;
-            Q3No.enabled = false;
-            Q4Yes.enabled = false;
-            Q4No.enabled = false;
-            Q5No.enabled = false;
-            Q5Yes.enabled = false;
+            Q1No.isOn = false;
+            Q1Yes.isOn = false;
+            Q2Self.isOn = false;
+            Q2Out.isOn = false;
+            Q2Other.isOn = false;
+            Q3Yes.isOn = false;
+            Q3No.isOn = false;
+            Q4Yes.isOn = false;
+            Q4No.isOn = false;
+            Q5No.isOn = false;
+            Q5Yes.isOn = false;
         }
     }
 }

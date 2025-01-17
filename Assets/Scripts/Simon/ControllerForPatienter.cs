@@ -6,6 +6,9 @@ using TMPro;
 public class ControllerForPatienter : MonoBehaviour
 {
     PatientMovement PM;
+    EndingManager EM;
+    [SerializeField]
+    GameObject EndingManager;
 
     [SerializeField]
     GameObject adam1;
@@ -43,6 +46,7 @@ public class ControllerForPatienter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        EM = EndingManager.GetComponent<EndingManager>();
         patientDespawned = true;
         numberSpawend = 0;
         day = 1;
@@ -349,6 +353,7 @@ public class ControllerForPatienter : MonoBehaviour
                 }
                 else
                 {
+                    EM.endGame = true;
                     startDay = false;
                 }
             }

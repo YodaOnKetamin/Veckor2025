@@ -66,6 +66,14 @@ public class treatments : MonoBehaviour
         {
             PM = priest7.GetComponent<PatientMovement>();
         }
+        else if (PC.activePatient == 8)
+        {
+            PM = artist8.GetComponent<PatientMovement>();
+        }
+        else if (PC.activePatient == 9)
+        {
+            PM = where9.GetComponent<PatientMovement>();
+        }
     }
 
     public void OnPressTreatButtonLobo() 
@@ -79,6 +87,30 @@ public class treatments : MonoBehaviour
         {
             EM.Sanity++;
         }
+        if (PC.activePatient == 5)
+        {
+            EM.Sanity++;
+        }
+
+        if (PC.activePatient == 6)
+        {
+            EM.Sanity++;
+        }
+
+        if (PC.activePatient == 8)
+        {
+            PM.lobotmised = true;
+        }
+
+        if (PC.activePatient == 9)
+        {
+            EM.Sanity++;
+        }
+
+        if (PC.activePatient == 4)
+        {
+            EM.Warnings++;
+        }
 
     }
     public void OnPressTreatButtonElectro()
@@ -86,10 +118,37 @@ public class treatments : MonoBehaviour
         if (PC.activePatient == 2)
         {
             EM.lightTreatemnts++;
+            
         }
         if (PC.activePatient == 3)
         {
             EM.Sanity++;
+            
+        }
+        if (PC.activePatient == 5)
+        {
+            EM.Sanity++;
+            
+        }
+
+        if (PC.activePatient == 6)
+        {
+            PM.correctlyTreated = true;
+            
+        }
+
+        if (PC.activePatient == 8)
+        {
+            EM.lightTreatemnts++;
+        }
+
+        if (PC.activePatient == 9)
+        {
+            PM.correctlyTreated = true;
+        }
+        if (PC.activePatient == 4)
+        {
+            EM.Warnings++;
         }
     }
     public void OnPressTreatButtonSoli()
@@ -101,6 +160,27 @@ public class treatments : MonoBehaviour
         if (PC.activePatient == 3)
         {
             EM.Sanity++;
+        }
+        if (PC.activePatient == 5)
+        {
+            PM.correctlyTreated = true;
+        }
+
+        if (PC.activePatient == 6)
+        {
+            EM.lightTreatemnts++;
+        }
+        if (PC.activePatient == 8)
+        {
+            EM.lightTreatemnts++;
+        }
+        if (PC.activePatient == 9)
+        {
+            EM.lightTreatemnts++;
+        }
+        if (PC.activePatient == 4)
+        {
+            EM.Warnings++;
         }
     }
 
@@ -115,12 +195,31 @@ public class treatments : MonoBehaviour
         {
             EM.lightTreatemnts++;
         }
+        if (PC.activePatient == 5)
+        {
+            EM.lightTreatemnts++;
+        }
 
+        if (PC.activePatient == 6)
+        {
+            EM.lightTreatemnts++;
+        }
+        if (PC.activePatient == 8)
+        {
+            EM.lightTreatemnts++;
+        }
+        if (PC.activePatient == 9)
+        {
+            EM.lightTreatemnts++;
+        }
+        if (PC.activePatient == 4)
+        {
+            EM.Warnings++;
+        }
     }
 
-    /*public void OnPressTreatButtonRelease()
+    public void OnPressTreatButtonRelease()
     {
         PM.released = true;
-        
-    }*/
+    }
 }
