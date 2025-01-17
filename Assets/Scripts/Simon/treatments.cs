@@ -221,6 +221,15 @@ public class treatments : MonoBehaviour
 
     public void OnPressTreatButtonRelease()
     {
-        PM.released = true;
+        if (PM == null)
+        {
+            PM1.released = true;
+        }
+        else
+        {
+            PM.released = true;
+        }
+        
+        
     }
 }
