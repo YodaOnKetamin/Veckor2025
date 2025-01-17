@@ -227,10 +227,13 @@ public class Buttons : MonoBehaviour
         }
         if(simonScript.activePatient == 3)
         {
-            patient3Dialogue1.SetActive(true);
             patient = GameObject.FindWithTag("Patient3");
             simonScript2 = patient.GetComponent<PatientMovement>();
-            if(simonScript2.correctlyTreated == true)
+            if (simonScript2.correctlyTreated == false)
+            {
+                patient3Dialogue1.SetActive(true);
+            }
+            else if(simonScript2.correctlyTreated == true)
             {
                 seaAirTreatD1.SetActive(true);
             }
