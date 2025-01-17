@@ -14,6 +14,10 @@ public class PatientMovement : MonoBehaviour
     GameObject Spawn;
     GameObject Controler;
     ControllerForPatienter PC;
+    EndingManager EM;
+
+    [SerializeField]
+    GameObject Endingmanager;
 
     bool dialogueHasStarted;
    public bool lobotmised;
@@ -81,6 +85,10 @@ public class PatientMovement : MonoBehaviour
                 PC.klarmedpatient = false;
                 startMoving = false;
                 gameObject.transform.position = Spawn.transform.position;
+                if (PC.end == true)
+                {
+                    EM.endGame = true;
+                }
             }
         }
        
