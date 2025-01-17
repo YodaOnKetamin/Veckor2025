@@ -1287,6 +1287,13 @@ RectTransform:
   - {fileID: 1723087849}
   - {fileID: 47633667}
   - {fileID: 777524643}
+  - {fileID: 920213572}
+  - {fileID: 617851432}
+  - {fileID: 219534076}
+  - {fileID: 1730974194}
+  - {fileID: 147473718}
+  - {fileID: 962432743}
+  - {fileID: 374143939}
   m_Father: {fileID: 1842241892}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1847,7 +1854,7 @@ GameObject:
   - component: {fileID: 147473720}
   - component: {fileID: 147473719}
   m_Layer: 5
-  m_Name: p6d5
+  m_Name: kvinna5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1866,7 +1873,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2032743226}
-  m_Father: {fileID: 1664374145}
+  m_Father: {fileID: 84934877}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2627,7 +2634,7 @@ GameObject:
   - component: {fileID: 219534078}
   - component: {fileID: 219534077}
   m_Layer: 5
-  m_Name: p6d3
+  m_Name: kvinna3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2646,7 +2653,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1470944983}
-  m_Father: {fileID: 1664374145}
+  m_Father: {fileID: 84934877}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2740,7 +2747,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1242984826}
-  m_Father: {fileID: 1107736819}
+  m_Father: {fileID: 2007747654}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4675,7 +4682,7 @@ GameObject:
   - component: {fileID: 374143941}
   - component: {fileID: 374143940}
   m_Layer: 5
-  m_Name: responseUNSAFEp6
+  m_Name: UNSAFEkvinna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4694,7 +4701,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2059886203}
-  m_Father: {fileID: 1664374145}
+  m_Father: {fileID: 84934877}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5534,7 +5541,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1253584732}
-  m_Father: {fileID: 1107736819}
+  m_Father: {fileID: 2007747654}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -8102,7 +8109,7 @@ GameObject:
   - component: {fileID: 617851434}
   - component: {fileID: 617851433}
   m_Layer: 5
-  m_Name: p6d2
+  m_Name: kvinna2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8121,7 +8128,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 661853218}
-  m_Father: {fileID: 1664374145}
+  m_Father: {fileID: 84934877}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -9244,7 +9251,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -11471,7 +11478,7 @@ GameObject:
   - component: {fileID: 830154341}
   - component: {fileID: 830154340}
   m_Layer: 5
-  m_Name: p9d1
+  m_Name: obgfeboefb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11490,7 +11497,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 161114338}
-  m_Father: {fileID: 1441984598}
+  m_Father: {fileID: 1352951775}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -12268,7 +12275,7 @@ GameObject:
   - component: {fileID: 920213574}
   - component: {fileID: 920213573}
   m_Layer: 5
-  m_Name: p6d1
+  m_Name: kvinna1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12287,7 +12294,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 368628238}
-  m_Father: {fileID: 1664374145}
+  m_Father: {fileID: 84934877}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -12475,7 +12482,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 215964123}
-  m_Father: {fileID: 1107736819}
+  m_Father: {fileID: 2007747654}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -12887,7 +12894,7 @@ GameObject:
   - component: {fileID: 962432745}
   - component: {fileID: 962432744}
   m_Layer: 5
-  m_Name: responseSAFEp6
+  m_Name: SAFEkvinna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12906,7 +12913,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 801287212}
-  m_Father: {fileID: 1664374145}
+  m_Father: {fileID: 84934877}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -14874,7 +14881,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1849451141}
-  m_Father: {fileID: 1107736819}
+  m_Father: {fileID: 2007747654}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -15111,13 +15118,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 996313951}
-  - {fileID: 222586095}
-  - {fileID: 1105153263}
-  - {fileID: 408676829}
-  - {fileID: 942862291}
-  - {fileID: 1984208575}
-  - {fileID: 1625986670}
-  - {fileID: 1224259081}
   m_Father: {fileID: 1842241892}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -15539,7 +15539,7 @@ GameObject:
   - component: {fileID: 1151916122}
   - component: {fileID: 1151916121}
   m_Layer: 5
-  m_Name: p9d5
+  m_Name: obgfeboefb5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15558,7 +15558,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 736165099}
-  m_Father: {fileID: 1441984598}
+  m_Father: {fileID: 1352951775}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -15946,7 +15946,7 @@ GameObject:
   - component: {fileID: 1188376154}
   - component: {fileID: 1188376153}
   m_Layer: 5
-  m_Name: responseUNSAFEp9
+  m_Name: UNSAFEobgfeboefb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15965,7 +15965,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1912915298}
-  m_Father: {fileID: 1441984598}
+  m_Father: {fileID: 1352951775}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -16420,7 +16420,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2082270598}
-  m_Father: {fileID: 1107736819}
+  m_Father: {fileID: 2007747654}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -18919,6 +18919,13 @@ RectTransform:
   - {fileID: 1625763440}
   - {fileID: 820647983}
   - {fileID: 396414333}
+  - {fileID: 830154339}
+  - {fileID: 1943761621}
+  - {fileID: 1500260007}
+  - {fileID: 2007994947}
+  - {fileID: 1151916120}
+  - {fileID: 2132480422}
+  - {fileID: 1188376152}
   m_Father: {fileID: 1842241892}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -19741,13 +19748,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 267734059}
-  - {fileID: 830154339}
-  - {fileID: 1943761621}
-  - {fileID: 1500260007}
-  - {fileID: 2007994947}
-  - {fileID: 1151916120}
-  - {fileID: 2132480422}
-  - {fileID: 1188376152}
   m_Father: {fileID: 1842241892}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -20854,7 +20854,7 @@ GameObject:
   - component: {fileID: 1500260009}
   - component: {fileID: 1500260008}
   m_Layer: 5
-  m_Name: p9d3
+  m_Name: obgfeboefb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20873,7 +20873,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1527003122}
-  m_Father: {fileID: 1441984598}
+  m_Father: {fileID: 1352951775}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -21135,7 +21135,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -23348,7 +23348,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1981908997}
-  m_Father: {fileID: 1107736819}
+  m_Father: {fileID: 2007747654}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -24337,13 +24337,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 814715175}
-  - {fileID: 920213572}
-  - {fileID: 617851432}
-  - {fileID: 219534076}
-  - {fileID: 1730974194}
-  - {fileID: 147473718}
-  - {fileID: 962432743}
-  - {fileID: 374143939}
   m_Father: {fileID: 1842241892}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -25367,7 +25360,7 @@ GameObject:
   - component: {fileID: 1730974196}
   - component: {fileID: 1730974195}
   m_Layer: 5
-  m_Name: p6d4
+  m_Name: kvinna4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25386,7 +25379,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 852694004}
-  m_Father: {fileID: 1664374145}
+  m_Father: {fileID: 84934877}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -28437,7 +28430,7 @@ GameObject:
   - component: {fileID: 1943761623}
   - component: {fileID: 1943761622}
   m_Layer: 5
-  m_Name: p9d2
+  m_Name: obgfeboefb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28456,7 +28449,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2028851722}
-  m_Father: {fileID: 1441984598}
+  m_Father: {fileID: 1352951775}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -29365,7 +29358,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2072067889}
-  m_Father: {fileID: 1107736819}
+  m_Father: {fileID: 2007747654}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -29774,6 +29767,13 @@ RectTransform:
   - {fileID: 945646208}
   - {fileID: 468587249}
   - {fileID: 1203557992}
+  - {fileID: 222586095}
+  - {fileID: 1105153263}
+  - {fileID: 408676829}
+  - {fileID: 942862291}
+  - {fileID: 1984208575}
+  - {fileID: 1625986670}
+  - {fileID: 1224259081}
   m_Father: {fileID: 1842241892}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -29794,7 +29794,7 @@ GameObject:
   - component: {fileID: 2007994949}
   - component: {fileID: 2007994948}
   m_Layer: 5
-  m_Name: p9d4
+  m_Name: obgfeboefb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29813,7 +29813,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1352542158}
-  m_Father: {fileID: 1441984598}
+  m_Father: {fileID: 1352951775}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -31483,7 +31483,7 @@ GameObject:
   - component: {fileID: 2132480424}
   - component: {fileID: 2132480423}
   m_Layer: 5
-  m_Name: responseSAFEp9
+  m_Name: obgfeboefbSAFE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31502,7 +31502,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1351124315}
-  m_Father: {fileID: 1441984598}
+  m_Father: {fileID: 1352951775}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
