@@ -235,6 +235,7 @@ public class Buttons : MonoBehaviour
             }
             else if(simonScript2.correctlyTreated == true)
             {
+                print("treated dialuge");
                 seaAirTreatD1.SetActive(true);
             }
         }
@@ -244,20 +245,27 @@ public class Buttons : MonoBehaviour
         }
         if(simonScript.activePatient == 5)
         {
-            patient5Dialogue1.SetActive(true);
+            
             patient = GameObject.FindWithTag("Patient5");
             simonScript2 = patient.GetComponent<PatientMovement>();
             if (simonScript2.correctlyTreated == true)
+            {
+                patient5Dialogue1.SetActive(true);
+            }
+            else if (simonScript2.correctlyTreated == true)
             {
                 yearsConfinementD1.SetActive(true);
             }
         }
         if(simonScript.activePatient == 6)
         {
-            patient6Dialogue1.SetActive(true);
             patient = GameObject.FindWithTag("Patient6");
             simonScript2 = patient.GetComponent<PatientMovement>();
-            if (simonScript2.correctlyTreated == true)
+            if (simonScript2.correctlyTreated == false)
+            {
+                patient6Dialogue1.SetActive(true);
+            }
+            else if (simonScript2.correctlyTreated == true)
             {
                 womanElectroD1.SetActive(true);
             }
@@ -272,10 +280,14 @@ public class Buttons : MonoBehaviour
         }
         if(simonScript.activePatient == 9)
         {
-            patient9Dialogue1.SetActive(true);
+           
             patient = GameObject.FindWithTag("Patient9");
             simonScript2 = patient.GetComponent<PatientMovement>();
-            if (simonScript2.correctlyTreated == true)
+            if (simonScript2.correctlyTreated == false)
+            {
+                patient9Dialogue1.SetActive(true);
+            }
+            else if (simonScript2.correctlyTreated == true)
             {
                 whereElectroD1.SetActive(true);
             }
