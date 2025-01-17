@@ -27,7 +27,8 @@ public class Checkmark : MonoBehaviour
     Toggle Q5Yes;
     [SerializeField]
     Toggle Q5No;
-   
+
+    bool trunOff;
    
     ControllerForPatienter PC;
     GameObject Controler;
@@ -56,6 +57,18 @@ public class Checkmark : MonoBehaviour
             Q4No.isOn = false;
             Q5No.isOn = false;
             Q5Yes.isOn = false;
+
+            Q1No.interactable = true;
+            Q1Yes.interactable = true;
+            Q2Self.interactable = true;
+            Q2Out.interactable = true;
+            Q2Other.interactable = true;
+            Q3Yes.interactable = true;
+            Q3No.interactable = true;
+            Q4Yes.interactable = true;
+            Q4No.interactable = true;
+            Q5No.interactable = true;
+            Q5Yes.interactable = true;
         }
     }
 }
