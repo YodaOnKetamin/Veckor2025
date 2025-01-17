@@ -28,6 +28,8 @@ public class treatments : MonoBehaviour
     GameObject artist8;//4
     [SerializeField]
     GameObject where9;//5
+
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -82,7 +84,7 @@ public class treatments : MonoBehaviour
         PM.lobotmised = true;
         if (PC.activePatient == 2)
         {
-            PM.correctlyTreated = true;
+            PM.treatRight = true;
         }
         if (PC.activePatient == 3)
         {
@@ -134,8 +136,8 @@ public class treatments : MonoBehaviour
 
         if (PC.activePatient == 6)
         {
-            PM1.correctlyTreated = true;
-            
+            PM1.treatRight = true;
+
         }
 
         if (PC.activePatient == 8)
@@ -145,7 +147,7 @@ public class treatments : MonoBehaviour
 
         if (PC.activePatient == 9)
         {
-            PM1.correctlyTreated = true;
+            PM1.treatRight = true;
         }
         if (PC.activePatient == 4)
         {
@@ -164,7 +166,7 @@ public class treatments : MonoBehaviour
         }
         if (PC.activePatient == 5)
         {
-            PM1.correctlyTreated = true;
+            PM1.treatRight = true;
         }
 
         if (PC.activePatient == 6)
@@ -189,7 +191,7 @@ public class treatments : MonoBehaviour
     {
         if (PC.activePatient == 3)
         {
-            PM.correctlyTreated = true;
+            PM.treatRight = true;
         }
 
         if (PC.activePatient == 2)

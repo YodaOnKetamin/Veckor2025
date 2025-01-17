@@ -23,7 +23,11 @@ public class PatientMovement1 : MonoBehaviour
    public bool released;
 
     public bool startMoving;
-  
+
+    public bool treatRight;
+
+ 
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -77,10 +81,15 @@ public class PatientMovement1 : MonoBehaviour
 
             if (gameObject.transform.position.x >= 10)
             {
+                if (treatRight == true)
+                {
+                    correctlyTreated = true;
+                }
                 PC.patientDespawned = true;
                 PC.klarmedpatient = false;
                 startMoving = false;
                 gameObject.transform.position = Spawn.transform.position;
+                treatRight = false;
             }
         }
        

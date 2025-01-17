@@ -731,10 +731,11 @@ public class Buttons : MonoBehaviour
             patient = GameObject.FindWithTag("Patient5");
             simonScript3 = patient.GetComponent<PatientMovement1>();
         }
-        else if (simonScript3.correctlyTreated == true)
+        else if (simonScript.activePatient == 5 && simonScript3.correctlyTreated == true)
         {
             unsafeResponseYearsCon.SetActive(true);
         }
+
         if (simonScript.activePatient == 6)
         {
             patient = GameObject.FindWithTag("Patient6");
