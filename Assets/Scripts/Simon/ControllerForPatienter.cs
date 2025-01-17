@@ -288,24 +288,20 @@ public class ControllerForPatienter : MonoBehaviour
                     }
                     else
                     {
-                        numberSpawend++;
+                        PM = years5.GetComponent<PatientMovement>();
+                        if (PM.released == false)
+                        {
+                            activePatient = 5;
+                            PM.startMoving = true;
+                        }
+                        startDay = false;
+                        numberSpawend = 0;
                     }
                 }
             }
            
         }
-        else if (numberSpawend == 2)
-        {
-            PM = years5.GetComponent<PatientMovement>();
-            if (PM.released == false)
-            {
-                activePatient = 5;
-                PM.startMoving = true;
-            }
-            startDay = false;
-            numberSpawend = 0;
-           
-        }
+        
        
     }
     void day5spawns()

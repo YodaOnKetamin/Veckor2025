@@ -223,6 +223,11 @@ public class treatments : MonoBehaviour
 
     public void OnPressTreatButtonRelease()
     {
+        if (PC.activePatient == 5 || PC.activePatient == 6 || PC.activePatient == 9)
+        {
+            PM = null;
+        }
+
         if (PM == null)
         {
             PM1.released = true;
