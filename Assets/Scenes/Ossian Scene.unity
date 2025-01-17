@@ -247,6 +247,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1380716659386437526, guid: 8b42ba91f48d2ad4dbfc0eb856f2a837, type: 3}
   m_PrefabInstance: {fileID: 6481946043098803131}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &764046830 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1426584844210434393, guid: 9776f263909bed645bc9ecd42a086f41, type: 3}
+  m_PrefabInstance: {fileID: 8047324504852645489}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1215554591
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,6 +535,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5780679951577630834, guid: 3db0142b2fd0a224e8e1663e8592ea3e, type: 3}
+      propertyPath: GameOverMenu
+      value: 
+      objectReference: {fileID: 764046830}
     - target: {fileID: 7878472225324607869, guid: 3db0142b2fd0a224e8e1663e8592ea3e, type: 3}
       propertyPath: m_Name
       value: InGameMenuManager
