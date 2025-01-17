@@ -34,6 +34,7 @@ public class files : MonoBehaviour
             seaAirFilesYAY.SetActive(true);
             fishFilesYAY.SetActive(false);
             adamFilesYAY.SetActive(false);
+            workWomanFilesYAY.SetActive(false);
         }
         if(simonScriptYAY.activePatient == 4)
         {
@@ -49,6 +50,7 @@ public class files : MonoBehaviour
             seaAirFilesYAY.SetActive(false);
             fishFilesYAY.SetActive(false);
             adamFilesYAY.SetActive(false);
+            workWomanFilesYAY.SetActive(false);
         }
         if(simonScriptYAY.activePatient == 6)
         {
@@ -58,6 +60,7 @@ public class files : MonoBehaviour
             seaAirFilesYAY.SetActive(false);
             fishFilesYAY.SetActive(false);
             adamFilesYAY.SetActive(false);
+            whereAmIFilesYAY.SetActive(false);
         }
         if(simonScriptYAY.activePatient == 7)
         {
