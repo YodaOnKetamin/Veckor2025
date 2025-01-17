@@ -303,7 +303,7 @@ Animation:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6802870}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: caea9cd345ef44947b4da77e3de6b72d, type: 2}
   m_Animations:
@@ -320,7 +320,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6802870}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: ea02d8751453cf34591e8583ff073b2c, type: 2}
   m_CullingMode: 0
@@ -4111,7 +4111,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &345269180
 Transform:
   m_ObjectHideFlags: 0
@@ -4121,8 +4121,8 @@ Transform:
   m_GameObject: {fileID: 345269179}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -251.78375, y: -593.522, z: -0.9848187}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -209, y: -13, z: -0.9848187}
+  m_LocalScale: {x: 10, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1770465050}
@@ -22902,16 +22902,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1577036762}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a1f802363b8dce4db043f5a9066c994, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CandleFull: {fileID: 0}
-  Candle45: {fileID: 0}
-  Candle35: {fileID: 0}
-  Candle25: {fileID: 0}
-  Candle15: {fileID: 0}
+  CandleFull: {fileID: 1922265936}
+  Candle45: {fileID: 1628671925}
+  Candle35: {fileID: 1992117788}
+  Candle25: {fileID: 6802870}
+  Candle15: {fileID: 1770465049}
 --- !u!1 &1579637509
 GameObject:
   m_ObjectHideFlags: 0
@@ -24032,7 +24032,7 @@ Animation:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1628671925}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: caea9cd345ef44947b4da77e3de6b72d, type: 2}
   m_Animations:
@@ -24049,7 +24049,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1628671925}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: ea02d8751453cf34591e8583ff073b2c, type: 2}
   m_CullingMode: 0
@@ -26759,7 +26759,7 @@ Animation:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1770465049}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: caea9cd345ef44947b4da77e3de6b72d, type: 2}
   m_Animations:
@@ -26776,7 +26776,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1770465049}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: ea02d8751453cf34591e8583ff073b2c, type: 2}
   m_CullingMode: 0
@@ -28563,7 +28563,7 @@ Animation:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1922265936}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: caea9cd345ef44947b4da77e3de6b72d, type: 2}
   m_Animations:
@@ -28580,7 +28580,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1922265936}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: ea02d8751453cf34591e8583ff073b2c, type: 2}
   m_CullingMode: 0
@@ -30441,7 +30441,7 @@ Animation:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1992117788}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: caea9cd345ef44947b4da77e3de6b72d, type: 2}
   m_Animations:
@@ -30458,7 +30458,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1992117788}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: ea02d8751453cf34591e8583ff073b2c, type: 2}
   m_CullingMode: 0

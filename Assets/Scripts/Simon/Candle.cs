@@ -15,12 +15,13 @@ public class Candle : MonoBehaviour
     [SerializeField]
     GameObject Candle15;
 
-    EndingManager EM;
+    public EndingManager EM;
+  
 
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.GetComponent<EndingManager>();
+       
         Candle45.SetActive(false);
         Candle35.SetActive(false);
         Candle25.SetActive(false);
