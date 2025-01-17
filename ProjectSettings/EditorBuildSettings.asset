@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BlackScreenScene.unity
     guid: d9af73a13741f5a4b895c552df3adfba
+  - enabled: 1
+    path: Assets/Scenes/AdamWithEnding.unity
+    guid: db9fb9b594f9ee94abf0031d6ba98c58
+  - enabled: 1
+    path: Assets/Scenes/PerfectEnding.unity
+    guid: 77f08bd2221c5ce45891c38f02726366
   m_configObjects: {}
