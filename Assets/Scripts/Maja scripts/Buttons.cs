@@ -236,6 +236,7 @@ public class Buttons : MonoBehaviour
             else if(simonScript2.correctlyTreated == true)
             {
                 print("treated dialuge");
+                print(seaAirTreatD1);
                 seaAirTreatD1.SetActive(true);
             }
         }
