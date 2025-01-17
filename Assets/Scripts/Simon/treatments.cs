@@ -5,6 +5,7 @@ using UnityEngine;
 public class treatments : MonoBehaviour
 {
     PatientMovement PM;
+    PatientMovement1 PM1;
     ControllerForPatienter PC;
     EndingManager EM;
     GameObject Controler;
@@ -56,11 +57,11 @@ public class treatments : MonoBehaviour
         }
         else if (PC.activePatient == 5)
         {
-            PM = years5.GetComponent<PatientMovement>();
+            PM1 = years5.GetComponent<PatientMovement1>();
         }
         else if (PC.activePatient == 6)
         {
-            PM = workingWoman6.GetComponent<PatientMovement>();
+            PM1 = workingWoman6.GetComponent<PatientMovement1>();
         }
         else if (PC.activePatient == 7)
         {
@@ -72,7 +73,7 @@ public class treatments : MonoBehaviour
         }
         else if (PC.activePatient == 9)
         {
-            PM = where9.GetComponent<PatientMovement>();
+            PM1 = where9.GetComponent<PatientMovement1>();
         }
     }
 
@@ -133,7 +134,7 @@ public class treatments : MonoBehaviour
 
         if (PC.activePatient == 6)
         {
-            PM.correctlyTreated = true;
+            PM1.correctlyTreated = true;
             
         }
 
@@ -144,7 +145,7 @@ public class treatments : MonoBehaviour
 
         if (PC.activePatient == 9)
         {
-            PM.correctlyTreated = true;
+            PM1.correctlyTreated = true;
         }
         if (PC.activePatient == 4)
         {
@@ -163,7 +164,7 @@ public class treatments : MonoBehaviour
         }
         if (PC.activePatient == 5)
         {
-            PM.correctlyTreated = true;
+            PM1.correctlyTreated = true;
         }
 
         if (PC.activePatient == 6)
