@@ -59,8 +59,8 @@ public class Dialogue : MonoBehaviour
         }
         else
         {
+            index = 0;
             gameObject.SetActive(false);
-            StartDialogue();
         }
     }
 }
