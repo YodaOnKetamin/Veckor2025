@@ -70,8 +70,6 @@ public class PatientMovement1 : MonoBehaviour
                 transform.position = new Vector3(0, transform.position.y, transform.position.z);
             }
 
-          
-
             if (PC.klarmedpatient == true)
             {
                 transform.position += new Vector3(vänsterkraft, 0, 0) * Time.deltaTime;
@@ -79,7 +77,6 @@ public class PatientMovement1 : MonoBehaviour
 
             if (gameObject.transform.position.x >= 10)
             {
-               
                 PC.patientDespawned = true;
                 PC.klarmedpatient = false;
                 startMoving = false;
