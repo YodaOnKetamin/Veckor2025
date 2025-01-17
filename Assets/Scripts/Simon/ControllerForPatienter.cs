@@ -39,7 +39,7 @@ public class ControllerForPatienter : MonoBehaviour
     public bool patientDespawned;
     public bool klarmedpatient;
 
-    public bool end;
+    public bool ending;
 
     [SerializeField]
     GameObject BlackScreen;
@@ -344,7 +344,8 @@ public class ControllerForPatienter : MonoBehaviour
                 activePatient = 9;
                 PM.startMoving = true;
                 startDay = false;
-                day++;
+                
+                ending = true;
             }
             else
             {
@@ -354,13 +355,12 @@ public class ControllerForPatienter : MonoBehaviour
                     activePatient = 7;
                     PM.startMoving = true;
                     startDay = false;
-                    day++;
+                    ending = true;
                 }
                 else
                 {
-                    
+                    ending = true;
                     startDay = false;
-                    day++;
                 }
             }
            

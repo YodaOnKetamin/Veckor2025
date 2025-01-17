@@ -85,7 +85,7 @@ public class PatientMovement : MonoBehaviour
                 PC.klarmedpatient = false;
                 startMoving = false;
                 gameObject.transform.position = Spawn.transform.position;
-                if (PC.end == true)
+                if (PC.ending == true)
                 {
                     EM.endGame = true;
                 }
