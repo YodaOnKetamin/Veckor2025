@@ -22912,6 +22912,7 @@ MonoBehaviour:
   Candle35: {fileID: 1992117788}
   Candle25: {fileID: 6802870}
   Candle15: {fileID: 1770465049}
+  EM: {fileID: 1577036766}
 --- !u!1 &1579637509
 GameObject:
   m_ObjectHideFlags: 0
@@ -34718,6 +34719,9 @@ PrefabInstance:
       addedObject: {fileID: 973136971}
     - targetCorrespondingSourceObject: {fileID: 8875731359148867487, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       insertIndex: 4
+      addedObject: {fileID: 345269180}
+    - targetCorrespondingSourceObject: {fileID: 8875731359148867487, guid: 9760aa04b371a6943856f8307a546401, type: 3}
+      insertIndex: 5
       addedObject: {fileID: 1842241892}
     - targetCorrespondingSourceObject: {fileID: 8875731359148867487, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       insertIndex: -1
@@ -34725,9 +34729,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8875731359148867487, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       insertIndex: -1
       addedObject: {fileID: 19290245}
-    - targetCorrespondingSourceObject: {fileID: 8875731359148867487, guid: 9760aa04b371a6943856f8307a546401, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 345269180}
     - targetCorrespondingSourceObject: {fileID: 165922493567517504, guid: 9760aa04b371a6943856f8307a546401, type: 3}
       insertIndex: -1
       addedObject: {fileID: 986640504}
