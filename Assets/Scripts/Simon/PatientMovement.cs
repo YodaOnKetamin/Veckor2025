@@ -70,7 +70,7 @@ public class PatientMovement : MonoBehaviour
                 transform.position += new Vector3(vänsterkraft, 0, 0) * Time.deltaTime;
             }
 
-            if (gameObject.transform.position.x >= 7)
+            if (gameObject.transform.position.x >= 10)
             {
                
                 PC.patientDespawned = true;

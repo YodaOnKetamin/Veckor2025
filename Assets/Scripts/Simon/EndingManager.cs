@@ -1,36 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EndingManager : MonoBehaviour
 {
-    int Warnings;
+   public int Warnings;
    public int lightTreatemnts;
    public int Sanity;//5 - 0
 
-    bool endGame;
+    public bool endGame;
 
-    treatments T;
+   
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.GetComponent<treatments>();  
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Sanity == 0)
+        if (Sanity == 5)
         {
-            //loss
+            SceneManager.LoadScene("gameOver");
         }
 
         if (Warnings == 3)
         {
-            //loss
+            SceneManager.LoadScene("gameOver");
         }
 
-        if (lightTreatemnts == 2)
+        if (lightTreatemnts == 3)
         {
             Warnings++;
             lightTreatemnts = 0;
@@ -40,11 +41,11 @@ public class EndingManager : MonoBehaviour
         {
             if (Sanity + Warnings <= 3)
             {
-                //good ending
+                SceneManager.LoadScene("PerfectEnding");
             }
             else
             {
-                //bad ending
+                SceneManager.LoadScene("");
             }
         }
         
