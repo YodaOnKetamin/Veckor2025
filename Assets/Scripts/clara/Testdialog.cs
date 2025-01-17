@@ -23,11 +23,14 @@ public class Testdialog : MonoBehaviour
 
     private AudioSource audioSource;
 
+    Animator animator;
+
     ControllerForPatienter PC;
     GameObject Controler;
 
     private void Start()
     {
+        animator = GetComponent<Animator>();
         Controler = GameObject.FindWithTag("Controller");
         PC = Controler.GetComponent<ControllerForPatienter>();
         textComponent.text = string.Empty;
@@ -56,6 +59,7 @@ public class Testdialog : MonoBehaviour
     {
         index = 0;
         StartCoroutine(TypeLine());
+        animator.GetBool("talking");
     }
 
     IEnumerator TypeLine()
@@ -111,6 +115,7 @@ public class Testdialog : MonoBehaviour
         {
             PC.klarmedpatient = true;
             gameObject.SetActive(false);
+            animator.SetBool("talking", false);
         }
     }
 }
