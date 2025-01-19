@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Testdialog : MonoBehaviour
 {
-    public TextMeshProUGUI textComponent;
+   /* public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
 
@@ -79,7 +79,7 @@ public class Testdialog : MonoBehaviour
 
             //spelar ljud så fort en till bokstav lägs till (lägg till ljudklipp som ska användas i dialogue typing sound clip i variablen)
             //audioSource.PlayOneShot(dialogueTypingSoundClips);
-            yield return new WaitForSeconds(textSpeed);
+            /*yield return new WaitForSeconds(textSpeed);
         }
     }
 
@@ -117,5 +117,5 @@ public class Testdialog : MonoBehaviour
             gameObject.SetActive(false);
             animator.SetBool("talking", false);
         }
-    }
+    }*/
 }
